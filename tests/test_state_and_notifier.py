@@ -49,3 +49,15 @@ def test_state_roundtrip(tmp_path):
     again = State(path)
     assert not again.is_new("NVDA", d)
     assert again.is_new("NVDA", pd.Timestamp("2026-10-16"))
+
+
+def test_telegram_error_is_token_free_and_explains_chat_not_found():
+    from stock_signal_monitor.notifier import telegram_error
+
+    body = '{"ok":false,"error_code":400,"description":"Bad Request: chat not found"}'
+    msg = telegram_error(400, body, "12345")
+    assert "chat not found" in msg and "getUpdates" in msg and "chat_id=12345" in msg
+    assert "bot" not in msg.lower().replace("봇", "")  # no URL/token fragments
+
+    msg2 = telegram_error(400, "not json", "abc")
+    assert "not json" in msg2 and "숫자가 아님" in msg2

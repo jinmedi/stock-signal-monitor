@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 
@@ -55,8 +56,8 @@ class ConsoleNotifier:
 
 class TelegramNotifier:
     def __init__(self, token: str | None = None, chat_id: str | None = None):
-        self.token = token or os.environ.get("TELEGRAM_BOT_TOKEN")
-        self.chat_id = chat_id or os.environ.get("TELEGRAM_CHAT_ID")
+        self.token = (token or os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+        self.chat_id = (chat_id or os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
         if not self.token or not self.chat_id:
             raise RuntimeError("TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID must be set")
 
@@ -65,7 +66,27 @@ class TelegramNotifier:
         # Telegram caps messages at 4096 chars; split on blank lines when needed.
         for chunk in _chunk(text, 4000):
             resp = requests.post(url, json={"chat_id": self.chat_id, "text": chunk}, timeout=30)
-            resp.raise_for_status()
+            if not resp.ok:
+                # Never echo the URL: it contains the bot token.
+                raise RuntimeError(telegram_error(resp.status_code, resp.text, self.chat_id))
+
+
+def telegram_error(status: int, body: str, chat_id: str) -> str:
+    """Build a token-free, actionable message from a Telegram API error body."""
+    try:
+        desc = json.loads(body).get("description", body)
+    except (ValueError, AttributeError):
+        desc = body
+    hint = ""
+    if "chat not found" in desc.lower():
+        hint = (
+            " (chat_id가 틀렸거나, 그 사용자가 봇에게 먼저 메시지를 보낸 적이 없습니다. "
+            "봇과 대화를 시작한 뒤 getUpdates 로 chat.id 를 다시 확인하세요)"
+        )
+    elif status == 401:
+        hint = " (봇 토큰이 올바르지 않습니다)"
+    shown = chat_id if chat_id.lstrip("-").isdigit() else f"{chat_id!r} (숫자가 아님)"
+    return f"Telegram API {status}: {desc}{hint} — chat_id={shown}"
 
 
 def _chunk(text: str, limit: int) -> list[str]:
