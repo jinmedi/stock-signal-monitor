@@ -74,6 +74,24 @@ def test_parse_rss_strips_source_suffix():
     assert out[1].source == "연합뉴스" and out[0].ticker is None
 
 
+def test_fetch_ticker_news_falls_back_to_google_rss(monkeypatch):
+    queries = []
+    monkeypatch.setattr(news, "fetch_yf_news", lambda t: [])
+    monkeypatch.setattr(news, "fetch_google_news", lambda q, limit=12: queries.append((q, limit)) or [_h("Apple story", 1)])
+    out = news.fetch_ticker_news("AAPL")
+    assert queries == [("AAPL stock", news.MAX_HEADLINES_PER_TICKER)]
+    assert out[0].ticker == "AAPL" and out[0].title == "Apple story"  # tagged with the ticker
+    # yfinance result wins when it has items; a yfinance exception still falls back
+    monkeypatch.setattr(news, "fetch_yf_news", lambda t: [_h("From Yahoo", 1, t)])
+    assert news.fetch_ticker_news("AAPL")[0].title == "From Yahoo"
+
+    def boom(t):
+        raise RuntimeError("yahoo down")
+
+    monkeypatch.setattr(news, "fetch_yf_news", boom)
+    assert news.fetch_ticker_news("AAPL")[0].title == "Apple story"
+
+
 def test_google_news_url_switches_locale_on_hangul():
     assert "hl=ko" in google_news_rss_url("반도체 주식") and "ceid=KR:ko" in google_news_rss_url("반도체 주식")
     assert "hl=en-US" in google_news_rss_url("semiconductor stocks")

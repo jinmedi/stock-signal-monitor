@@ -1,7 +1,8 @@
 """News collection and LLM sentiment scoring.
 
-Collection: yfinance ``Ticker.news`` per ticker plus Google News RSS searches for
-sector-wide queries, merged and limited to the last ``hours`` (72 by default).
+Collection: per ticker, yfinance ``Ticker.news`` with a Google News RSS fallback
+(``"<ticker> stock"``), plus Google News RSS searches for sector-wide queries;
+merged and limited to the last ``hours`` (72 by default).
 
 Classification: one Claude call (``claude-opus-5-5``) with a JSON-schema
 structured output returns a sector score and a per-ticker score in -2..+2 plus a
@@ -38,8 +39,9 @@ DEFAULT_QUERIES = ["semiconductor stocks", "반도체 주식"]
 DEFAULT_HOURS = 72
 DEFAULT_MAX_STARS = 5
 DEFAULT_CAUTION_THRESHOLD = 2
-MAX_HEADLINES_PER_SOURCE = 12
-MAX_HEADLINES_TOTAL = 80
+MAX_HEADLINES_PER_SOURCE = 12  # sector queries
+MAX_HEADLINES_PER_TICKER = 5  # per-ticker RSS fallback (16 tickers × 5 keeps the prompt a few thousand tokens)
+MAX_HEADLINES_TOTAL = 120
 SCORE_RANGE = (-2, 2)
 
 _HANGUL = re.compile(r"[가-힣]")
@@ -228,10 +230,29 @@ def parse_rss(xml_text: str) -> list[Headline]:
     return out
 
 
-def fetch_google_news(query: str, timeout: int = 20) -> list[Headline]:
+def fetch_google_news(query: str, timeout: int = 20, limit: int = MAX_HEADLINES_PER_SOURCE) -> list[Headline]:
     resp = requests.get(google_news_rss_url(query), timeout=timeout, headers={"User-Agent": "stock-signal-monitor"})
     resp.raise_for_status()
-    return parse_rss(resp.text)[:MAX_HEADLINES_PER_SOURCE]
+    return parse_rss(resp.text)[:limit]
+
+
+def fetch_ticker_news(ticker: str) -> list[Headline]:
+    """Per-ticker headlines: yfinance first, Google News RSS (``"<ticker> stock"``) when that is empty.
+
+    Yahoo's news endpoint has been returning nothing through yfinance since late 2026, so in
+    practice the RSS path is what feeds the per-ticker sentiment.
+    """
+    heads: list[Headline] = []
+    try:
+        heads = fetch_yf_news(ticker)
+    except Exception as exc:
+        print(f"[warn] yfinance news {ticker}: {exc}", file=sys.stderr)
+    if heads:
+        return heads
+    return [
+        dataclasses.replace(h, ticker=ticker)
+        for h in fetch_google_news(f"{ticker} stock", limit=MAX_HEADLINES_PER_TICKER)
+    ]
 
 
 def _norm_title(title: str) -> str:
@@ -244,7 +265,7 @@ def collect_headlines(
     *,
     hours: int = DEFAULT_HOURS,
     now: datetime | None = None,
-    ticker_fetch: Callable[[str], list[Headline]] = fetch_yf_news,
+    ticker_fetch: Callable[[str], list[Headline]] = fetch_ticker_news,
     query_fetch: Callable[[str], list[Headline]] = fetch_google_news,
 ) -> list[Headline]:
     """Merge per-ticker and sector headlines from the last ``hours``; newest first, titles de-duplicated."""
@@ -465,7 +486,7 @@ def get_news(
     cache_path: Path | None,
     now: datetime | None = None,
     classifier: Classifier | None = None,
-    ticker_fetch: Callable[[str], list[Headline]] = fetch_yf_news,
+    ticker_fetch: Callable[[str], list[Headline]] = fetch_ticker_news,
     query_fetch: Callable[[str], list[Headline]] = fetch_google_news,
 ) -> NewsAnalysis | None:
     """Cached-or-fresh news analysis for the configured tickers (``None`` when ``[news] enabled = false``)."""
