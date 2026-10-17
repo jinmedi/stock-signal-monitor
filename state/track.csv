@@ -1,0 +1,5 @@
+date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
+2026-10-16,GLD,golden,BUY,3,,382.0100,,
+2026-10-16,INTC,dead,SELL,3,,89.8500,,
+2026-10-16,NVDA,dead,SELL,3,,214.1300,,
+2026-10-16,SOXL,dead,SELL,3,,93.6700,,
