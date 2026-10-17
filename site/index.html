@@ -24,13 +24,14 @@
         <table id="summary">
           <thead>
             <tr>
-              <th>종목</th><th>판정</th><th>점수</th><th>종가</th>
+              <th>종목</th><th>판정</th><th>점수</th><th>종가</th><th>뉴스</th>
               <th>단기 K/D</th><th>중기 K/D</th><th>장기 K/D</th><th>기준일</th>
             </tr>
           </thead>
           <tbody></tbody>
         </table>
       </div>
+      <p id="news-sector" class="news-sector"></p>
     </section>
 
     <section class="card" aria-labelledby="chart-h">
@@ -44,6 +45,10 @@
       </div>
       <div id="chart" class="chart" role="img" aria-label="종가와 단기·중기·장기 스토캐스틱 차트"></div>
       <p class="hint">▲ 골든크로스(%K가 %D 상향 돌파)  ▼ 데드크로스(하향 돌파)  음영: 과매도·과매수 구간</p>
+      <div class="news-card" aria-labelledby="news-h">
+        <h3 id="news-h">뉴스 <span id="news-ticker-name" class="muted"></span></h3>
+        <div id="news-ticker"></div>
+      </div>
     </section>
 
     <section class="card" aria-labelledby="hist-h">
@@ -56,7 +61,24 @@
       </div>
     </section>
 
-    <p class="disclaimer">차트 화면에서 추정한 지표를 그대로 계산한 참고 자료이며 투자 판단의 책임은 사용자에게 있습니다.</p>
+    <section class="card small-card" aria-labelledby="tracking-h">
+      <h2 id="tracking-h">감성별 교차 신호 적중률</h2>
+      <p id="tracking-note" class="hint"></p>
+      <div class="table-wrap">
+        <table id="tracking" hidden>
+          <thead>
+            <tr>
+              <th rowspan="2">뉴스 감성</th><th rowspan="2">교차</th>
+              <th colspan="2">5거래일 뒤</th><th colspan="2">10거래일 뒤</th>
+            </tr>
+            <tr><th>적중률 (건)</th><th>평균 수익률</th><th>적중률 (건)</th><th>평균 수익률</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="disclaimer">차트 화면에서 추정한 지표를 그대로 계산한 참고 자료이며 투자 판단의 책임은 사용자에게 있습니다. 뉴스 감성은 헤드라인만 보고 모델이 매긴 추정치입니다.</p>
   </main>
 
   <script src="app.js"></script>

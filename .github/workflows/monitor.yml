@@ -30,12 +30,14 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: news sentiment via Claude. Without it the run works, just without 뉴스 감성.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m stock_signal_monitor --telegram --quiet-when-empty
 
-      - name: Persist dedup state
+      - name: Persist state (dedup, earnings cache, news cache, hit-rate tracking)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/last_signals.json
+          git add state/  # whichever of last_signals.json, events.json, news.json, track.csv exist
           git diff --cached --quiet || git commit -m "chore: update signal state [skip ci]"
           git push

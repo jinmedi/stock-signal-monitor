@@ -33,6 +33,9 @@ jobs:
           cache: pip
       - run: pip install -e .
       - name: Build dashboard data
+        env:
+          # Reuses state/news.json from the monitor run when it is fresh; otherwise classifies once.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m stock_signal_monitor.report --out site/data.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

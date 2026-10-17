@@ -9,7 +9,10 @@ import sys
 import requests
 
 from .fx import is_krw_ticker, to_krw
+from .news import DEFAULT_CAUTION_THRESHOLD, NewsAnalysis, Sentiment, cautions
 from .signals import Action, Cross, Signal
+
+DEFAULT_MAX_STARS = 4
 
 _CROSS_KO = {Cross.GOLDEN: "골든크로스", Cross.DEAD: "데드크로스"}
 _TF_KO = {"short": "단기", "mid": "중기", "long": "장기"}
@@ -24,12 +27,32 @@ def format_price(ticker: str, usd: float, usdkrw: float | None) -> str:
     return f"${usd:,.2f}" if krw is None else f"${usd:,.2f} (약 {krw:,.0f}원)"
 
 
-def format_signal(sig: Signal, usdkrw: float | None = None) -> str:
-    stars = "★" * sig.score + "☆" * max(0, 4 - sig.score) if sig.action != Action.HOLD else ""
+def format_stars(score: int, max_stars: int = DEFAULT_MAX_STARS) -> str:
+    score = max(0, min(max_stars, score))
+    return "★" * score + "☆" * (max_stars - score)
+
+
+def format_news(sent: Sentiment) -> list[str]:
+    """``뉴스: 감성 +1`` followed by the (up to two) summary lines, indented."""
+    lines = [f"뉴스: 감성 {sent.label}"]
+    lines.extend(f"  {line}" for line in sent.summary)
+    return lines
+
+
+def format_signal(
+    sig: Signal,
+    usdkrw: float | None = None,
+    *,
+    max_stars: int = DEFAULT_MAX_STARS,
+    news: Sentiment | None = None,
+) -> str:
+    stars = format_stars(sig.score, max_stars) if sig.action != Action.HOLD else ""
     head = f"{_ACTION_EMOJI[sig.action]} {sig.ticker}  {sig.action.value}  {stars}".rstrip()
     lines = [head, f"{sig.date:%Y-%m-%d}  종가 {format_price(sig.ticker, sig.close, usdkrw)}"]
     for r in sig.reasons:
         lines.append(f"  • {r}")
+    if news is not None:
+        lines.extend(format_news(news))
     other = [
         f"  • {_TF_KO.get(name, name)} {tf.params.label} {_CROSS_KO[tf.cross]}"
         for name, tf in sig.timeframes.items()
@@ -45,14 +68,39 @@ def format_signal(sig: Signal, usdkrw: float | None = None) -> str:
     return "\n".join(lines)
 
 
+def format_caution(ticker: str, sent: Sentiment) -> str:
+    lines = [f"⚠ {ticker}  주의  뉴스 감성 {sent.label}"]
+    lines.extend(f"  {line}" for line in sent.summary)
+    return "\n".join(lines)
+
+
 def format_report(
-    signals: list[Signal], title: str = "Stock Signal Monitor", usdkrw: float | None = None
+    signals: list[Signal],
+    title: str = "Stock Signal Monitor",
+    usdkrw: float | None = None,
+    *,
+    max_stars: int = DEFAULT_MAX_STARS,
+    news: NewsAnalysis | None = None,
+    caution_threshold: int = DEFAULT_CAUTION_THRESHOLD,
 ) -> str:
-    if not signals:
+    """Signals, then ⚠ cautions for strongly-newsed tickers without a signal, then sector news / FX footer."""
+    blocks = [
+        format_signal(s, usdkrw, max_stars=max_stars, news=news.for_ticker(s.ticker) if news else None)
+        for s in signals
+    ]
+    blocks.extend(
+        format_caution(t, sent)
+        for t, sent in cautions(news, threshold=caution_threshold, exclude={s.ticker for s in signals})
+    )
+    if not blocks:
         return f"{title}\n알릴 신호가 없습니다."
-    body = "\n\n".join(format_signal(s, usdkrw) for s in signals)
-    foot = f"\n\n환율 {usdkrw:,.0f}원/$ 기준" if usdkrw else ""
-    return f"{title}\n\n{body}{foot}"
+    foot: list[str] = []
+    if news is not None and news.sector is not None:
+        foot.append("\n".join([f"업종 뉴스: 감성 {news.sector.label}", *(f"  {ln}" for ln in news.sector.summary)]))
+    if usdkrw:
+        foot.append(f"환율 {usdkrw:,.0f}원/$ 기준")
+    tail = ("\n\n" + "\n\n".join(foot)) if foot else ""
+    return f"{title}\n\n" + "\n\n".join(blocks) + tail
 
 
 class ConsoleNotifier:

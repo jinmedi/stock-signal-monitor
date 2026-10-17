@@ -29,3 +29,25 @@ overbought = 80
 require_mid_confirmation = false
 # 중기·장기 교차도 별도 알림으로 보낼지
 notify_mid_long_crosses = true
+
+[events]
+# 실적 발표 D-n 이내(당일 포함)에 나온 단기 교차는 "실적 발표 D-n, 보류"로 HOLD 처리. 0 이면 끔.
+# 실적일은 yfinance 에서 받아 state/events.json 에 캐시(7일)하고, 실패하면 필터를 건너뜀.
+earnings_blackout_days = 3
+
+[news]
+# 뉴스 수집(yfinance 종목 뉴스 + Google News RSS)과 Claude 감성 분류. ANTHROPIC_API_KEY 가 없으면 감성 없이 동작.
+enabled = true
+# 0: 감성은 참고 정보로만 표시. 1: BUY 에 감성 ≥ 0 이면 ★+1, ≤ -1 이면 ★-1 (SELL 은 반대).
+weight = 0
+# 별점 최대 개수 (weight 를 켜면 5개까지 늘어남)
+max_stars = 5
+# 최근 몇 시간의 헤드라인을 모을지
+hours = 72
+# 업종 검색어 (한글이면 한국어 Google News 를 조회)
+queries = ["semiconductor stocks", "반도체 주식"]
+model = "claude-opus-5-5"
+# 분류 결과 캐시 시간: 알림 실행과 대시보드 빌드가 같은 결과를 공유해 호출을 하루 1회로 줄임
+cache_hours = 12
+# |감성| 이 이 값 이상이면 교차가 없어도 "⚠ 주의" 항목으로 알림
+caution_threshold = 2
