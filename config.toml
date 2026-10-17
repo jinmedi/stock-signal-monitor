@@ -1,5 +1,9 @@
 # 감시할 종목 (Yahoo Finance 티커)
-tickers = ["SOXL", "NVDA", "TSLA", "INTC", "TSM", "GLD"]
+tickers = [
+  "SOXL", "BMNR", "VOO", "NVDA", "TSLA", "GLD", "AMZN", "AAPL",
+  "JEPQ", "PLTR", "IREN", "SPCX", "GOOG", "FRMI",   # 보유 종목 (BMNR 비트마인, IREN 아이렌, SPCX 스페이스X, FRMI 퍼미)
+  "INTC", "TSM",                                     # 반도체 참고 종목
+]
 
 # 가격 데이터 조회 기간 (장기 20-12-12 계산에 최소 45봉 필요)
 history_period = "1y"
