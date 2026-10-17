@@ -30,7 +30,7 @@
 | 층 | 동작 | 설정 (`config.toml`) |
 |---|---|---|
 | 실적 발표 달력 (`events.py`) | 다음 실적 발표 D-3 이내(당일 포함)의 BUY/SELL 은 `실적 발표 D-n, 보류` 를 달고 **HOLD** 로 바꿉니다. 실적일은 yfinance 에서 받아 `state/events.json` 에 7일 캐시하고, 조회에 실패하면 그 종목은 필터를 건너뜁니다. | `[events] earnings_blackout_days = 3` (0 이면 끔) |
-| 뉴스 감성 (`news.py`) | 종목별 yfinance 뉴스 + Google News RSS("semiconductor stocks", "반도체 주식")에서 최근 72시간 헤드라인을 모아, Claude(`claude-opus-5-5`) 한 번 호출로 업종·종목별 감성 -2…+2 와 한국어 두 줄 요약을 받습니다. 결과는 `state/news.json` 에 12시간 캐시되어 알림과 대시보드 빌드가 같은 결과를 씁니다. | `[news] weight`, `max_stars`, `hours`, `queries`, `model`, `cache_hours`, `caution_threshold` |
+| 뉴스 감성 (`news.py`) | 종목별 yfinance 뉴스 + Google News RSS("semiconductor stocks", "반도체 주식")에서 최근 72시간 헤드라인을 모아, Claude(`claude-opus-5-5`) 한 번 호출로 업종·종목별 감성 -2…+2 와 한국어 두 줄 요약을 받습니다. 결과는 `state/news.json` 에 6시간 캐시되어(종목 목록이 바뀌면 즉시 무효) 알림과 대시보드 빌드가 같은 결과를 씁니다. | `[news] weight`, `max_stars`, `hours`, `queries`, `model`, `cache_hours`, `caution_threshold` |
 
 감성 반영 규칙 (`weight = 1` 일 때; 기본값 `0` 은 참고 표시만):
 

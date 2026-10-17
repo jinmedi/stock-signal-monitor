@@ -200,6 +200,10 @@ def test_get_news_uses_cache_then_refreshes(tmp_path):
     assert len(clf.calls) == 1 and again.tickers["NVDA"].score == 2  # served from cache
     get_news(cfg, cache_path=path, now=NOW + timedelta(hours=7), classifier=clf, ticker_fetch=fetch, query_fetch=lambda q: [])
     assert len(clf.calls) == 2  # stale → refreshed
+    # a ticker that the cache does not cover forces a fresh classification even inside the TTL
+    wider = {"tickers": ["NVDA", "TSLA"], "news": {"cache_hours": 6}}
+    get_news(wider, cache_path=path, now=NOW + timedelta(hours=8), classifier=clf, ticker_fetch=fetch, query_fetch=lambda q: [])
+    assert len(clf.calls) == 3 and clf.calls[-1][1] == ["NVDA", "TSLA"]
     assert get_news({"tickers": [], "news": {"enabled": False}}, cache_path=path) is None
 
 

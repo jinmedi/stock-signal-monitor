@@ -414,7 +414,14 @@ def analyze(
 # ---------------------------------------------------------------------------
 
 
-def load_cached(path: Path | None, *, max_age: timedelta, now: datetime | None = None) -> NewsAnalysis | None:
+def load_cached(
+    path: Path | None,
+    *,
+    max_age: timedelta,
+    now: datetime | None = None,
+    tickers: Iterable[str] | None = None,
+) -> NewsAnalysis | None:
+    """The cached analysis if it is fresh, scored, and covers every ticker in ``tickers``."""
     if path is None or not path.exists():
         return None
     now = now or datetime.now(timezone.utc)
@@ -425,6 +432,8 @@ def load_cached(path: Path | None, *, max_age: timedelta, now: datetime | None =
         return None
     if now - cached.fetched_at > max_age or not cached.scored:
         return None
+    if tickers is not None and not set(tickers) <= set(cached.tickers):
+        return None  # watch list changed since the cache was written
     return cached
 
 
@@ -445,7 +454,7 @@ def news_settings(cfg: dict) -> dict:
         "hours": int(n.get("hours", DEFAULT_HOURS)),
         "queries": list(n.get("queries", DEFAULT_QUERIES)),
         "model": str(n.get("model", DEFAULT_MODEL)),
-        "cache_hours": float(n.get("cache_hours", 12)),
+        "cache_hours": float(n.get("cache_hours", 6)),
         "caution_threshold": int(n.get("caution_threshold", DEFAULT_CAUTION_THRESHOLD)),
     }
 
@@ -464,10 +473,10 @@ def get_news(
     if not s["enabled"]:
         return None
     now = now or datetime.now(timezone.utc)
-    cached = load_cached(cache_path, max_age=timedelta(hours=s["cache_hours"]), now=now)
+    tickers = list(cfg["tickers"])
+    cached = load_cached(cache_path, max_age=timedelta(hours=s["cache_hours"]), now=now, tickers=tickers)
     if cached is not None:
         return cached
-    tickers = list(cfg["tickers"])
     headlines = collect_headlines(
         tickers, s["queries"], hours=s["hours"], now=now, ticker_fetch=ticker_fetch, query_fetch=query_fetch
     )
