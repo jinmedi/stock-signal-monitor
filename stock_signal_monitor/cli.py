@@ -13,6 +13,7 @@ import tomllib
 from pathlib import Path
 
 from .data import fetch_history
+from .fx import fetch_usdkrw, latest_rate
 from .indicators import StochParams
 from .notifier import ConsoleNotifier, TelegramNotifier, format_report
 from .signals import Action, Signal, evaluate
@@ -81,8 +82,9 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config(args.config)
     state = None if (args.no_state or args.lookback > 1) else State(args.state)
     signals = run(cfg, lookback=args.lookback, include_hold=args.all, state=state)
+    usdkrw = latest_rate(fetch_usdkrw("1mo")) if signals else None
 
-    report = format_report(signals)
+    report = format_report(signals, usdkrw=usdkrw)
     ConsoleNotifier().send(report)
     if args.telegram and (signals or not args.quiet_when_empty):
         TelegramNotifier().send(report)

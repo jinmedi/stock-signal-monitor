@@ -28,6 +28,7 @@
 https://jinmedi.github.io/stock-signal-monitor/
 
 종목별 종가와 단기·중기·장기 스토캐스틱(%K·%D), 교차 지점(▲ 골든 / ▼ 데드), 오늘의 판정표, 최근 신호 이력을 보여줍니다.
+달러 가격 옆에는 Yahoo Finance 원/달러(`KRW=X`) 종가로 환산한 원화 금액을 함께 표시합니다. `.KS`/`.KQ` 종목은 원화 그대로 보여줍니다.
 `Daily signal check` 가 끝날 때마다, 그리고 `site/` 나 패키지 코드가 바뀔 때마다 `.github/workflows/pages.yml` 이
 `python -m stock_signal_monitor.report` 로 `site/data.json` 을 다시 만들어 GitHub Pages에 배포합니다.
 

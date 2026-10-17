@@ -8,6 +8,7 @@ import sys
 
 import requests
 
+from .fx import is_krw_ticker, to_krw
 from .signals import Action, Cross, Signal
 
 _CROSS_KO = {Cross.GOLDEN: "골든크로스", Cross.DEAD: "데드크로스"}
@@ -15,10 +16,18 @@ _TF_KO = {"short": "단기", "mid": "중기", "long": "장기"}
 _ACTION_EMOJI = {Action.BUY: "🟢", Action.SELL: "🔴", Action.HOLD: "⚪"}
 
 
-def format_signal(sig: Signal) -> str:
+def format_price(ticker: str, usd: float, usdkrw: float | None) -> str:
+    """``$93.67 (약 125,610원)`` for USD listings, ``75,300원`` for Korean ones."""
+    if is_krw_ticker(ticker):
+        return f"{usd:,.0f}원"
+    krw = to_krw(usd, usdkrw)
+    return f"${usd:,.2f}" if krw is None else f"${usd:,.2f} (약 {krw:,.0f}원)"
+
+
+def format_signal(sig: Signal, usdkrw: float | None = None) -> str:
     stars = "★" * sig.score + "☆" * max(0, 4 - sig.score) if sig.action != Action.HOLD else ""
     head = f"{_ACTION_EMOJI[sig.action]} {sig.ticker}  {sig.action.value}  {stars}".rstrip()
-    lines = [head, f"{sig.date:%Y-%m-%d}  종가 {sig.close:,.2f}"]
+    lines = [head, f"{sig.date:%Y-%m-%d}  종가 {format_price(sig.ticker, sig.close, usdkrw)}"]
     for r in sig.reasons:
         lines.append(f"  • {r}")
     other = [
@@ -36,11 +45,14 @@ def format_signal(sig: Signal) -> str:
     return "\n".join(lines)
 
 
-def format_report(signals: list[Signal], title: str = "Stock Signal Monitor") -> str:
+def format_report(
+    signals: list[Signal], title: str = "Stock Signal Monitor", usdkrw: float | None = None
+) -> str:
     if not signals:
         return f"{title}\n알릴 신호가 없습니다."
-    body = "\n\n".join(format_signal(s) for s in signals)
-    return f"{title}\n\n{body}"
+    body = "\n\n".join(format_signal(s, usdkrw) for s in signals)
+    foot = f"\n\n환율 {usdkrw:,.0f}원/$ 기준" if usdkrw else ""
+    return f"{title}\n\n{body}{foot}"
 
 
 class ConsoleNotifier:

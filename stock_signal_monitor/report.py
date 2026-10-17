@@ -16,6 +16,7 @@ import pandas as pd
 
 from .cli import load_config, presets_from_config
 from .data import fetch_history
+from .fx import align_rates, fetch_usdkrw, is_krw_ticker
 from .indicators import StochParams, stoch_slow
 from .signals import Action, Cross, detect_cross, evaluate
 
@@ -37,11 +38,24 @@ def build_ticker(
     oversold: float = 20,
     overbought: float = 80,
     require_mid_confirmation: bool = False,
+    usdkrw: pd.Series | None = None,
 ) -> dict:
-    """Pure function: everything the dashboard needs for one ticker."""
+    """Pure function: everything the dashboard needs for one ticker.
+
+    ``usdkrw`` is a daily USD/KRW series; when given and the ticker is USD-priced,
+    KRW equivalents are added next to every USD price.
+    """
     stochs = {name: stoch_slow(df, p) for name, p in presets.items()}
     tail = df.tail(bars)
     dates = [d.strftime("%Y-%m-%d") for d in tail.index]
+
+    currency = "KRW" if is_krw_ticker(ticker) else "USD"
+    rates = None if currency == "KRW" else align_rates(usdkrw, df.index)
+
+    def krw_at(i: int) -> float | None:
+        if rates is None:
+            return None
+        return round(float(df["Close"].iloc[i]) * float(rates.iloc[i]))
 
     timeframes: dict[str, dict] = {}
     crosses: list[dict] = []
@@ -74,21 +88,26 @@ def build_ticker(
                     "action": sig.action.value,
                     "score": sig.score,
                     "close": round(sig.close, 2),
+                    "close_krw": krw_at(at),
                     "reasons": sig.reasons,
                 }
             )
 
     latest = evaluate(ticker, df, presets, at=-1, **kwargs)
+    close_krw = None if rates is None else _clean((tail["Close"] * rates.tail(bars)).round(), 0)
     return {
         "ticker": ticker,
+        "currency": currency,
         "dates": dates,
         "close": _clean(tail["Close"], 2),
+        "close_krw": close_krw,
         "timeframes": timeframes,
         "crosses": crosses,
         "signals": signals,
         "latest": {
             "date": latest.date.strftime("%Y-%m-%d"),
             "close": round(latest.close, 2),
+            "close_krw": krw_at(-1),
             "action": latest.action.value,
             "score": latest.score,
             "reasons": latest.reasons,
@@ -104,6 +123,7 @@ def build_report(cfg: dict, *, bars: int = 130, signal_lookback: int = 60) -> di
     presets = presets_from_config(cfg)
     th = cfg.get("thresholds", {})
     alerts = cfg.get("alerts", {})
+    usdkrw = fetch_usdkrw(cfg.get("history_period", "1y"))
     tickers = []
     errors = []
     for ticker in cfg["tickers"]:
@@ -119,13 +139,18 @@ def build_report(cfg: dict, *, bars: int = 130, signal_lookback: int = 60) -> di
                     oversold=th.get("oversold", 20),
                     overbought=th.get("overbought", 80),
                     require_mid_confirmation=alerts.get("require_mid_confirmation", False),
+                    usdkrw=usdkrw,
                 )
             )
         except Exception as exc:  # keep the rest of the dashboard alive
             print(f"[warn] {ticker}: {exc}", file=sys.stderr)
             errors.append({"ticker": ticker, "error": str(exc)})
+    fx = None
+    if usdkrw is not None and not usdkrw.empty:
+        fx = {"usdkrw": round(float(usdkrw.iloc[-1]), 2), "date": usdkrw.index[-1].strftime("%Y-%m-%d")}
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "fx": fx,
         "presets": {name: p.label for name, p in presets.items()},
         "thresholds": {"oversold": th.get("oversold", 20), "overbought": th.get("overbought", 80)},
         "tickers": tickers,

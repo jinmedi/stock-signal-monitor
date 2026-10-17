@@ -27,6 +27,17 @@
     return el("span", { class: `chip ${action}` }, [el("span", { class: "dot", "aria-hidden": "true" }), label]);
   }
 
+  const fmtUSD = (v) => `$${v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  const fmtKRW = (v) => `${Math.round(v).toLocaleString("ko-KR")}원`;
+
+  /** Price cell: USD on top, KRW equivalent underneath (or KRW alone for Korean listings). */
+  function priceCell(t, usd, krw) {
+    if (t.currency === "KRW") return el("td", { class: "num", text: fmtKRW(usd) });
+    const parts = [el("span", { class: "usd", text: fmtUSD(usd) })];
+    if (krw != null) parts.push(el("span", { class: "krw", text: fmtKRW(krw) }));
+    return el("td", { class: "num price" }, parts);
+  }
+
   function kdCell(kd) {
     const cls = kd.bullish ? "up" : "down";
     return el("td", { class: "kd" }, [
@@ -45,7 +56,7 @@
         el("td", { text: t.ticker }),
         el("td", {}, [chip(L.action, L.score)]),
         el("td", { class: "num", text: L.action === "HOLD" ? "–" : String(L.score) }),
-        el("td", { class: "num", text: L.close.toLocaleString("en-US", { minimumFractionDigits: 2 }) }),
+        priceCell(t, L.close, L.close_krw),
         kdCell(L.kd.short), kdCell(L.kd.mid), kdCell(L.kd.long),
         el("td", { class: "num", text: L.date }),
       ]);
@@ -72,7 +83,7 @@
         el("td", { class: "num", text: s.date }),
         el("td", {}, [chip(s.action, s.score)]),
         el("td", { class: "num", text: String(s.score) }),
-        el("td", { class: "num", text: s.close.toLocaleString("en-US", { minimumFractionDigits: 2 }) }),
+        priceCell(t, s.close, s.close_krw),
         el("td", { class: "reasons", text: s.reasons.join(" · ") }),
       ]));
     }
@@ -91,13 +102,17 @@
     const ink = cssVar("--ink-2"), muted = cssVar("--muted"), grid = cssVar("--grid"), axis = cssVar("--axis");
     const surface = cssVar("--surface"), zone = cssVar("--zone");
 
-    const traces = [
-      {
-        type: "scatter", mode: "lines", name: "종가", x: dates, y: slice(t.close),
-        line: { color: colP, width: 2 }, xaxis: "x", yaxis: "y",
-        hovertemplate: "종가 %{y:,.2f}<extra></extra>", showlegend: false,
-      },
-    ];
+    const hasKrw = t.currency !== "KRW" && Array.isArray(t.close_krw);
+    const priceTrace = {
+      type: "scatter", mode: "lines", name: "종가", x: dates, y: slice(t.close),
+      line: { color: colP, width: 2 }, xaxis: "x", yaxis: "y", showlegend: false,
+      hovertemplate: t.currency === "KRW" ? "종가 %{y:,.0f}원<extra></extra>" : "종가 $%{y:,.2f}<extra></extra>",
+    };
+    if (hasKrw) {
+      priceTrace.customdata = slice(t.close_krw);
+      priceTrace.hovertemplate = "종가 $%{y:,.2f}  (약 %{customdata:,.0f}원)<extra></extra>";
+    }
+    const traces = [priceTrace];
     const shapes = [];
     const annotations = [];
     const tfNames = ["short", "mid", "long"];
@@ -197,6 +212,9 @@
     state.data = data;
     $("#presets").textContent = Object.values(data.presets).join(" / ");
     $("#generated").textContent = `갱신 ${new Date(data.generated_at).toLocaleString("ko-KR")}`;
+    if (data.fx) {
+      $("#fx").textContent = `환율 ${Math.round(data.fx.usdkrw).toLocaleString("ko-KR")}원/$ (${data.fx.date})`;
+    }
     renderSummary();
     renderTickerButtons();
     document.querySelectorAll("[data-range]").forEach((b) => b.addEventListener("click", () => {
