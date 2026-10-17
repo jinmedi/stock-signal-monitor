@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock Signal Monitor</title>
+  <meta name="description" content="스토캐스틱 슬로우 5-3-3 / 10-6-6 / 20-12-12 교차 신호 대시보드">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.3/plotly.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Stock Signal Monitor</h1>
+      <p class="sub">스토캐스틱 슬로우 <span id="presets"></span> 교차 신호 · <span id="generated"></span></p>
+    </div>
+    <a class="repo" href="https://github.com/jinmedi/stock-signal-monitor">GitHub</a>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="summary-h">
+      <h2 id="summary-h">오늘의 신호</h2>
+      <div class="table-wrap">
+        <table id="summary">
+          <thead>
+            <tr>
+              <th>종목</th><th>판정</th><th>점수</th><th>종가</th>
+              <th>단기 K/D</th><th>중기 K/D</th><th>장기 K/D</th><th>기준일</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="chart-h">
+      <div class="toolbar">
+        <h2 id="chart-h">차트</h2>
+        <div id="ticker-buttons" class="seg" role="tablist" aria-label="종목"></div>
+        <div class="seg" role="group" aria-label="기간">
+          <button data-range="60" type="button">60봉</button>
+          <button data-range="130" class="on" type="button">전체</button>
+        </div>
+      </div>
+      <div id="chart" class="chart" role="img" aria-label="종가와 단기·중기·장기 스토캐스틱 차트"></div>
+      <p class="hint">▲ 골든크로스(%K가 %D 상향 돌파)  ▼ 데드크로스(하향 돌파)  음영: 과매도·과매수 구간</p>
+    </section>
+
+    <section class="card" aria-labelledby="hist-h">
+      <h2 id="hist-h">최근 신호 이력 <span id="hist-ticker" class="muted"></span></h2>
+      <div class="table-wrap">
+        <table id="history">
+          <thead><tr><th>날짜</th><th>판정</th><th>점수</th><th>종가</th><th>근거</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="disclaimer">차트 화면에서 추정한 지표를 그대로 계산한 참고 자료이며 투자 판단의 책임은 사용자에게 있습니다.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

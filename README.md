@@ -23,6 +23,21 @@
 `config.toml` 의 `require_mid_confirmation = true` 로 바꾸면 중기 배열이 반대일 때는 신호를 보류합니다.
 중기·장기 자체의 교차도 참고용으로 함께 알립니다.
 
+## 웹 대시보드
+
+https://jinmedi.github.io/stock-signal-monitor/
+
+종목별 종가와 단기·중기·장기 스토캐스틱(%K·%D), 교차 지점(▲ 골든 / ▼ 데드), 오늘의 판정표, 최근 신호 이력을 보여줍니다.
+`Daily signal check` 가 끝날 때마다, 그리고 `site/` 나 패키지 코드가 바뀔 때마다 `.github/workflows/pages.yml` 이
+`python -m stock_signal_monitor.report` 로 `site/data.json` 을 다시 만들어 GitHub Pages에 배포합니다.
+
+로컬에서 보려면 데이터를 만든 뒤 정적 서버로 `site/` 를 띄웁니다.
+
+```bash
+python -m stock_signal_monitor.report --out site/data.json
+python -m http.server 8765 --directory site
+```
+
 ## 로컬 실행
 
 ```bash
@@ -69,6 +84,8 @@ stock_signal_monitor/
   notifier.py     메시지 포맷, 콘솔·Telegram 발송
   state.py        중복 알림 방지 상태 파일
   cli.py          명령행 진입점
+  report.py       대시보드용 data.json 생성
+site/             정적 대시보드 (index.html, app.js, style.css; Plotly)
 ```
 
 ## 주의
