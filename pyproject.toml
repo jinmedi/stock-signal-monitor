@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-signal-monitor"
+version = "0.1.0"
+description = "Stochastic Slow (5-3-3 / 10-6-6 / 20-12-12) golden/dead cross monitor with Telegram alerts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "yfinance>=0.2.50",
+    "pandas>=2.2",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+stock-signal-monitor = "stock_signal_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["stock_signal_monitor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

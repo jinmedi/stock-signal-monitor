@@ -1,0 +1,31 @@
+# 감시할 종목 (Yahoo Finance 티커)
+tickers = ["SOXL", "NVDA", "TSLA", "INTC", "TSM", "GLD"]
+
+# 가격 데이터 조회 기간 (장기 20-12-12 계산에 최소 45봉 필요)
+history_period = "1y"
+
+# 스토캐스틱 슬로우 파라미터 (N, M, T) = (기간, %K 평활, %D 평활)
+[stochastic.short]
+n = 5
+m = 3
+t = 3
+
+[stochastic.mid]
+n = 10
+m = 6
+t = 6
+
+[stochastic.long]
+n = 20
+m = 12
+t = 12
+
+[thresholds]
+oversold = 20
+overbought = 80
+
+[alerts]
+# 단기 교차만으로도 매수/매도 신호를 보낼지, 아니면 중기 방향이 같을 때만 보낼지
+require_mid_confirmation = false
+# 중기·장기 교차도 별도 알림으로 보낼지
+notify_mid_long_crosses = true
