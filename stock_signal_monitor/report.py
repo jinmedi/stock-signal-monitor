@@ -229,9 +229,15 @@ def build_report(
             errors.append({"ticker": ticker, "error": str(exc)})
 
     # Hit-rate tracking: record today's crosses, fill 5/10-day returns, aggregate.
-    track_rows = tracking.update(
-        None if state_dir is None else state_dir / "track.csv", new_rows=latest_rows, closes=closes
-    )
+    # Skipped while the newest bar is still forming (on-demand refresh during the US session):
+    # the evening run records the confirmed close instead.
+    status = market_status()
+    intraday = last_bar_intraday(status, {t["latest"]["date"] for t in tickers})
+    track_path = None if state_dir is None else state_dir / "track.csv"
+    if intraday:
+        track_rows = tracking.load_rows(track_path)
+    else:
+        track_rows = tracking.update(track_path, new_rows=latest_rows, closes=closes)
 
     fx = None
     if usdkrw is not None and not usdkrw.empty:
@@ -248,8 +254,7 @@ def build_report(
             "sector": None if news.sector is None else news.sector.to_dict(),
             "headline_count": len(news.headlines),
         }
-    status = market_status()
-    market = {**status, "last_bar_intraday": last_bar_intraday(status, {t["latest"]["date"] for t in tickers})}
+    market = {**status, "last_bar_intraday": intraday}
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "market": market,

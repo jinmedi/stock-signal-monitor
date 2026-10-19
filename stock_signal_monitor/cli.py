@@ -22,6 +22,7 @@ from .data import fetch_history
 from .events import DEFAULT_BLACKOUT_DAYS, EarningsCalendar, apply_event_filter
 from .fx import fetch_usdkrw, latest_rate
 from .indicators import StochParams
+from .market import last_bar_intraday, market_status
 from .news import NewsAnalysis, apply_news_weight, cautions, get_news, news_settings
 from .notifier import ConsoleNotifier, TelegramNotifier, format_report
 from .signals import Action, Signal, evaluate
@@ -147,8 +148,11 @@ def main(argv: list[str] | None = None) -> int:
         signals, earnings=earnings, blackout=blackout, news=news, weight=ns["weight"], max_stars=ns["max_stars"]
     )
 
-    # Hit-rate tracking only for the live (latest-bar) run, where sentiment and signal share a date.
-    if state is not None and args.lookback == 1:
+    # Hit-rate tracking only for the live (latest-bar) run, where sentiment and signal share a date,
+    # and never while the newest bar is still forming (resend during the US session).
+    status = market_status()
+    intraday = last_bar_intraday(status, {s.date.strftime("%Y-%m-%d") for s in signals})
+    if state is not None and args.lookback == 1 and not intraday:
         rows = [
             tracking.row_from_signal(s, news.for_ticker(s.ticker).score if news and news.for_ticker(s.ticker) else None)
             for s in signals

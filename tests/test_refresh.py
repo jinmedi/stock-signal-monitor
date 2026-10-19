@@ -55,3 +55,36 @@ def test_market_status_and_intraday_flag():
     closed = market_status(datetime(2026, 10, 19, 22, 0, tzinfo=timezone.utc))  # 18:00 ET
     assert not closed["open"] and not last_bar_intraday(closed, {"2026-10-19"})
     assert not market_status(datetime(2026, 10, 18, 15, 0, tzinfo=timezone.utc))["open"]  # Sunday
+
+
+def test_build_report_skips_tracking_while_bar_is_forming(monkeypatch, tmp_path):
+    """An on-demand refresh during the US session must not record half-day closes."""
+    import numpy as np
+    import pandas as pd
+
+    from stock_signal_monitor import report, tracking
+
+    n = 80
+    idx = pd.bdate_range(end="2026-10-19", periods=n)
+    closes = 100 + np.cumsum(np.random.default_rng(1).normal(0, 1, n))
+    df = pd.DataFrame({"High": closes + 1, "Low": closes - 1, "Close": closes}, index=idx)
+    monkeypatch.setattr(report, "fetch_history", lambda t, p: df)
+    monkeypatch.setattr(report, "fetch_usdkrw", lambda p: None)
+    monkeypatch.setattr(report, "get_news", lambda cfg, cache_path, **kw: None)
+    monkeypatch.setattr(report, "market_status", lambda: {"ny_time": "2026-10-19 10:46", "ny_date": "2026-10-19", "open": True})
+    calls = []
+    monkeypatch.setattr(tracking, "update", lambda *a, **k: calls.append(1) or [])
+
+    cfg = {
+        "tickers": ["NVDA"],
+        "stochastic": {"short": {"n": 5, "m": 3, "t": 3}},
+        "events": {"earnings_blackout_days": 0},
+        "news": {"enabled": False},
+    }
+    out = report.build_report(cfg, state_dir=tmp_path)
+    assert out["market"]["last_bar_intraday"] is True
+    assert calls == []  # nothing recorded while the session is open
+
+    monkeypatch.setattr(report, "market_status", lambda: {"ny_time": "2026-10-19 18:00", "ny_date": "2026-10-19", "open": False})
+    out = report.build_report(cfg, state_dir=tmp_path)
+    assert out["market"]["last_bar_intraday"] is False and calls == [1]
