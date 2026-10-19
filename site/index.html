@@ -12,10 +12,40 @@
   <header class="top">
     <div>
       <h1>Stock Signal Monitor</h1>
-      <p class="sub">스토캐스틱 슬로우 <span id="presets"></span> 교차 신호 · <span id="generated"></span> · <span id="fx"></span></p>
+      <p class="sub">스토캐스틱 슬로우 <span id="presets"></span> 교차 신호 · <span id="generated"></span> · <span id="fx"></span> <span id="market" class="badge" hidden></span></p>
+      <p id="refresh-status" class="sub refresh-status" hidden></p>
     </div>
-    <a class="repo" href="https://github.com/jinmedi/stock-signal-monitor">GitHub</a>
+    <div class="top-actions">
+      <button id="refresh-btn" type="button" class="primary">지금 갱신</button>
+      <a class="repo" href="https://github.com/jinmedi/stock-signal-monitor">GitHub</a>
+    </div>
   </header>
+
+  <dialog id="refresh-dialog">
+    <form method="dialog" id="refresh-form">
+      <h2>지금 갱신</h2>
+      <p class="muted small">정기 실행(평일 07:00 KST)과 별개로, 가격·지표·뉴스 감성을 다시 계산해 이 페이지를 새로 배포합니다. 보통 1~3분 걸립니다.</p>
+      <fieldset>
+        <label><input type="radio" name="mode" value="dashboard" checked> 대시보드만 갱신</label>
+        <label><input type="radio" name="mode" value="telegram"> 대시보드 갱신 + 현재 상황을 Telegram으로도 받기</label>
+      </fieldset>
+      <label class="field">GitHub 토큰
+        <input id="gh-token" type="password" autocomplete="off" placeholder="github_pat_…" required>
+      </label>
+      <p class="muted small">
+        저장소의 워크플로를 실행할 권한이 있는 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained 토큰</a>이 필요합니다.
+        Repository access 는 이 저장소만, Permissions 는 <b>Actions: Read and write</b> 만 주면 됩니다.
+        토큰은 이 브라우저에만 저장되고 다른 곳으로 보내지 않습니다.
+      </p>
+      <label class="check"><input id="gh-remember" type="checkbox" checked> 이 브라우저에 토큰 저장</label>
+      <div class="dialog-actions">
+        <button type="button" id="gh-forget" class="ghost">저장된 토큰 지우기</button>
+        <span class="spacer"></span>
+        <button type="button" id="refresh-cancel" class="ghost">취소</button>
+        <button type="submit" class="primary">갱신 시작</button>
+      </div>
+    </form>
+  </dialog>
 
   <main>
     <section class="card" aria-labelledby="summary-h">

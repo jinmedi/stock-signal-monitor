@@ -118,6 +118,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--events-cache", type=Path, default=Path("state/events.json"), help="earnings-date cache")
     p.add_argument("--news-cache", type=Path, default=Path("state/news.json"), help="news sentiment cache")
     p.add_argument("--no-news", action="store_true", help="skip news collection and sentiment")
+    p.add_argument("--refresh-news", action="store_true", help="ignore the news cache and classify again")
     p.add_argument("--track", type=Path, default=Path("state/track.csv"), help="hit-rate tracking CSV")
     p.add_argument("--lookback", type=int, default=1, help="evaluate the last N bars")
     p.add_argument("--all", action="store_true", help="include HOLD rows (no signal)")
@@ -140,7 +141,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # News + sentiment: one Claude call for all tickers, cached so the dashboard build reuses it.
     ns = news_settings(cfg)
-    news = None if args.no_news else get_news(cfg, cache_path=args.news_cache)
+    news = None if args.no_news else get_news(cfg, cache_path=args.news_cache, force=args.refresh_news)
 
     signals = apply_filters(
         signals, earnings=earnings, blackout=blackout, news=news, weight=ns["weight"], max_stars=ns["max_stars"]

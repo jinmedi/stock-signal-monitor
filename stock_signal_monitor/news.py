@@ -488,14 +488,20 @@ def get_news(
     classifier: Classifier | None = None,
     ticker_fetch: Callable[[str], list[Headline]] = fetch_ticker_news,
     query_fetch: Callable[[str], list[Headline]] = fetch_google_news,
+    force: bool = False,
 ) -> NewsAnalysis | None:
-    """Cached-or-fresh news analysis for the configured tickers (``None`` when ``[news] enabled = false``)."""
+    """Cached-or-fresh news analysis for the configured tickers (``None`` when ``[news] enabled = false``).
+
+    ``force=True`` ignores the cache (the dashboard's "지금 갱신" button) but still writes it.
+    """
     s = news_settings(cfg)
     if not s["enabled"]:
         return None
     now = now or datetime.now(timezone.utc)
     tickers = list(cfg["tickers"])
-    cached = load_cached(cache_path, max_age=timedelta(hours=s["cache_hours"]), now=now, tickers=tickers)
+    cached = None
+    if not force:
+        cached = load_cached(cache_path, max_age=timedelta(hours=s["cache_hours"]), now=now, tickers=tickers)
     if cached is not None:
         return cached
     headlines = collect_headlines(

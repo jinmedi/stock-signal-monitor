@@ -110,8 +110,8 @@ def _mock_network(monkeypatch, tmp_path, frames):
     rates = pd.Series(1300.0, index=next(iter(frames.values())).index)
     monkeypatch.setattr(report, "fetch_usdkrw", lambda period: rates)
     monkeypatch.setattr(cli, "fetch_usdkrw", lambda period: rates)
-    monkeypatch.setattr(report, "get_news", lambda cfg, cache_path: _news())
-    monkeypatch.setattr(cli, "get_news", lambda cfg, cache_path: _news())
+    monkeypatch.setattr(report, "get_news", lambda cfg, cache_path, **kw: _news())
+    monkeypatch.setattr(cli, "get_news", lambda cfg, cache_path, **kw: _news())
     import stock_signal_monitor.events as ev
 
     monkeypatch.setattr(ev, "fetch_earnings_dates", lambda t: [date(2026, 11, 19)])

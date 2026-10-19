@@ -12,6 +12,11 @@ on:
       - "config.toml"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+    inputs:
+      refresh_news:
+        description: "뉴스 캐시를 무시하고 감성을 다시 분류"
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -36,7 +41,8 @@ jobs:
         env:
           # Reuses state/news.json from the monitor run when it is fresh; otherwise classifies once.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python -m stock_signal_monitor.report --out site/data.json
+        # The dashboard's "지금 갱신" button dispatches this workflow with refresh_news=true.
+        run: python -m stock_signal_monitor.report --out site/data.json ${{ inputs.refresh_news == true && '--refresh-news' || '' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

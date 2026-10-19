@@ -21,6 +21,7 @@ from .data import fetch_history
 from .events import EarningsCalendar
 from .fx import align_rates, fetch_usdkrw, is_krw_ticker
 from .indicators import StochParams, stoch_slow
+from .market import last_bar_intraday, market_status
 from .news import NewsAnalysis, get_news, news_settings
 from .signals import Action, Cross, Signal, detect_cross, evaluate  # noqa: F401
 
@@ -172,6 +173,7 @@ def build_report(
     signal_lookback: int = 60,
     state_dir: Path | None = Path("state"),
     skip_news: bool = False,
+    refresh_news: bool = False,
 ) -> dict:
     presets = presets_from_config(cfg)
     th = cfg.get("thresholds", {})
@@ -186,7 +188,11 @@ def build_report(
         earnings = calendar.dates_for(cfg["tickers"])
         calendar.save()
 
-    news = None if skip_news else get_news(cfg, cache_path=None if state_dir is None else state_dir / "news.json")
+    news = (
+        None
+        if skip_news
+        else get_news(cfg, cache_path=None if state_dir is None else state_dir / "news.json", force=refresh_news)
+    )
 
     tickers = []
     errors = []
@@ -242,8 +248,11 @@ def build_report(
             "sector": None if news.sector is None else news.sector.to_dict(),
             "headline_count": len(news.headlines),
         }
+    status = market_status()
+    market = {**status, "last_bar_intraday": last_bar_intraday(status, {t["latest"]["date"] for t in tickers})}
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "market": market,
         "fx": fx,
         "presets": {name: p.label for name, p in presets.items()},
         "thresholds": {"oversold": th.get("oversold", 20), "overbought": th.get("overbought", 80)},
@@ -262,6 +271,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--out", type=Path, default=Path("site/data.json"))
     p.add_argument("--state-dir", type=Path, default=Path("state"), help="events/news cache and track.csv location")
     p.add_argument("--no-news", action="store_true", help="skip news collection and sentiment")
+    p.add_argument("--refresh-news", action="store_true", help="ignore the news cache and classify again")
     p.add_argument("--bars", type=int, default=130, help="bars of history to chart")
     p.add_argument("--signal-lookback", type=int, default=60, help="bars of signal history")
     args = p.parse_args(argv)
@@ -272,6 +282,7 @@ def main(argv: list[str] | None = None) -> int:
         signal_lookback=args.signal_lookback,
         state_dir=args.state_dir,
         skip_news=args.no_news,
+        refresh_news=args.refresh_news,
     )
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(report, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

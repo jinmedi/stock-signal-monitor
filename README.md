@@ -68,6 +68,30 @@ https://jinmedi.github.io/stock-signal-monitor/
 - 최근 60봉의 매수·매도 신호 이력과 근거.
 - 감성별 교차 신호 적중률 표.
 
+### 지금 갱신 버튼
+
+정기 실행을 기다리지 않고 대시보드 오른쪽 위의 **지금 갱신** 버튼으로 가격·지표·뉴스 감성을 바로 다시 계산할 수 있습니다.
+정적 페이지라 서버가 없으므로, 버튼은 브라우저에서 GitHub Actions 워크플로를 직접 실행(`workflow_dispatch`)하고
+새 `data.json` 이 배포될 때까지 기다렸다가 화면을 다시 그립니다. 보통 1~3분 걸립니다.
+
+- **대시보드만 갱신**: `Deploy dashboard` 를 `refresh_news=true` 로 실행해 뉴스 캐시를 무시하고 다시 분류합니다.
+- **Telegram으로도 받기**: `Daily signal check` 를 `resend=true` 로 실행해 같은 봉 중복 방지를 무시하고 현재 상황을 Telegram으로 다시 보낸 뒤, 이어서 대시보드를 갱신합니다.
+- 미국장 개장 중에 누르면 마지막 일봉이 아직 움직이는 중이라 헤더에 **장중 · 마지막 봉 미확정** 표시가 붙습니다. 그 상태의 교차는 장 마감 때 바뀔 수 있습니다.
+
+버튼을 쓰려면 워크플로 실행 권한이 있는 GitHub 토큰이 한 번 필요합니다.
+
+1. https://github.com/settings/personal-access-tokens/new 에서 **fine-grained** 토큰을 만듭니다.
+   Repository access 는 이 저장소만, Permissions 는 **Actions: Read and write** 만 줍니다. 만료일은 원하는 대로 둡니다.
+2. 버튼을 눌러 뜨는 창에 토큰을 넣습니다. "이 브라우저에 토큰 저장"을 켜 두면 같은 브라우저에서는 다시 묻지 않습니다.
+   토큰은 브라우저의 localStorage 에만 저장되고 GitHub API 외의 어디로도 보내지 않습니다. 같은 창의 "저장된 토큰 지우기"로 삭제할 수 있습니다.
+3. 공용 PC 에서는 저장을 끄고 쓰세요. 토큰이 유출되면 GitHub 설정에서 바로 폐기하면 됩니다.
+
+같은 일을 터미널에서 하려면 다음 명령을 쓰면 됩니다.
+
+```bash
+gh workflow run pages.yml --repo jinmedi/stock-signal-monitor -f refresh_news=true
+```
+
 원화는 Yahoo Finance 원/달러(`KRW=X`) 종가로 환산합니다. 대시보드는 각 봉 날짜의 환율, Telegram 메시지는 발송 시점의 최신 환율을 쓰므로 두 곳의 원화가 조금 다를 수 있습니다. `.KS`/`.KQ` 종목은 원화 그대로 표시합니다.
 
 ## 처음 설정하기

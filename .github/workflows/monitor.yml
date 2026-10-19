@@ -5,6 +5,15 @@ on:
     # 22:00 UTC Mon–Fri = 07:00 KST, ~1–2h after the US close (yfinance has the final bar by then)
     - cron: "0 22 * * 1-5"
   workflow_dispatch:
+    inputs:
+      resend:
+        description: "현재 상황을 Telegram으로 다시 보냄 (같은 봉 중복 방지 무시)"
+        type: boolean
+        default: false
+      refresh_news:
+        description: "뉴스 캐시를 무시하고 감성을 다시 분류"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -32,7 +41,12 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional: news sentiment via Claude. Without it the run works, just without 뉴스 감성.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python -m stock_signal_monitor --telegram --quiet-when-empty
+        # Scheduled: dedup state + quiet when nothing new. Dispatched with resend=true (dashboard
+        # "지금 갱신" → "Telegram도 받기"): ignore dedup so the current picture is sent again.
+        run: >-
+          python -m stock_signal_monitor --telegram
+          ${{ inputs.resend == true && '--no-state' || '--quiet-when-empty' }}
+          ${{ inputs.refresh_news == true && '--refresh-news' || '' }}
 
       - name: Persist state (dedup, earnings cache, news cache, hit-rate tracking)
         run: |

@@ -304,32 +304,162 @@
     }
   }
 
-  function init(data) {
+  /** Render (or re-render after a refresh) everything from a data.json payload. */
+  function render(data) {
     state.data = data;
     $("#presets").textContent = Object.values(data.presets).join(" / ");
     $("#generated").textContent = `갱신 ${new Date(data.generated_at).toLocaleString("ko-KR")}`;
     if (data.fx) {
       $("#fx").textContent = `환율 ${Math.round(data.fx.usdkrw).toLocaleString("ko-KR")}원/$ (${data.fx.date})`;
     }
+    const badge = $("#market");
+    if (data.market && data.market.last_bar_intraday) {
+      badge.textContent = `장중 ${data.market.ny_time} ET · 마지막 봉 미확정`;
+      badge.hidden = false;
+    } else {
+      badge.hidden = true;
+    }
     renderSummary();
     renderSectorNews();
     renderTracking();
     renderTickerButtons();
+    let remembered = state.ticker;
+    if (!remembered) { try { remembered = localStorage.getItem("ssm.ticker"); } catch (_) { /* ignore */ } }
+    const firstTicker = data.tickers.find((t) => t.ticker === remembered) ? remembered : (data.tickers[0] && data.tickers[0].ticker);
+    if (firstTicker) select(firstTicker);
+  }
+
+  function init(data) {
     document.querySelectorAll("[data-range]").forEach((b) => b.addEventListener("click", () => {
       state.range = Number(b.dataset.range);
       document.querySelectorAll("[data-range]").forEach((x) => x.classList.toggle("on", x === b));
       renderChart(state.data.tickers.find((x) => x.ticker === state.ticker));
     }));
-    let remembered = null;
-    try { remembered = localStorage.getItem("ssm.ticker"); } catch (_) { /* ignore */ }
-    const firstTicker = data.tickers.find((t) => t.ticker === remembered) ? remembered : (data.tickers[0] && data.tickers[0].ticker);
-    if (firstTicker) select(firstTicker);
     // re-theme the chart when the OS theme flips
     if (window.matchMedia) {
       window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
         if (state.ticker) renderChart(state.data.tickers.find((x) => x.ticker === state.ticker));
       });
     }
+    initRefresh();
+    render(data);
+  }
+
+  // ---------- "지금 갱신": dispatch a GitHub Actions run, then wait for the new data.json ----------
+  const TOKEN_KEY = "ssm.gh_token";
+  const POLL_MS = 10_000;
+  const POLL_LIMIT_MS = 8 * 60_000;
+
+  /** owner/repo from the Pages URL (user.github.io/repo/), falling back to the GitHub link in the header. */
+  function repoSlug() {
+    const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+    const seg = location.pathname.split("/").filter(Boolean)[0];
+    if (m && seg) return `${m[1]}/${seg}`;
+    const href = ($("a.repo") || {}).href || "";
+    const r = href.match(/github\.com\/([^/]+\/[^/#?]+)/);
+    return r ? r[1] : "";
+  }
+
+  function loadToken() { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (_) { return ""; } }
+  function saveToken(t) { try { localStorage.setItem(TOKEN_KEY, t); } catch (_) { /* private mode */ } }
+  function forgetToken() { try { localStorage.removeItem(TOKEN_KEY); } catch (_) { /* ignore */ } }
+
+  function setStatus(text, cls) {
+    const s = $("#refresh-status");
+    s.textContent = text;
+    s.className = `sub refresh-status${cls ? " " + cls : ""}`;
+    s.hidden = !text;
+  }
+
+  async function dispatchWorkflow(token, file, inputs) {
+    const url = `https://api.github.com/repos/${repoSlug()}/actions/workflows/${file}/dispatches`;
+    const resp = await fetch(url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ref: "main", inputs }),
+    });
+    if (resp.status === 204) return;
+    const hint = {
+      401: "토큰이 올바르지 않거나 만료되었습니다.",
+      403: "토큰에 Actions 쓰기 권한이 없습니다.",
+      404: "토큰이 이 저장소에 접근할 수 없습니다 (Repository access 확인).",
+      422: "워크플로 입력값이 맞지 않습니다.",
+    }[resp.status] || "";
+    let detail = "";
+    try { detail = (await resp.json()).message || ""; } catch (_) { /* no body */ }
+    throw new Error(`GitHub API ${resp.status}. ${hint} ${detail}`.trim());
+  }
+
+  async function fetchData() {
+    const r = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(`data.json ${r.status}`);
+    return r.json();
+  }
+
+  /** Poll data.json until generated_at moves past ``since`` (deploy included), then re-render. */
+  async function waitForNewData(since, startedAt) {
+    while (Date.now() - startedAt < POLL_LIMIT_MS) {
+      await new Promise((res) => setTimeout(res, POLL_MS));
+      const mins = Math.floor((Date.now() - startedAt) / 60_000);
+      setStatus(`갱신 중… ${mins}분 경과 (Actions 실행 → Pages 배포, 보통 1~3분)`);
+      try {
+        const fresh = await fetchData();
+        if (fresh.generated_at > since) {
+          render(fresh);
+          setStatus(`갱신 완료 ${new Date(fresh.generated_at).toLocaleTimeString("ko-KR")}`, "ok");
+          return true;
+        }
+      } catch (_) { /* transient during deploy: keep polling */ }
+    }
+    const slug = repoSlug();
+    setStatus(`아직 새 데이터가 오지 않았습니다. GitHub Actions 탭에서 실행 상태를 확인하세요: https://github.com/${slug}/actions`, "err");
+    return false;
+  }
+
+  function initRefresh() {
+    const btn = $("#refresh-btn"), dlg = $("#refresh-dialog"), form = $("#refresh-form");
+    if (!btn || !dlg || typeof dlg.showModal !== "function") { if (btn) btn.hidden = true; return; }
+    const tokenInput = $("#gh-token");
+
+    btn.addEventListener("click", () => {
+      tokenInput.value = loadToken();
+      $("#gh-forget").hidden = !tokenInput.value;
+      dlg.showModal();
+    });
+    $("#refresh-cancel").addEventListener("click", () => dlg.close());
+    $("#gh-forget").addEventListener("click", () => { forgetToken(); tokenInput.value = ""; $("#gh-forget").hidden = true; });
+
+    form.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const token = tokenInput.value.trim();
+      if (!token) return;
+      const mode = form.elements.mode.value;
+      if ($("#gh-remember").checked) saveToken(token); else forgetToken();
+      dlg.close();
+      btn.disabled = true;
+      const since = (state.data && state.data.generated_at) || "";
+      const startedAt = Date.now();
+      setStatus("GitHub Actions 실행을 요청하는 중…");
+      try {
+        if (mode === "telegram") {
+          // Daily signal check (resend) → finishes → Deploy dashboard runs via workflow_run.
+          await dispatchWorkflow(token, "monitor.yml", { resend: "true", refresh_news: "true" });
+        } else {
+          await dispatchWorkflow(token, "pages.yml", { refresh_news: "true" });
+        }
+        setStatus("실행 요청됨. 새 데이터를 기다리는 중…");
+        await waitForNewData(since, startedAt);
+      } catch (err) {
+        setStatus(`갱신 실패: ${err.message}`, "err");
+      } finally {
+        btn.disabled = false;
+      }
+    });
   }
 
   fetch("data.json", { cache: "no-store" })

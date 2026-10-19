@@ -81,6 +81,43 @@ h2 { font-size: 16px; margin: 0 0 12px; }
 .sub { margin: 4px 0 0; color: var(--ink-2); font-size: 14px; }
 .repo { color: var(--ink-2); font-size: 14px; text-decoration: none; border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; white-space: nowrap; }
 .repo:hover { color: var(--ink); }
+.top-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+
+button.primary, button.ghost {
+  font: inherit; font-size: 14px; cursor: pointer; border-radius: 999px; padding: 6px 14px; white-space: nowrap;
+}
+button.primary { color: #fff; background: var(--series-k); border: 1px solid var(--series-k); font-weight: 600; }
+button.primary:hover { filter: brightness(1.08); }
+button.primary:disabled { opacity: 0.55; cursor: progress; }
+button.ghost { color: var(--ink-2); background: transparent; border: 1px solid var(--border); }
+button.ghost:hover { color: var(--ink); background: var(--chip-hold-bg); }
+
+.badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; background: var(--chip-sell-bg); color: var(--ink); }
+.refresh-status { font-size: 13px; }
+.refresh-status.ok { color: var(--good); }
+.refresh-status.err { color: var(--critical); }
+
+dialog {
+  background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px; width: min(520px, calc(100vw - 32px)); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
+dialog h2 { margin-top: 0; }
+dialog fieldset { border: 1px solid var(--grid); border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; display: grid; gap: 6px; }
+dialog label { font-size: 14px; }
+dialog .field { display: grid; gap: 4px; margin: 8px 0; }
+dialog input[type="password"] {
+  font: inherit; padding: 8px 10px; border: 1px solid var(--axis); border-radius: 8px;
+  background: var(--page); color: var(--ink); width: 100%;
+}
+dialog .check { display: block; margin: 8px 0 12px; }
+dialog .small { font-size: 13px; margin: 6px 0; }
+.dialog-actions { display: flex; align-items: center; gap: 8px; }
+.dialog-actions .spacer { flex: 1; }
+@media (max-width: 640px) {
+  .top { flex-wrap: wrap; }
+  .top-actions { width: 100%; justify-content: flex-end; }
+}
 .muted { color: var(--muted); font-weight: 400; }
 
 .card {
