@@ -17,3 +17,7 @@ date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
 2026-10-20,VOO,golden,BUY,1,0,706.8000,,
 2026-10-21,IREN,golden,BUY,3,-1,27.8400,,
 2026-10-21,PLTR,golden,BUY,1,-1,201.7200,,
+2026-10-22,AAPL,golden,BUY,3,1,348.2200,,
+2026-10-22,AMZN,dead,SELL,3,0,250.3800,,
+2026-10-22,FRMI,golden,BUY,2,-1,2.6500,,
+2026-10-22,SPCX,dead,SELL,3,0,144.7500,,
