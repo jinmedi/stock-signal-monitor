@@ -1,723 +1,716 @@
 {
- "fetched_at": "2026-10-24T00:20:38+00:00",
+ "fetched_at": "2026-10-27T01:14:50+00:00",
  "model": "claude-opus-5-5",
  "error": null,
  "sector": {
-  "score": -2,
+  "score": 1,
   "summary": [
-   "램리서치 공급망 우려에 반도체주 급락",
-   "TSMC 호실적에도 하락, 메타발 AI 포비아"
+   "앤트로픽 IPO 신청에 반도체지수 2.82% 반등",
+   "모건스탠리 15% 추가하락 지지선 경고 공존"
   ]
  },
  "tickers": {
   "AAPL": {
-   "score": 1,
+   "score": -1,
    "summary": [
-    "아이폰 듀오 출시로 중요 시기 진입",
-    "연초 대비 28% 상승세 유지"
+    "시장 상승 속 주가 하락, 반AI 트레이드 평가",
+    "아이폰 듀오 화면 결함 교체 발표"
    ]
   },
   "AMZN": {
-   "score": 0,
+   "score": 1,
    "summary": [
-    "10/29 실적 앞두고 CAPEX 주목",
-    "적정 가치 평가, 변동성 경계"
+    "앤트로픽 IPO 소식에 프리마켓 1.1% 상승",
+    "10/29 실적 앞두고 AWS 성장 기대"
    ]
   },
   "BMNR": {
    "score": -1,
    "summary": [
-    "BMNR 주가 하락 보도",
-    "구체적 악재는 불명확"
+    "주가 6.5% 하락, 크립토 리스크오프 영향",
+    "자사주 4,590만달러 매입·ETH 추가 매수"
    ]
   },
   "FRMI": {
-   "score": -1,
+   "score": 0,
    "summary": [
-    "내부자 매도로 주가 3.8% 하락",
-    "CEO 자금조달 서한 발표"
+    "관련 뉴스 없음",
+    "시세 페이지만 존재"
    ]
   },
   "GLD": {
    "score": 0,
    "summary": [
-    "GLD 직접 관련 의미있는 뉴스 없음",
-    "가격 정보 기사 위주"
+    "세금 관련 일반 기사만 존재",
+    "가격 영향 재료 없음"
    ]
   },
   "GOOG": {
    "score": 0,
    "summary": [
-    "대형은행 목표가 12% 하향",
-    "양자 돌파구, 10/28 실적 기대"
+    "실적 앞두고 인프라 비용 증가 우려",
+    "배런스, 하락 취약 가능성 지적"
    ]
   },
   "INTC": {
-   "score": 0,
+   "score": 2,
    "summary": [
-    "반도체 약세 속 주가 하락",
-    "오하이오 팹 진척, 테라팹 기대"
+    "목표가 125달러 상향에 5% 급등",
+    "AMD와 협의 소식, 실적 발표 임박"
    ]
   },
   "IREN": {
    "score": -1,
    "summary": [
-    "스페인 캠퍼스 랠리 후 하루 8% 급락",
-    "네오클라우드 매도세 지속"
+    "머스크, 네오클라우드 200곳 고사 경고",
+    "기술주 매도 속 네오클라우드 주목"
    ]
   },
   "JEPQ": {
    "score": 0,
    "summary": [
-    "SPCX 매수 등 포트폴리오 기사",
-    "실질적 영향 뉴스 없음"
+    "은행 발행 노트 부도 위험 지적 기사",
+    "NVDA·AAPL 매도 등 일상적 운용"
    ]
   },
   "NVDA": {
-   "score": -1,
+   "score": 1,
    "summary": [
-    "애널리스트 매도 의견, 성장 둔화 우려",
-    "반도체 매도세 속 프리마켓 약세"
+    "주가 2.4% 상승, 반도체 반등 동조",
+    "메타 증자 참여 가능성 보도"
    ]
   },
   "PLTR": {
-   "score": -1,
+   "score": 0,
    "summary": [
-    "캐시 우드 ARK 540만달러 매도",
-    "시장 대비 하락, 밸류 부담 경고"
+    "마이클 버리 공매도, 다음주 실적 분수령",
+    "AI 소프트웨어 성장 긍정 평가 병존"
    ]
   },
   "SOXL": {
-   "score": -2,
+   "score": 1,
    "summary": [
-    "반도체 급락에 SOXL 하루 20% 폭락",
-    "레버리지 ETF 기록적 유입 후 손실"
+    "반도체지수 2.82% 반등으로 3배 레버리지 수혜",
+    "서학개미 반도체 3배 베팅 지속"
    ]
   },
   "SPCX": {
    "score": 0,
    "summary": [
-    "3분기 실적 후 급등, 이중 상향",
-    "3.28억주 보호예수 해제 부담"
+    "테슬라 합병 기대와 실적 관심 부각",
+    "세레브라스 인수 추측에 프리마켓 약세"
    ]
   },
   "TSLA": {
-   "score": -1,
+   "score": 2,
    "summary": [
-    "3분기 매출·이익 감소, AI 지출 확대",
-    "휴머노이드 내년 판매 목표는 긍정"
+    "바클레이즈 목표가 450달러로 상향, 6% 급등",
+    "스페이스X 합병 기대에 3개월 최고"
    ]
   },
   "TSM": {
-   "score": -1,
+   "score": 0,
    "summary": [
-    "사상 최대 이익에도 주가 하락",
-    "반도체 공급망 우려 매도세"
+    "인텔과 파운드리 경쟁 비교 기사",
+    "직접적 재료 없음"
    ]
   },
   "VOO": {
    "score": 0,
    "summary": [
-    "VOO 소폭 하락, 특별한 재료 없음",
-    "동일가중 ETF 비교 등 일반 기사"
+    "ETF 비교 일반 기사만 존재",
+    "직접적 재료 없음"
    ]
   }
  },
  "headlines": [
   {
-   "title": "“주가 떨어져라”…반도체 호황의 엇갈린 계산서",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iaV93V1NnNllVSWsxTVR1WjNjbkdqQVdNTXpfOTVfNmRqZ2wtUTVENHBuUnlxbzl2TnVRY2dTTjd3WWZ4a2NxS29fRHpQSDNDeTFKR0FyLWtONTB3aUZ2eDNVR2VTSlE?oc=5",
-   "source": "M이코노미뉴스",
-   "published": "2026-10-24T00:00:00+00:00",
+   "title": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
+   "source": "Bloomberg.com",
+   "published": "2026-10-27T00:47:00+00:00",
    "ticker": null
   },
   {
-   "title": "[아! 코스피] ④ 국민연금 보유주식 평가액 182조 줄어…반도체 쏠림에 부담↑",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CSng5RkxMN0dEdjZyd29YVTVQT1FBdG1felc1c3d6NHpMeEstU2NUeHh0blJkX1VRZW9yWEk1eGlabWhtbWNMNmR6UUU2VGRvaEgybERmOENoeWxN?oc=5",
-   "source": "뉴스핌",
-   "published": "2026-10-23T22:00:00+00:00",
+   "title": "[뉴욕증시] 앤트로픽 상장 신청…반도체 2.82% 뛰고 메타 밀렸다",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmc2hsOXByQ25iUTkzd2JONC1hQXJfOWdCQjBCTjBXalBEd1FBcGI0VWFnbTBudy15Q1kxcVpkd3lUY2x2c28xMFdaWGtvRWRZU2syZ0pkOUFIcTJxcE5CNi1ZZ3FhV2s?oc=5",
+   "source": "자본시장뉴스",
+   "published": "2026-10-27T00:20:55+00:00",
    "ticker": null
   },
   {
-   "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdFhHTWtJcnJWd01PdHhWcXFYYW9Rc1hLRC1vdGxXT1JpV1pqUS1VVGhVR1pmdTR5bnQxWVBrNnl0Wkw0RVNhN0M5SFRiUlItMWlfVVJvc2daMnlSRFNmdDloWUlhUE9oTDdfS3RRMWJScU9GcVpJN1k4SWZXR2NHSHk4bDFyWmRFTWt0bHNXc0t2OEI4UXd6b3Nla2hzaWRNYlMtdEtjR1VuakJjMUJqSF8xMlJUc0haSkpCbGd3ODVqdnVIUjhzSGlHbmoxdjZuLWJHZQ?oc=5",
+   "title": "[박정식의 국내 주식시황] 필라델피아 반도체 지수 반등에 국내증시 동반 반등 가능성",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4SzdiQmtqa2FJaER1WmxBbE1qTFZGVnRxdmttSDVJNnptNHBMRHhCbVVyQ0FwZ3BJRVNtMEk2c1BEOUo5WkZGMngzRExpZDIwQTFJdGJnaGN3NnRaUnRmVWJ2Z0ExOHlrNTlEWFNGcw?oc=5",
+   "source": "뉴스퀘스트",
+   "published": "2026-10-26T23:18:51+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Chip Stocks Find Support Before Key Reports From Intel, Sandisk",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEw1a2xadXdxUEZzckxXYWYyb1pxSm9YWXJDV1QyWHdDcEJrMTlQMVk4NlI2X0ZPMGhDUndGd1RFNlFqeHhSQjVTc0JCMUt3dnBuU3o4RVlQYXVBSjRNUWFHYkxlY01VUnR1Q3Fzc1JzTzVHXzAyd2NyS0dIeG9jWFZWdTlXdFM2cnlEeXZET0NPdVd2X2tSRzlR?oc=5",
+   "source": "Investor's Business Daily",
+   "published": "2026-10-26T21:50:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDYyd2VndnhVdFI0ckxsUnVKbVRRaGxOMEoxOUpZTFcxeWJIdW5MbzlIWElaUW05RDdfNlM1b01jM3lFTkNCN184YzZwaU9PMWxOOVBKZkNrY2tGZldMc3U3THdNU0FST1ZKcmgtTF95ZlIwV3ZiYlBaVU12RXNoUjdIcVNBRGdnMldGUXllTXRxazY2SWNfZjZ0cks5T3p4LWppMUZqb1E3MWdpdThjVEU1OGNKdng4SUZHQndKalFVOTA?oc=5",
    "source": "MarketWatch",
-   "published": "2026-10-23T21:46:00+00:00",
-   "ticker": null
+   "published": "2026-10-26T21:44:00+00:00",
+   "ticker": "NVDA"
   },
   {
-   "title": "Fermi (NASDAQ:FRMI) Stock Falls 3.8% on Insider Selling",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaUliZzlQeXZaVnBuZ09SdTA5TTBOZ0JPbjVfUms0MllIVS1veGc3NXFvOUZ3VkpFM0lLYTlxMmJobTdGVTA5RHdnYlo2ekhxOW9XcmxldkNsT2dQUlZ6blJrWUpNeTFteTRHcWQ4RFFvWk9hTkVXMkVMamlZVHNaYkM0b2ZIR2dFclNNdWdMN0x1WjR2dHJVcUxkM1l2REZ2TnFQdjBqRWpWbHNndzhnZg?oc=5",
+   "title": "Will Palantir Technologies Stock Hit $300 Before the End of 2026?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlAxNEt3c193T0R6aDZkWHhZT1ZtMWY4U1lpaDZVeGhZV3pZZ2p2a0NVSncyeF9wc3JEeVBRamJYMlhmRDFXdjcxUElqTTZHeDBxUTc1TEFHV3pva0o1RFE1c1E5Y2daUi02MUVBdVJNR1JLdDM1MW4wbUMzWGx2ZWlWTlV3WWpTNGpQYUg2N1Y5cEM0OHU4dkJTUUJEZEw3NUE?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T21:36:02+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "NVIDIA (NASDAQ:NVDA) Stock Price Up 2.4% - What's Next?",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd3QtUS1INzUwaDdYUktGRWF2NUlfa2xfQWVYT1VBZFM2c0c5TTlqWTZfWjduOWp1Wlg3NmxKdzRFYk5BSVdKRzN2OUJIcnZwZlB1S1VFelBkdG5sTFQ1dXpscjRKZVl2Z1QzNWIyS1dZdUt3a1JTVVhMYzJCLUpPdGJJVGNzd3M2SnFqTGtKaEtDcWRabzBzNXZFcEhpenlxWFF3bEtaUmlQcGc?oc=5",
    "source": "MarketBeat",
-   "published": "2026-10-23T21:07:34+00:00",
-   "ticker": "FRMI"
+   "published": "2026-10-26T21:23:28+00:00",
+   "ticker": "NVDA"
   },
   {
-   "title": "IREN Stock: Why Analysts Still See Over 200% Upside Despite This Week’s Plunge",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTdDaWVYaEczVEpWQk4zYmJPVW4wSlRZcGZ1UTVqUHlnejRGckhsSXV4RkVKLXROME9PQWc0ZzBabGZ0Nzd4SnFNWjRZckZOT2VITlkwVFZfX3p2aFEwS1BpLWtraUt3LVhHa05lYWJCWVY4WUt2TkxNSUZjMi1zQzZpRDVOYnlzZ3dEVnFpZzNrN0FhNUJYd2FNVDUtQ2xLVzZSZFFieGo?oc=5",
-   "source": "TipRanks",
-   "published": "2026-10-23T19:18:23+00:00",
-   "ticker": "IREN"
+   "title": "“반도체 수출만 잘 되면 뭐해” 주식 폭락에 경기전망 6개월 만에 ‘최저’",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Gb09ZMHd3WnhsSUtqVDBXTDdJY1h5SkR0WFp1NVhEZ21UNmpKd1lEdFYwaGhyUktNNkprSWMtLXJnVFpNeFpfSnRTVEp2ZlRRaFNhSHlR?oc=5",
+   "source": "헤럴드경제",
+   "published": "2026-10-26T21:00:00+00:00",
+   "ticker": null
   },
   {
-   "title": "The iPhone Duo Launch Kicks Off a Crucial Few Weeks for Apple",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeURFOHhobTBud3F4djRGcXl3TUw3QVFzVVNLTGExUlpnT2thX1FZd3Z6Z0xMSWhxY2syX0VhLU5jQ1JjYjM2SXlFZVVQQlVtU3dfX196cWN0cExxY01ldzJkeGwwZlhOMHlZNUswNzhjWXlINDVrZmtWVFk5Q01VX202OTVjNzA?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-23T19:03:00+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "Apple Is Up 28% This Year: Take Profits, or Hold On for the Ride?",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzNQMTRxbVZYUUxNR1BTV3o2R1V6Z05QX1Fkbllxem91N1FpRUswRE96VDRuNGVTdEh6dlRTZ1p0VmFxZ3RlUEVGLWc3MG9XT0xhZHROUlpYNEFDeDlwN25kQWpCOXNPbWdwc19mV2J4QU9vSERaeXJCTzU5dm5kZHVUdjE0SEROVTFPR0FXVHk2TTZJcVE?oc=5",
+   "title": "Apple (AAPL) Stock Falls Amid Market Uptick: What Investors Need to Know",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRm40OVVmVmxpU3Z1alRpUDV2U2wtYmk2enZKQmlkdTNWd0NWbXVvenNremt5RmRodVgtak5JdHdlVUZXQUkxdDRna1dNSDJROEhqWlJvQ0phMTUxcVVJUGxnNFNrSXFvMzBmTGhQWjdfVnAzOGNnYlJGTFFNSk5FTFhpcVQyRy1VdHlPMVB6SDI3QnBUYUFN?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-23T18:33:48+00:00",
+   "published": "2026-10-26T20:45:03+00:00",
    "ticker": "AAPL"
   },
   {
-   "title": "Taiwan Semiconductor (TSMC) Posted Record Profit and the Stock Still Fell. Here's What the Market Is Worried About.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUC14clR2aXF2cVFkUGpJWjYzNEFKYTlWQVBySmdMdUY4Y3QtQmNXbVlaVjVyWEpuNjNzbXlCRER4WVRyeFFwWGFHcXJPOFA3UGc5R1pNb05CX3V6ZkM4VWRibmdaRG9GN3NXbVBDTkZYZ1J2eUJSSkd5OWlza05OSnQ4TUE0VTNyOXhNTGtiSkRxd05xTmhB?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-23T18:15:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "What's Going On With Taiwan Semiconductor Stock Friday?",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV1hWNFFIMUw3cmE2SlhnZUJYcXgtaGVjYV96SjJDWjBaV1JWUlJxNWw1WGR0VTNreXRaS09MTGxCdWMzc3dfa0tsd09FdE5LeVA0aWdMQmV4eFRqMjNXM21kNmRHVnlFb2Y2OEVjTy1tVVVMVUJ1dkxDaFc0SlhkRmZZMGJNN1hDYl8tSlc5eVkxdDFjQ1d1b19KaUtOc1ZhSjl4bnJZS2o0Q3Vi?oc=5",
-   "source": "Benzinga",
-   "published": "2026-10-23T17:50:03+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Apple Stock Looks Ripe For A High-Risk, Short-Term Options Trade",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcDJOdDM5UHM0WG13NmNCZGk4OGI0QXBqX0QtWl9FSWxSV1hSQUl4QkUtaXQ1RW0yQmg1eEZPUGpWMmZVd2o3Qk5oMWVzek1UNVpQZ2hwYUxNOWt3UUxNQVFXbWVtbmliRXpxLVE0amwydWRDQ0RoUkxpQzlkUkdOejJ1bjRUZElxSmtmalFFRDQ3U0dYN1JMUWNNZzB1LUpqc0xPbXR0RFFJZw?oc=5",
-   "source": "Investor's Business Daily",
-   "published": "2026-10-23T17:32:00+00:00",
+   "title": "Apple says it will replace iPhone Duo units showing screen problems",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT2c0TWQzSjY2MVMxMEk5VG5qY20zcUNMUGh5XzJnT1hSeWcxOWNvaS1fMzlCOFAxY29zNkc3UWtzX244WmktMGZtYzVObkdiMWhkNWNIMUtrZ05xM0s4dU5LMFk2WnE5OFVpZWZQZDZ5LTUwbVVELS05ZFlmODV4VU5iR2tVTmFaWlJ5eHJJMzF0Q0RfbVZlNkQtVGpEUFU0VnRUM1dXWGJ5QXF4MEFjWA?oc=5",
+   "source": "Euronext Markets: Real-time Stock Market Data | live",
+   "published": "2026-10-26T20:43:45+00:00",
    "ticker": "AAPL"
   },
   {
-   "title": "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2s2VGY2dDN4TTZCRWFXY3o0ZmZRVFJQRGp5UklibTVIbWtWT1Jid24tTnlZMEFHUjNkNnpQcTJOWTdBdGxHVUF6Uk5pSVFXUlRVVnNEZGh6WXc5dTNweEpac19jX1FDRTczZmk2Z1RpMVh2TW44QjgycmRMYjZDVU03bWdhVHZhbWtXX1JpemdkQ0VMWWtBcXdiVnBINTNpa3ZTdkdicnE?oc=5",
-   "source": "Benzinga",
-   "published": "2026-10-23T17:30:08+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "\"반도체, 주도주 역할 끝났다\"…전문가 \"AI 투자, 다른 분야도 봐야\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yVFBuLXJRdURONkh4TzE5NnJhQUZBeE1raEMycXBsclBFSERiSWM2SDEyTlQ1U3ZhQ3k1OFctR0FjWGtONmlUeHF4VFdYN0NUNmJGaVdyd2R6YlBVNjNUZNIBeEFVX3lxTE9sWXBlU3lXMWFoWW5rRDRtRVkyTDc3ckstMUxwMzI0VW1FcUtzYVhuXzdoMm1KUTJTQTZoQTJ6aGp5aTNQU3BXcWhDWExSTlplNkhFd3A4NTZKSnRJeHUtOFhrdnUtZXg1NzBaeFdTemlCb0g5cVNVYw?oc=5",
-   "source": "뉴시스",
-   "published": "2026-10-23T17:00:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Nvidia Stock’s 2 Critical Flaws and More Reasons an Analyst Says Sell",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVktBZjJfVEV6cG1KNTRURUZ5MUNuSmFSeW5aeldtcWg4LWNkZC05TVVmRmhZYzhSWnNtbG81Vkt0ellCTWZ3dGRYMGptZ0xfZGdCTU8xY3lmR2tjNE80NE5MZ0l1R3M5M0xHV0k2THFIYk13QXlRRU5hSFdzZw?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-23T16:33:00+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Should You Forget the Vanguard S&P 500 ETF (VOO) and Buy the Invesco S&P 500 Equal Weight ETF (RSP) Instead?",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaUd1eE00bTNlTkR2MkZ1SFl3aGhrQ1ZpY3I3UXpWdUpqbFRxR2ppeEVBNkVMVVVOTXd5SjVSeF9YOUdMV01jak5VU3F3Z3ludzViN3hGMzRnUDgxcWRGeGVYN0lIaFdFTWdlV0xkSjNYVXNLd1FzZExvY2dXTWxsVndzZDlIWC1nN3EyQkcyMWlVV0ZVbVE4?oc=5",
+   "title": "Should You Buy Amazon Stock Now or Wait for a Dip?",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbGk1aDhRenJxRVJqbjlLTE9nemkyZEgwS1FfSlN1dnFrRkFWZ2xJNVVqQW9kUF9LSEJwcTgwdTgtOTlCUWZmblRfajI2NUczaHk4QmRfV0phbmJWQVBBLXNHV0owazFWd3o3N0RURE1fTDdhOFItV3RFMWJJalI2WVJaQ0NmN3lCQ2FxQXhoMHVsR0dtWmow?oc=5",
    "source": "The Motley Fool",
-   "published": "2026-10-23T16:30:00+00:00",
-   "ticker": "VOO"
-  },
-  {
-   "title": "VOO is down 0.1% today, on BE stock price movement",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzhlV2lhOGgyR1dONWlhMTB6ZjlDRUlSNHdwMy1mNG5TQlR1ZU5EV0xESFIyWW9JSENWZTN3OU1tS18tM21BN292cFdVRFhzVElQTnJLOXd5QmZUOHktMGp6LV9LY2QxMXkxbU1Ea3hROFIyeHRRSktNb09renM1Q0h0NllPbnFKdmlEOG9xQUw?oc=5",
-   "source": "Quiver Quantitative",
-   "published": "2026-10-23T16:16:00+00:00",
-   "ticker": "VOO"
-  },
-  {
-   "title": "캐시 우드 \"AI 혁명, 9회 중 1회 초 불과…韓 반도체 주가 걱정 마라\"",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PS05XR0tLRm1OZkhFVEVJSXdKanFvdnFqSDB5TTdoNWo5c0lCN3RoazhIcC16a2lIQmxxQ3lIQXE2YWd2aFdMeVZweTJwbW5adl9pSTVVMUxEdw?oc=5",
-   "source": "파이낸셜뉴스",
-   "published": "2026-10-23T15:00:59+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Not Nvidia. Not Micron. This Little-Known Chip Stock Is the AI Boom's Best-Kept Secret.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb01Rb0tTV242ZXZIYWZKcldDVEhKNkZGN1VyMXcyMHlsWXJha24wVTJXd2c4WDNSNlRtOFd2MEFNYlZKbDhZN2Y3cGxtNWxfaDNYemc2WWlhTEVISXdSa2cxY0VXclRKaE5ZbHlaVW9zX3h0OWhDYmxJUG4tRy1aaHIyazk2U3RrWkNiMmxGVlZzLTlmUi12Vw?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-23T14:45:00+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "SOXL Jan 2029 235.000 call (SOXL290119C00235000) Interactive Stock Chart - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqUzJVd0RwS0lLdnJ4b3FTS1AtaHJPQjVWSkVTTXU3QWE2bUFjVnE5TE5HZ05MT0VRUUJQTm4zY0hQVXMxMVBEQUQtVEFBaGE0dUtQNXdDTWcwZGl6ZmkyNk5UWDZIc0Y1ME1qSzFn?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-10-23T14:05:25+00:00",
-   "ticker": "SOXL"
-  },
-  {
-   "title": "VOO Nov 2026 682.500 put (VOO261106P00682500) Stock Price, News, Quote & History",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qWFJPUlFZOGxEY0kxMzhMdUdDUm4yZ3R4RVJEc292RFdoLTRydm5FZjI2RldxWlByaElDNFVuaXRXY2pvQlJjT3hzd1cybDktYmNtQmx0UWlkaERUaW1nQ3h5V2s?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-10-23T13:40:35+00:00",
-   "ticker": "VOO"
-  },
-  {
-   "title": "PLTR vs. BBAI: Which AI Stock Has More Upside Ahead of Q3 Earnings, According to Analysts?",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0MjliR3dMR1hKUXFxZXRJWVQ1MzlzR25IWTZnUmpIWEtJZHNFYWdhQmNINFk2cEw3Q015U2R2Y0k3YjN3czZqajZMNHJianpaVzV3eDdrWTNlTWx1VzJoUG5GWlhOaDZ2akxIUzNzOG43SnhRX2FKX0t3?oc=5",
-   "source": "TipRanks",
-   "published": "2026-10-23T13:40:22+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "SpaceX Stock Climbs Today, but 328 Million Shares Are About to Be Unlocked",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU05MZnpmbWhveU1FYmtJMFktbHJrbDNEZzBPUDF3dk5QQzVGcmg1eW9Od1lWZGYtNGhvTWpGZG1jQi03VGgwOWNXMEZNZ2FMWDlxUnA0eENMYnNzY0l5ZGF2RnFUcjhCcEVNR05sbDcwaVBWQnF6T0xaeVJYWW45alEwRU55SGtQaXUyZDkxQi00TGF4T2JKNjIwMWNjYjhQUzRNeHNB?oc=5",
-   "source": "TipRanks",
-   "published": "2026-10-23T13:28:44+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN)",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVlYdWNNeGtGS3BWTnJhQU41SHpwbXlaWjd3U3NsQ0VmamJSUmxSUkpZTk83aU92aUhuNkVYaThmTmZURHZNSjloUS05aDB3ZG5rMlNUREFVczdRUkNKaGN5aE5aZ3Q0SjhsZ2U3VzQ2M3dGTXhBNkdWWE1WSmF5NkZVT1BBOTh3dUVOeXZTS3Z1TkNSRXVMbDFaVl9MTVlKaG5UUzR3?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-23T12:33:24+00:00",
+   "published": "2026-10-26T20:38:00+00:00",
    "ticker": "AMZN"
   },
   {
-   "title": "Fermi Inc. Estimates – NASDAQ:FRMI",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mYmFXb3phbkVVVGd0VzJmRVlFNEE4cU8ydmRDMUZGQml2V3RCOE9tYlp5ekJrS3VQTkhmemh0SjgtYTBwVkN0Umt1b2oxcjVQU0hpTkEtSlA3THNiYnNLRmZMS082TXlGUGc0Vl9jTUpKLVU5b0JLVQ?oc=5",
-   "source": "TradingView",
-   "published": "2026-10-23T12:30:15+00:00",
-   "ticker": "FRMI"
+   "title": "BUFR Holders Left $62,250 on the Table on a $300,000 Position While Chasing Calm",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yNVJieHVMTV9iRVIxempZdzdzVmxaZ1d1UGtYRlpuMjhUZ3hyeDJwR1ZrekFFbmhEek9tYzlJVmE3dmRXTVhIMnZzUkE4cEpwaklkSDhqSmlEVFlwOHp0YXZ3ZHZPOEtYTXUzc2hNbFBpWUM3RXdr?oc=5",
+   "source": "AOL.com",
+   "published": "2026-10-26T20:33:18+00:00",
+   "ticker": "VOO"
   },
   {
-   "title": "Taiwan Semiconductor Manufactur (TSM) Stock Forecasts",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMzhDdnNLQW1lbnEtSEc2SVU3dUE5Z0xrMTdvTGFMSjVPZVlrM0MzcndTWTkxeGJQQzIzeFVwUmxhMUtWR3VqYXVKSkp4eVpiR1U5b0ZvXzJuWnJ1WFV5NkItdGVxU2owS0NTUXZrQVNfWFFHVnJnWGtPM2VGek5jTEVGWlFlYjFIQXc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-23T12:21:14+00:00",
-   "ticker": "TSM"
+   "title": "Tesla (NASDAQ:TSLA) Stock Surges 6% as Barclays Raises Target to US$450 on SpaceX Merger Hopes",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0xyakhOM3hUbThEcldBT3U5T2hPdWg0TFFzWDdKcGZyQ0hDX2lsT29JT0QyMndYbVMtanhEeTBJcjVfR2lPeGs3UjBvOHQtS2xiOXdGUGFxQlBibnR4SUhZRWpUMnBtU3Q0Yks1S2NWclJCZ2MzSVRDcW40ZGVKaw?oc=5",
+   "source": "Stocks Down Under",
+   "published": "2026-10-26T20:25:33+00:00",
+   "ticker": "TSLA"
   },
   {
-   "title": "SpaceX Stock Catches Rare Double Upgrade. How Shares Can Rise 70%.",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rX2lzZ2F2Qnl6Vm5weTJtZVJ0NDVwLTZwNGQyUEtvUEZNYWoxSGFPSDFGQ2JZNkx0SnkwbUgwTEdzeHlnLWZ4eWQ0OWttSXNzMjNNdGFtQmwtQkJLMlVRenlNZDFyMnlaZVVxRmd1dXF1cndSR2lB?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-23T12:06:00+00:00",
-   "ticker": "SPCX"
+   "title": "Up to 20% of JEPQ Can Sit in Notes Issued by Banks. Its Prospectus Warns They Can Default",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOHlnUENjNllRREtjc1Y1S3hJc3NxSnBZNDhEaGNwOXJEZ0swVHFUdlpJVmQ5aVpGREtqMjZSSVFBVUUtelFSY1ctWWlTODVVVVc4NzZtVE9WU1Q5Mm1mMDBwVWlkVnhYQjRlWHJHa1F4N21GVjNpQndiQkNVM2g1bF9ZRlYtOUt3TG1BRkR3c0JHNlYyY0pWSDdGbDZXeXJ3eTJOM1VQVHJpcFBUYXc1eHdBWVYxWVZjcnV6bWRXRnlFaTdPT0M1N0JaOXlTWGtR?oc=5",
+   "source": "24/7 Wall St.",
+   "published": "2026-10-26T20:16:20+00:00",
+   "ticker": "JEPQ"
   },
   {
-   "title": "Should You Buy Amazon Stock Before Oct. 29?",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVdEY3ViSjN0NGYtVjdrMHlkZ21sVGNiU085VGdnd08zU21CU21PSlJhVEgwRWQ1dldaWk43R0dHREpWNU5CMGUxd0xxQTR5OTBhOGpZRXhXVExCQWFxY1ZQWGtVbjN3Y3R0V255NFdEZWl0X0FHb2tYWTV6M1pDMXlfT1NhWFQyVXl4dg?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-23T12:02:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "BMNR Oct 2026 30.000 put (BMNR261030P00030000) interactive stock chart",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOEpBMVdzRUxKQnljR0hmdU9jTnBiZEhqVmtsY1prOVRDNTJBYWdzSnJDTVc2c3lQZDRDaWpwREFaakg2ejg3RFNjQ3RhN2tEbW1WenAzSks0ZllZX1hHQkQ0aFNwclpRUW1jMURR?oc=5",
-   "source": "Yahoo Finance UK",
-   "published": "2026-10-23T11:49:35+00:00",
-   "ticker": "BMNR"
-  },
-  {
-   "title": "Pirate Gold Corp. (YARR.V) Stock Price, News, Quote & History",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNc2VRYXFCTzNKVkQ0T2ZkQTN4TkdVcFVxX2NCbGRJRno0cWFncHZ6ek9ZVVEybDMyRTExNml2TkhLRGVTSnU1RXR1ejFLM1lEUEFrdw?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-10-23T11:43:33+00:00",
-   "ticker": "GLD"
-  },
-  {
-   "title": "반도체 매수, 딱 11일만 기다리세요",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSDc3NWJoMjlOLWpweFFCd1g1YTMyY3BSOEZTd0NUV3dKUk00UjVuajViSk55ajNxUUpNN1hsS3puWjZSTjdndHk5R09xR2VuZFM4Y2pRczBPeFpJS0tpd1BMSWRoQms2RXo4blRoMVNRdzJ0NG1rS0FCX0xndEk2UFoySW9NOV8tdjlj?oc=5",
-   "source": "네이버 프리미엄콘텐츠",
-   "published": "2026-10-23T11:32:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "First Mining Gold Corp. (FF.TO) Stock Price, News, Quote & History",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hVUVvSVY0a1JPbkZJUGRrNjVPSURjNjd6aUs2TlQ4QVkwZjZIZGdZTnE3Nm5WSE5xNUFPckNDS01EV2hfNFVoZmlHazBaV3NxTzIw?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-10-23T10:31:05+00:00",
-   "ticker": "GLD"
-  },
-  {
-   "title": "Prediction: Intel Stock Will Take Off After Oct. 29",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXFKNE45amMxbzI4VFA0S1N0V3E4Ni1JdWM2c2JZdzhkb0VObC1Sc2lONEktdFVkYXhTWDRsUnNHRTFNa0o1YUt1Y3JJd0J6WG9Rak1FQnhTa2tjdVlnNy1oLVFzM0ZydVFlNm5oRldCWmV5cE1MZGZrVl9UR2hwWkJGNFRUQkRTVENhYUcydWItMkdoaF9yREZzSQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-23T10:20:02+00:00",
+   "title": "Intel (NASDAQ:INTC) Stock Surges 5% as Wall Street Upgrade Sets US$125 Price Target",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNDN4SFhxV2MyZkpSdlpOZ21lRUM2UjkxRjdtQ3FKbXUyU3pZLXVORExVRDVoX0xFNmwwRHpPNktvZzVqcG1MNVZuMjRXRUdFQmFHX1E1YWJrNENVdHA2LXd6X1o1aXVqVHBqb0RSbDJIVkFaeXl2ag?oc=5",
+   "source": "Stocks Down Under",
+   "published": "2026-10-26T20:01:24+00:00",
    "ticker": "INTC"
   },
   {
-   "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
+   "title": "GOOG Stock Heads to $300 as Infrastructure Costs Rise Ahead of Google Earnings",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOHdrS0piMm1TV0xxZXZlR2Zrc21CbG1yNUQzR2pUZ0VCdTdPZVJEZjlHMEJkZ1FkVHdKbzB0VTQyMUg2UDhuQnlKXzBnSGlJMFRLeHlwbUtTVFhRRVBib3o0cmM0VVAxODdKNjNad3czaXNNMGpBZ2NLRWlxOGxFOXNMYUZKMWZuLVp6VHZrODFYbnlmbUV3X29iRDVwSDlNN3JFQzBJbHJqd0lrVzJUaUpYdS12dkhDNXpjMg?oc=5",
+   "source": "FXLeaders",
+   "published": "2026-10-26T19:49:47+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "GOOGL vs. AMZN: One AI Stock Worth Buying Before Earnings, the Other Lacks Clarity, Says Investor",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR3I4QmlsOUxpdnp3SG1URXFMY2pTLXVCS2U3dkVKSXNpc2FPVHBnNE9LYWFZeDJXQ3JpQ2Jiek1jY1J4Ml9YS0VDTW9yN1lIUVk2Rl9fUXdwNHFXVUxYQWt3ZzhRWnozRE1vT3pXYWZCaFBtOG9Wc2J4S19uMG53aHZ6SzdEOU1FUGxJYTF6QWdSRThraXc1bS1vc2MyRm4wRERtUHhjbEJGOUVycEszSzNtelpJSDFWcVY2MDJPZHc?oc=5",
+   "source": "TipRanks",
+   "published": "2026-10-26T19:13:03+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Intel Stock (NASDAQ:INTC) Surges Up After Talks with AMD",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeHpEUGpLMFN5Tzh4VjBXTWh2Nk5jYUItMzkxVXJyU05yTFU5VVFaanVtN2V5d1Z4RERBREZsT3hWUEFfQmpoZDlIS3AxVFlkcEVaYk0zNmNLa1BBWFZ0cEJyMnJNVlpvUEcwX0xaWVUtQzVSWmRYeXVnZFlOUmNETjZpN0dtWlUxcTN3?oc=5",
+   "source": "TipRanks",
+   "published": "2026-10-26T18:39:52+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Tesla Stock (TSLA) Hits Three-Month High on Hopes for SpaceX Takeover",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHlpM0FrQ1JaQ045LVBjUWlMNG5rU2dQejh6MXJWZVdxNjIxX1doUjVPdWVGUWpRYVZ6bWpYUUdhMm9BdE1Tck5vLXdwa0FyZVhUVW9RM29LY3lYUlluLXI3Y3lMNE5kNy1OTjRPNXVDUTM1MnBpRF9raW9MTnBqdXUzMGhEZGFZUUtxTlFoYjF1Tzdub1Z2clA1dTgzZw?oc=5",
+   "source": "TipRanks",
+   "published": "2026-10-26T18:19:26+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Apple and Alphabet Stocks Look Vulnerable. Here’s How Far They Could Drop.",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWFRDWkpkcWFLUzZrMk9TOXUxenRUSVZtM3pkWkI4OEk2YWZUQnp6SVdYWmJIZEFSRUpwR3hqTzViNzFjZzd1NFBDZ1hianhzX05pUGgycUhmNV9hYTROSHl5QlE2WDRKdzFlX0VGeUNMZVBfRzF4OE1BNXA2Z1EtNFNpVVRvQ0k?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-26T18:02:00+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Burke Wealth Initiates a New Position in Palantir (PLTR) as AI Software Growth Accelerates",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVG9vVEZVRHk3clpvUTZUejZfRVpVTkJ0cjZjUjI5VUdQajFGOUhyYXlndnc3YkFoS3RoSURiTVp0TFpiZy14Z0V0cF9GekxhelZuVnFCdlBFalFzcl90OWlZc29yM1RwSkE4N25Qdzl6WnVCYzB6X2R6THFTTFhxZ2RoVmRSZ3BRUG5kdTlMQzJwSlZiRmUzVngwTUFPcGFJQl9pR1JEaw?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-23T10:13:48+00:00",
+   "published": "2026-10-26T17:30:50+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Prediction: This Magnificent Seven Stock Could Be a $1 Trillion Opportunity",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1lONUUxRmtYU1FBLWxKY0JmMWVwaWt5c0pnREthWHR1b3lSakZKT1VRQ3RSUXRNT1VFbmVCbDlDbm92ZlBobHM4S0RYV1NMejdWTkRiWTJlNG1YQllXRmdOdUsyZXB2b2ZGNnVxQkxYMHpvSkhiaUpRRzc2VEliWTAxRnFja1dOSnlDd29fUjRFbU1ObUtoSkM3UUxtQzlTbm9wTUJ6N0h1LXJub3JMZnF4S1NUcldN?oc=5",
+   "source": "24/7 Wall St.",
+   "published": "2026-10-26T17:30:00+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "Bitmine Restarts Buybacks With $45.9 Million Purchase as BMNR Stock Slides 6.5%",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YMFlFMDhCdHNwS0lLRllYcm1XOUxibENZQ01pQkdPR2NqQVJBbmlITEhiRVd0endXQVlQZkxVOTgwdExKWUZTUnotZGNNa3pVa1AtZnZIblFuZS15MlJSZk1BWFlvR25sVWIyRkFmTEZUVVBUQUE?oc=5",
+   "source": "BigGo Finance",
+   "published": "2026-10-26T17:25:00+00:00",
+   "ticker": "BMNR"
+  },
+  {
+   "title": "Tom Lee Says Crypto Faced Same ‘Risk Off’ Forces Behind AI Sell-Off: BMNR, ASST Add To Crypto Treasuries As MSTR Skips Bitcoin Buys",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQay1CbTU3a3FYcy1FZ045QWU0TGNSVFcwMnRuZC02dzQxdHFuOFNycWJhdGQwbUpWSnhQazRENEdKbzdDeTE0T0JUWFhVSXUweGdiZWY2b1pKbzBmbkxIUW1jX0dsYVBzaFZQRUZNMkx3LVhLQ1RPWi1aQlJNUUZKUnAtT0xnUVI2Y3NwOXUzclhSb0Rw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T17:22:11+00:00",
+   "ticker": "BMNR"
+  },
+  {
+   "title": "Anthropic makes more per employee than every Magnificent Seven company but Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbWFObk92aFlQbEtZY0RPRWI2eXE3LXhsc2p4N0k5bWNGeUxhQkNUazM0alVDUEo4Z2x3eGp4OC1nazJFQkFCRExSWXNYZ0xjT29ESlRWWGt4Q1NhQ0VwTElzRG9SVVpNa0FZdEV0MjB3X3UyS1d5QWVoVWlDVndoaEpxQ0tPZG1qSG1GMGl1MXRLWlhsa1I1Z2xZcEw5ck96UHRpR1hzV3JJdTJKVktKbk1mMldWSHpEdXB3RV92QmhqSlhpcG9sbGV4bl9RWVdIRDc3Mw?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T17:11:10+00:00",
    "ticker": "NVDA"
   },
   {
-   "title": "FRMI Oct 2026 4.000 call (FRMI261023C00004000) stock historical prices and data",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ncEItR2ZXc0tPb280YlVvaWJfU08yMVR1X2Q5a2tOdnNadG1PMzU0RUpCZ0IxRlB4VlN3MGNOLWJ3V0dpeXdvTjY5aUVTc21wc0ZUaEJMcXpneGI4NXNCVnJFM2EtU3dQRUFFRThIeHA?oc=5",
+   "title": "PLTR vs. ACN: Which Leading Tech Stock Should You Consider?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNF9EcGVGSnVKeDl4S09JSEdybWVsSW1LWmFjVFM0blB3ak1odWphcUh2T3lRY2doQnJ0cmo3NHpKR1hXYndNLWd4czNramJoRnNNaVNkbi1qN1l5VVlKUmdEeXM3UlRjOVNzeEdGSTRYcDhpTTVyaEpWWGk3TkFDVVh5Zi1yaTF6Ty1nWjIwNDd1R2NoUTdIZUhBaXNlQQ?oc=5",
+   "source": "Zacks Investment Research",
+   "published": "2026-10-26T17:06:09+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Advanced Energy vs. KLA: Which Semiconductor Stock Is a Better Buy?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQzBpa1o0aTVSMzZ5aDdUXzlLcHRCdjZ1OHBBd2tYay15LUFtQkp2WG1TZk1SXzZzdUtXemxKSXdYS0g2SU9mRWVnblRpWWFnV29CVkVWSHJvRWFVMjFWdEhiQzloZGN1NkJ6WHBfWnkwc3BDeDYzLW1feVpoR2FNSGhBVGFKZnphbkE5TEtmNG15UHhZNk04TTg0RHZIcW02bWxR?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T17:06:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "What Is Going on with Intel Stock on Monday?",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVEEwN1NzR09MYlZvbVNQakJBaFJSdG1vV1lnV1A0NHQyZzFFeXBHMUtiZkNZQ2xraGZ1TktLdHl1Y1hmcDh0MEZTYjFLMjVqVUpCeG5hQTNPMmVLbHhrVkdWRkl4NzRtVEVPYjU3VlBySFhPLUFqTVNXeE5mRnpPOEtNSDM5a2tQT2Z4VlN2OERheEVTb3BKY05xY2k?oc=5",
+   "source": "Benzinga",
+   "published": "2026-10-26T16:48:18+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Tom Lee’s Bitmine Adds 10,452 ETH, Repurchases 2M BMNR Shares",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZQ19Dd240M0pGbktCdTZTQnliLWxraU14SUxNbGVvVE11bnFYWDFnSC15dWl5dFFCMXBuMDl3QWFFS0UwUFNSUlZKUHNPbDA0andrYVdzZWpTQQ?oc=5",
+   "source": "Cryptonews.net",
+   "published": "2026-10-26T16:20:05+00:00",
+   "ticker": "BMNR"
+  },
+  {
+   "title": "VOO vs. QQQ: Here's the ETF I'd Personally Buy and Hold for Decades",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSnNpOHJzQlJkUlFaU0hUVjhlcGUyOFVEbGNRbXNYeGFnbTBpQTd0V2p0TGM3YjNyUkoxZWRfLTJNUTNvd1gtLS1BMHl0WHhkanpZMVBUbTlHRldCS3lIZXlrQXhqTTR4QVhpT1RraWtHVUFyMElrSmxQaDZKalFpRDBHOVV0UzBOSHZDbnVkUXJyY3lKa3IxVA?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-10-26T16:20:00+00:00",
+   "ticker": "VOO"
+  },
+  {
+   "title": "Palantir Technologies (PLTR) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOTZRNlJqZ1l2UUtEenZUMFBJQjlHZTJpUDBuc2htbTFBLXFZWVI2N2JuNndVNkN2TWkydnpEYm1RdjZoa3B5T2txUUY5UktUNlB0aDg5al9HRUtDQ1B2UDBQUE5OWnpjQmhqbVQzYjVFU2FPWHlSRXRHS0NCMzZiWDF3WXpkak1xTk1PMEM5eVAyRHlIcy00UQ?oc=5",
    "source": "Yahoo Finance Singapore",
-   "published": "2026-10-23T10:02:00+00:00",
-   "ticker": "FRMI"
+   "published": "2026-10-26T15:45:02+00:00",
+   "ticker": "PLTR"
   },
   {
-   "title": "Crypto & Stocks | A 100-Year Treasury Reset as Semiconductor Stocks Plunge",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVEh0TkNZTHRjR09ERndGcXI0ZXpOaGVvWkpWc3BkTTNlWDNLMGJaSUNYSGJVNlVFZF8zN0pWblF5TGpqSnFwRVlydEozaWE5Y3hEM1VzTDlPdXlwZk1XNzVLMVUzVUhaRTNlTnNDU19PSk1OZEI5WTg4dXpPWFJGZVFIbGRhcmpwSVIxWS1GZDNmQ2xMbzB3bDBrLTVrTU9jbDNxal94QmhLQU1KcjA1QTdCZFRjNkY0?oc=5",
-   "source": "Moomoo",
-   "published": "2026-10-23T09:17:23+00:00",
-   "ticker": null
+   "title": "Intel and TSMC Are Vying for Chip Fabrication Supremacy. 1 Offers Superior Value.",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQMkdxaFk4NmlNWi1tSGpjYlRzZ1JWa05kWEpEd19fUjJyNDR2amZ2UWJTUFUtQnRSUGEteTdRMm5yNTJNNkNaZ3dXYVVtU2hsMy1KNEE1QjJlSEJqa3Y3b290MjJIeFl2VEk3eFpkeE5pVFpSeGstQy15c1ZrbENiZmY4MUFtazJfcWRtRGlCQ0xMNTh2SDFzTk5CbUkzUXpHMW5yc3AzdlZaWnJib0ZKRDlCVkRwcVdfZ3ljU2R4YUQ4X0dlcVViV2lTT05Rem1YblhhZ25SYkt5Y2JUMDlPcU9IYWlLa2E0NWx6eWtBNGNLMHNQT0E?oc=5",
+   "source": "The Globe and Mail",
+   "published": "2026-10-26T15:26:48+00:00",
+   "ticker": "TSM"
   },
   {
-   "title": "Tesla (TSLA) Stock Could Be Above Fair Value After Merger Talks",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkJ3NkpvWjhCS1c1eUVEQkN0ZE14S0xObzlRVTNhczNoSERWbEpkZExtejg1bjZTVllXQzJibC02RmVpVTFGODgyOHZYMXZrVmh1TEJRUVlZU0ZCaU80QVJJckthencxdHlKbHZldTZfbGhIOUlsajNSaUIyel9MVklFNk5NMVZpbXQ3azZFTE4xb2RNS0kwZg?oc=5",
+   "title": "Tesla stock jumps as Barclays bets a SpaceX takeout bump is coming",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEpBd09PLWJZTDAtQUNhVWpsSDA1MFl1ZzAxbkNPQ2RnOGxzMnlVV3RONDFqMTRhUkJsakI4WmdwOUVWVG92TkZPeGZYdm9pMFpwX3VCd2JCWk5fV0ZHY1RVSGo4SkNEb2RDdGNEOHZrT3RKMEExNlRQSTh4czRQUmxsQ0RzQUM3REZkM0JMNU93ajFXeks2X0x6MFFTaUpyZkJ2MmJ4OXJrRXRnR19GRXp4ZUhiV0gzSHZCSVphaFpuQVJHTi1BLXR3?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-23T09:13:41+00:00",
+   "published": "2026-10-26T15:21:18+00:00",
    "ticker": "TSLA"
   },
   {
-   "title": "박기태 아이언디바이스 대표, 자사주 12.5만주 매입",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92RGNIc2VLSU1aUTJmVDMwbElLSzUzS2psQlVkQnhiQ0owaTE1Y21DQUQ3YUdvVUgtdzd1R1VfR1VXNHBFSDZNNWR5SWh3RTZYRFFLODlHbExmd2VIRXpmUDhLb3Y2dw?oc=5",
-   "source": "디일렉",
-   "published": "2026-10-23T09:03:34+00:00",
-   "ticker": null
+   "title": "Michael Burry Is Shorting PLTR: Why Palantir's Earnings Next Monday Are a Make-or-Break Moment",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWYzcEZNbHRNLW1Dc0F6ZG1hVVQtWWh5TVBMUkhUMVJFTF91YmlPNWRzQXZtYXpoZkdrSy0yeU1RVnZVcFNyTzYwc2ZCcDJpc1J1QUNMQkM4V05DcnJPdW9sMDNiWG1CNjFkNU5fem05Smp1T2VEZzd3NWFKNDZJU3lDYVNXN01raWdhVTlYRS1iOURkOVhlYjQ4MVhsLXhpMVRwUy1tQzdVejZwY2QxZ3dXVHlWWFFLUFFwdkU2X3p6YzNydmFZSW5obnFwWWVMdUE?oc=5",
+   "source": "24/7 Wall St.",
+   "published": "2026-10-26T14:49:00+00:00",
+   "ticker": "PLTR"
   },
   {
-   "title": "SOXL Nov 2026 150.000 call (SOXL261127C00150000) Stock Historical Prices & Data - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDemRLRkRxel82bmNwMFR6QzR0N1FvU0c0WkQ3N2dKZ0wtaWVOU0djY1BXNjZISzlEaFBNTXVkbTFneWVQWWwxRWRicGZZT2lQUWdYQU1KZlVESGxaTmdHQkxUcjZ5WEVuOHVTakNDeEw?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "published": "2026-10-23T08:55:14+00:00",
-   "ticker": "SOXL"
-  },
-  {
-   "title": "Semiconductor stocks flirt with a key line after brutal tech selloff (SOXX:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSkRoU1dKZkhKU1NsbG5ncG80Q09hU3dmTk9qWHFhRmZwZkc2LVNXZURkUTdUSHJteW44ZEc0QUtSWU1oR19hR2plQTV3bnhKRUt6S3JvNTNzeWdzRGVhaEE5NzNVdmw3Qlg1OFVwNlg5MGRoY0swaGRXUmtZb2wtSHkxZ1JlR09zTGRKMlVUYmJCdWVUTTBCeU1Vc3YtQ0NHU2ptemJWdVQ1Zw?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-23T08:44:22+00:00",
-   "ticker": null
-  },
-  {
-   "title": "IREN Stock Fell 8% in a Day After Its Spain Campus Rally. Here’s What Wall Street’s Targets Imply",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMzNaSGl4UkltU3VIbkFzYkx2OWJtc3J2aXIyZEdtaWdUU0tGU2l1N0xZQUlUeVN6QXFxc3BCbVByUHNuN1V5SkdWaUpEVFRCQVNPV2FCVEVXWE1wNXc3TENOREFyZUV2Wk95ajlMeEJLWEJMdjZHYnBUVU5IaXE5RWpiRl94THZwRk9POUV5WmYweUxGdkJ5M1hHYXN3djlmWW96NjhoSjZEVDF1c1J6ZDJqVnY3aE5Md053?oc=5",
-   "source": "TIKR.com",
-   "published": "2026-10-23T07:25:46+00:00",
+   "title": "IREN stock prediction: $30.63 bull, $10.22 bear",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYThrWDFPSDBTOEdpNm41MGtlaWxxTkFZa3M5X1lna3NqOUdHNFhNeVFpZmx5REVvNGtaSHQwLXMxejIxUndBd2wya2w5TUtFS0F2VUQtcjVsX1MwVDU4aHFBSUMtdExsUnltUUpXSXpDRE1wQTBLVkNYR1NCS2VRRHB3?oc=5",
+   "source": "FinanceFeeds",
+   "published": "2026-10-26T14:06:27+00:00",
    "ticker": "IREN"
   },
   {
-   "title": "Why Did Bitmine Immersion Technologies (BMNR) Stock Drop While Attention Builds?",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUzRtaW9NVnVTM1dYMVAxeUpNNWZqTTViZnp6Vkw2cGZISE56TWJQcWMtLUN1dURjU0Rpa3RuazRrbWtGZWlMSnJWWWtxcDdxQzJKNDhVako4X2kxS0ZlcDgybHBZMWU3M1g4Wm9UbHo1MThhaXFhT3VRX2VpZHdmVlN6MWxRRzZ6RDJmVGszSHI1TnlPakE3aGZFWXRFZDJ1blJScTd4RWFCNmxpVXZjVXNOcmpwbXpQMDlLM2dhVWpvZWV4LWM3N1l5YUhpdENjanJ6RjhmbjNkQm5IY0pteNIB5gFBVV95cUxQZm1kUVRJWWYwNEF4cnhaSGtKZkdxSFNkS2FlNTJrdDZvQlRnZ3oyYXhQZnZFUHhVRGlidXVjQ1VJOUZqUWFGOUlBSlctbnlvWnNscHhkNk9vYjl2QVZDQTlCUmxGXzhqR3lhUEZoajViSjJUV3MwaTVubWVldS1VS29kc2VBdTJwcWdpdVNnR3FVT2h0ZmE5X3JuWG4tNDlTUXZERW9GWGNUT25hRU9ucDNaeXRSblBvWGNjSVRXVDdFMVFpd0g4dm9kSDlSamVmb1hsZWFmODczS2hXVEk1dGpYeW56Zw?oc=5",
-   "source": "Simply Wall Street",
-   "published": "2026-10-23T03:52:42+00:00",
+   "title": "Why is Apple stock sliding today?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONnNfbFFWT2F3dnFFcGdRTWtkSW13cGtQZHRfOUluYUJ5LUwyaFprTVV6RC1MY21iRTlxVGFqNVdtbHZncGJzVVVjVG5zdTJTQnpkRWwyMmVaZGVjUnRaREo1Y015TmRZV1JMWC0zRUxuWXlKbjJCTDctaFQtVjRXMjVkTkxuczJKcF82YUFMbjFDaGtzN0xna1hn?oc=5",
+   "source": "Investing.com",
+   "published": "2026-10-26T13:59:05+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "What's Going On With BitMine Stock Monday?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONmNrRmwta3d3SEdqckk5a1IzY001YU9yMFc5UFVMaTVMeVFDejN4R09kMTVwcllxTENmdGdyRE0tUHdhZU9henJrRnU5UzRMakZrMjRxeGMtLVh0ZUZWeThySWhadGZCOVU3M2RqdFhTQjZNMlRCWEhldlN2ck0tcEZqWnZvaGdYdlBzTmhpeDFZV3lDZUR2YkRyRnd2SkhrVmI0?oc=5",
+   "source": "Benzinga",
+   "published": "2026-10-26T13:46:10+00:00",
    "ticker": "BMNR"
   },
   {
-   "title": "SPDR Gold Trust (GLD) Stock Price Today: $368.12",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WVDlnTmFLcHkzTkVoQnhnNThpemcwSmJSbjNMZWE1MlNaUGhuY2V2cks1VWFIb0hVTWphSkstajJhX0M2NlljUFZTbXhPUWZ1b3lrOE5uSk0?oc=5",
-   "source": "Pluang",
-   "published": "2026-10-23T03:32:24+00:00",
+   "title": "Apple stock has become an anti-AI trade. Here’s why",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM3NlVWZXMWo2WmN0aWJaSTFLMGcwNk9Sd0JNSXJRX3hVNDg1bFV6Q3JKYlZFa1JwVV9ZZG5lWDJpc1dYaGxLZ3ZKNkRUazRjVXE0ZXFrVTF6eGNFbjM0TlNpaHVIYVNsSHE1Nnl6dTQySy1PWFlGVkRLWEhjUTV3ZmI3T0xuZVZmcm5Da3IyUQ?oc=5",
+   "source": "CNBC",
+   "published": "2026-10-26T13:43:49+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Here’s How Much Traders See Google Parent Alphabet’s Stock Moving After Earnings",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGtJWXRlTkUxems2ckVtd1RmSTZGVW8zN0RBUGlSWGtLekdWVk9wWGlFcWt3MUNrcjJocEpUUkNxbE5RNy1TMDRKazhFbHpmWjR2WEVHNmRsZ3RJeXA4eFpubm9IUnRzZGRPd3FCbENoTTNpcXNidFpQSGZJY2VGUDlramhXalA3bWM5S1VhMDRfNENpUEkwWUZ6ekRUbVoxWGwxQ2lxT1dvcG5PZ1VOZ2tXNUFfSTdoMUZDYUY0bTJuWUFzRFdJT2NBNWU0QQ?oc=5",
+   "source": "Investopedia",
+   "published": "2026-10-26T13:43:02+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "4분기를 앞두고 하드웨어·반도체 주식의 쏠림 현상은 얼마나 심각한가?",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MZ3EzVC1fRUdzYU9pUEtqSnpKbGZoNWVlLVJkMkwxa3NFd3hfU1h1WDF3cFIxSUNEMVNOUWxNWDhTT3ZpZ3NneVZRbTREVEF2akhmYm81amFyelREZXkxMG1OQ3E1OGNqeXZjWEg1bkU?oc=5",
+   "source": "Investing.com 한국어",
+   "published": "2026-10-26T13:33:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ00wQy0wb1ZGeDl2SEh3b29hLUFwYnNnZDRfeHgwcDh5Q29MTEJISVgzU3czWVlLUmtPMHpwQzNPSkJRSENTdS1wR0JfQkJYQzNTM0xsSHZURk05T0tqbG1OQU1rSVlmUHdwTTZPdW9Pa2VadndqaFE4dHlNVHJXS0VBZGZxUEs1alpIY0hEaUxVcTBPN09Zbg?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-10-26T13:31:00+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "외국인 팔고 서학개미 사는데 환율은 뚝?‥반도체 '초호황'",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2Vy1IclBjTnViakxldXIwY25FLVpZVHZBVDF4NUFvX0dYcC1DODB3dDVtMW1WZnVablNEaVhFamNJaVhBdVp6b0lMQTBFYTFNbFZhT3gwUWhlN2RaNnZONExKRzBJQ0xPVUdQQnh3bnlfR2pDc05iYdIBeEFVX3lxTE9YOFpvbHZubU40bjhnRFl1SXlOejNlV296by1WT29aOHZlZDg2X1RsZjJsRnRKV2RlUGgyejI0Si1YYktwcExPN2poVjFVcWJIRGpLYkgzbGhKVjZwQS11Y3NJY2FJdzZ5RHpHLVRMd3k5Tmgtenp0dw?oc=5",
+   "source": "MBC 뉴스",
+   "published": "2026-10-26T13:27:18+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Amazon Shares Rise 1.1% Premarket After Anthr",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNX2ZXMDNIanhBZG4yZEotczlQRERaRFBNR0RBT2lDNHZjRGNFV2IxNU9vWENDaUI0X2drZUVyeXJiWDR4TG92em96LXlGVkZScXVLRnZHSEpRQXJVakQ4NG5jYWlkcm5Rd3VzNkRQSzhhQ1E1MXFLcFFERTZfYllWdXlGSFFJTHE3WFVJNUdWM3hJV2hzR2NISHJfeEdyVU5fN1poSWtR?oc=5",
+   "source": "Moomoo",
+   "published": "2026-10-26T13:22:34+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "INTC Stock Before Q3 Earnings: Is It a Smart Buy or Risky Move?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdjhIdG5nc2VYcHZoSzhGdlNoQ25xdkZxRjktS3Z6c091cUhQd1E0QVFXNlo5ZDBzc1BGYVpZQ2dNTGNqTzBnemhoMFM3QzlGcmR4U1RhLXVmSHFjMHpSUFN2WjJRSHJURWxTOHRJd20wTFJSZGIxQXAwSVZNbmExUDc5TEVZMFMzai1Nd29zR3JKTzR5dUlMMQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T13:12:00+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.05 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $15 Billion",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQRmpCZlJxX2VSZXpQdTFRRGZVbTdVeFF2b1VWcDFyYVdqekdRSkNrcExhUTIwYk5RM2psall4SnAzek8tWXU5UUw3YkpYV2JsZjcxVkFRb3JlRU1kOUVWWmwxTmk0a210bExkanI3cExfSGpOTkE4R0FweDUwVGgxZjh4S1N1T3g4VVdLWmlzeF9ZM3VXb3NkdVJYaGxLM21IeFFmNkRobzQ2Z0dMdG5KdWt1czlNZlZsOTVMSmUwSUI3SGRsMTliUjhkN2Nsc1VCTjdhVmtGUlczbVFZaHhZUHVHRnVBWGd1Wkdjbkk0VTl4TVFWNndSNmVmNzNGdEUwMXNpZ3BHbmt4RE1rdXpqTC1RYmtuOHNfY1ZxQzMzekVTazhQcVZONWtqYnNqWWRWZlptTzE3eWkxUTN0cWhyY1g3Mjg?oc=5",
+   "source": "TradingView",
+   "published": "2026-10-26T12:30:00+00:00",
+   "ticker": "BMNR"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Verizon, Tesla, Moderna & more",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3lGeFcxYW9rYTFjaUtmYkdUOGRaWnNUbFNsMDZlYnZma3RMYy1CRURKbmRzdVhkbHI2dUIwd3BqeWFKYnA2TmxOZXJ6NUtEV2V2d0R3WGRTMVRGZGdiSm8xVkFPUkdub3BEMjIxb0xUTW1Tb3gzUWNBalphd3B2RDdfemRkZDBPUG5tcFlIMDJTSVpXV1dpVkoya0U?oc=5",
+   "source": "CNBC",
+   "published": "2026-10-26T11:48:22+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Sells NVIDIA and Apple on Oct. 22",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXNhNHpVMjZ6ZjRheDYwV1Q2NW95ZFAxTDJIYTBBYVpfU0JGZ3R4OTRJcmtmOThkbC1NVjM5ZFp3LUtJOUdHZy1lekl1SG14UGdYRTBnd3hhd190TzZqQ0RqSmhpVzdTSjNCVXN4d2ZGZUJLbXRqc1BUNXk1WTlHVFNQSjRyM1BLcmVHZExrMUdoVjZOZi03UGQzTFhZelZPdkJuZg?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T11:04:11+00:00",
+   "ticker": "JEPQ"
+  },
+  {
+   "title": "JEPQ May 2027 58.000 call (JEPQ270521C00058000) stock historical prices and data",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQLWhGaDRWUnhTWm03SWhJdjRVTmNZT2xBSERWS0gtNHg5V0FNZ29UQ0xwZ2l4aTlfYTBmS1drUXgtaHRraUVNcUtEMjBlaGlpS0dJQTdCcG12dkxIT2JQY1pQeTFXUGlNV2RBdkNiV1g?oc=5",
+   "source": "Yahoo Finance UK",
+   "published": "2026-10-26T11:04:03+00:00",
+   "ticker": "JEPQ"
+  },
+  {
+   "title": "JEPQ May 2027 58.000 call (JEPQ270521C00058000) interactive stock chart",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yTDEyMm90a25HdnVpZjZHVmZERDNoMjBFLVJvYVRtaW9rQWtnWmkyS3JqVmRBZUUzUC1Gc2pBOG5XRHJKTEtiZ1p3NE81US1FRnJPZXpNTy0xUXlhNzVab1RITTdzNzIxaDBseFd3?oc=5",
+   "source": "Yahoo Finance UK",
+   "published": "2026-10-26T11:00:22+00:00",
+   "ticker": "JEPQ"
+  },
+  {
+   "title": "Ahead of Earnings, Is Amazon Stock a Buy, a Sell, or Fairly Valued?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU3ZWanZTdVJOZjZiV21CWVQzeTZYSTZiQkVQS192N2xLNm0tUVFMWmJOeWxQVEctMUpPRmZZTm1NZ1JzUTlEMWNYT1V0S3dwNW9KWUlwQXVVM0VrZ3UyejlDSUgxeGxrcXdtakRWY3ZZZ2JwaUMtUlBoSEt4elV6ZEZWSFhJSEp5dm9yZ1NkWkxDQXNXTWFOQ0dXX3hwbndIY1Fvag?oc=5",
+   "source": "Morningstar",
+   "published": "2026-10-26T10:20:54+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued?",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0pwSzdVaGNDeWswQ3cxeWh4MncyN2RlanBUWFRIdnFraU9zVEQ5YkNic0hBTVlrX1FlYUZmZzczV0wxeEljMll4OW9mSUlmUWpjUDhaMWEtZVdLcjVscG43VTU4ZG1UdE1URjZleVZISERncVA2NnNNekd6c0dRbThuNHRnUFViRDVNNm9JMWd1Sk1YYkUtazcyNXJtaFhtVFJaU0NtVQ?oc=5",
+   "source": "Morningstar",
+   "published": "2026-10-26T10:06:48+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "The Mixed Blessing From Tech Earnings Weighing on Nvidia Stock",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMTFwZFVteGpUWTFvanFsalB1MUlMcmVua0FsbzB6c2tRUFhaQXpZWXNpaXVtUVAyaVZ3UFF1Vnk3SXI0NlhMTGgtWXdIM3hjdERWeDZOdkZlbjI3SjgzdHRlVU1USDN0TzNJeHdPcUtIbVZXcTBZSTFRc1hQYnpHbHpXVQ?oc=5",
+   "source": "Barron's",
+   "published": "2026-10-26T09:57:00+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "SOXL Dec 2026 157.000 put (SOXL261218P00157000) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmeVdRQVhSV1ZWS290bWw3VU5uWHBNSkI4WGJDY0dnVTFaWTlxOGU1c1c1RkNMTmhlZ3dZZ1E0ejFwblZEam5CWF9wNlRYRkRQLXBjNF8xdlhYcTFzNnpVd0Nmd0pQUQ?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-10-26T09:51:35+00:00",
+   "ticker": "SOXL"
+  },
+  {
+   "title": "SOXL Oct 2026 90.000 call (SOXL261030C00090000) Stock Historical Prices & Data - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HeGRzcFJOYnFMQUt6dmNhQmtuSjN4VG9ySklKNHJKRU9ZYlJwbG9jeVJ3Q3pHNnhIdG5QTzd5dmtIQTNIOWY3OGlGVG9NTlJkSlpmLS1oNkJNTC1JeDhZMG40bk14VFE2Sk9SenZHazY?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-10-26T09:42:02+00:00",
+   "ticker": "SOXL"
+  },
+  {
+   "title": "'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2FvMEk4MFF5d0d3cDBiOTcxLW81U2IxdDY2SWt1R0NLUTR4eWRrWjltR2hwNktSVTZudXgyUC1waDJXUFdNMjlFcktuVVprWTJZOFlIUjNZZHFWVzdWRE5RZFBqaVJCWmZCS09EMFM5NEM5YTA2WGhkNVdDOEVkWW1lOVNkN0hEamlUaW94UndEZGhwY0Z3SzlJaDZnaUUzdi1Ibm80VDNuMjVBQXlKaEFTRWhqUWVyYnJOQ0Y2X0JoZjJyOTREN2p4UV9rZjZfanRzeWM4aE5yX1ZIOEZ0LW1DNDdZZmc?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T09:13:44+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Support for semiconductor stocks could be as much as 15% lower than current levels, says Morgan Stanley",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVUp3TWN2aEZod3ZQWkJOd0NqaXRfY2M3X29XaDR4eEdfSktkY283WTJ1TEZENGpBU1FuQlFuOV8tZGFEUmZ3anAwdWUyUG9QMnkyMUliUks5VXRLQ1BOZURHUzBfUnJ0aTJEaTAySlZoRzdvcHFkUDBBUG9HeEFleWw0QmJ2Ylc0d2VFeHJIUGhXZ1p5U2ljOFVoSGtHNlB2SlE5ZGZiVXA5R0pueHp5eVYzT3VYVTVacmxlVXBobGFjSWxMUnd0ZmhxLThnekRvUFA4TDZjbU0yRFpw?oc=5",
+   "source": "MarketWatch",
+   "published": "2026-10-26T09:02:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXppMmROR0hLeEtpY0hYZGhBSVdvS0pTbUZRdHhFNnlzT3RoUFdVTWNBR2FiUFZBU3VlckNIUHRBY2wxME9veS00dTNYYXVLZnVtWVNPNzVpeXFMZnUyT19fU3hob0I1RjJWRkhtZkx6RXF1OFZKRW1GUk84RVhnSnVRX0lDV0VyNzZXeTFycThBNFJL0gGaAUFVX3lxTE9yZjRYZHhNdW5rV0R0ZGlCdUhBbzhtdDNadVpILXdxSDk0NnZKOW1jLTF5U0kxdjRzM2c5bzVVT1NPdnhvUFpDRWExR01yd1EtRXVoWHpkTVRpZnBXSmdHQmlEVzg1SkZCWjRVMW5jYnBkV0ZEUnI4aTZsTVFFU25KSENHQTVTbGt1RnNwdDhHZ3RfVUhnV0dkS1E?oc=5",
+   "source": "CNBC",
+   "published": "2026-10-26T08:42:51+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "AI, Semiconductor Stocks Bounce Back to Start the Week",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM2tLWjNEeDJtekVMNFFhRW9kRlpXclNBN0FkY0tpbnNZNk1TWGJuc1pPam9EbVo5OEQxR2hiZEc1ZDlnRS1DclFndDhmTmp6YndhZFlvWkRVaHhuRTlzN3B1eEtKWFdZNUI5OG1VeTJINWVfdGRnajA2ZWYwcURCbklZbDVYYjhuand3OG1yaFhwTFA4aDJndVhNeEpENlFOUS1JRHNIUV9ncUNTOV9PVmRnU08?oc=5",
+   "source": "Schaeffer's Investment Research",
+   "published": "2026-10-26T08:29:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "SPCX Stock Slips Premarket: Retail Speculates Elon Musk Could Snap Up Cerebras After Chipmaker’s Slump",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1o1Zm90UFl3REEtMmxmVEQtb0tYTzhpRUhzaVVuYlM1UWVsblBxWmFkcnZzZUtJYmZlN2lpVHdWRUxjT3k5N3lWbktNT2tqNGRLczBJaUx5dnFwZEh4Q0t2R2RvQ2lZNzJyZWQtZk1OZG9odXlRRjRVWE9fSXJ1MmVLY2pLNEtjMUZaWVNYb0l5T2d0OFU4eHZfcVVEY00?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-26T08:09:09+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Tesla: Fairly Valued With Little Upside",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmVhdFhBT0JoZlY4RlBaZ3VfaFc5QlFSMFM3ejNmeDI3MGlUWEFabnl1Zlh0NmNsVXFtSUNjUjZYTTZHcjRXREJMZndnenZicnNqMkZtelU5S3JObk1HeXdhVVltSTgyUzRZelpxQ1g4TDYxMW1YNEFKNEdkTnFmOTYzODU5Zw?oc=5",
+   "source": "Seeking Alpha",
+   "published": "2026-10-26T06:25:46+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "주성엔지니어링 5%↓…코스닥 반도체 동반 약세 [이런국장 저런주식]",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uZXIyVmRlZEJIM0FYbHp1aVNrRjBNZm9IR2hrYUUyZVFiMUZCV2RCZ0VkUGp3d3o3SWJaUDZIbV8wMkp6cGNLREZ3b29yYlA2aVE?oc=5",
+   "source": "서울경제",
+   "published": "2026-10-26T05:17:02+00:00",
+   "ticker": null
+  },
+  {
+   "title": "\"무섭게 떨어져\" 서학개미 칼손절한 주식...반도체 3배 베팅은 계속 [서학픽] - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15Z0RoZm84LTVNUE5xU1lSa0prcGw4QmlVSkE3MVRuajliM3JkZGpkTlMyRmZRZEM1dVdmR0VIYkpXOFNYYU5OVUM2Tm0wM2pjdzdYdDBjMmJtajFtNVpfY3NQZExQdjRw0gFuQVVfeXFMT0VCR1FfT0RfQjBxQUVLVWYxUmNLTzZtSmR5WDIxV2FmbmV3dUt0TEs2dVl2dkdMUHMzUHo2dGRDWlkySmdxMV80X21BS3dkaTh5T29VNFZ2YlBYVFF5b1Q1OTVxQThFR2FXN0gxaXc?oc=5",
+   "source": "머니투데이",
+   "published": "2026-10-26T03:35:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPWmluXzRSdUFjVjh6MWNzZ0NCclhhQWFlYmJHRGdIMHYweDMtanRiV2Ezbi00MG14akJTSEtVb3BhbGJYR3Vtem90TXp3VlJKMHctNnBROVVOOGYxZlFnVTZWV3NqWUxjOEJNZERtWHBkODRCNHBDb20yRjRjd1B4aXpQaVJyTF9ma2tnSTFwTGV2ZjViRTJFcXlHTTlNNWNITXNjOGIyZi13WFdEcXlIdmhjSlItZ2UtSjJobzEtbWlkbTJRUlhoMTZVUmdKLUtpMUw0Y0F2RzBSTzhyanFtMHB0R2dLLWcydnRpc1VPNjRnZlBNMmUwaDRzQklva1h4NTJJTEVTejZseVhOQV94VXN5eXhMc3BIaERpQnRhX2VDaFpWRmc?oc=5",
+   "source": "Stocktwits",
+   "published": "2026-10-26T02:50:55+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "[박정식의 국내 주식시황] 유가 급등에 투심 위축…반도체 반등으로 하단 방어 나서나",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04UG5JYWFQVzczQWtqb05SV01rRmR6N0l0WHFIdkVIYndFaTNjcWY1anJmZHlWZF95enZKNC1QY21FZ2Y3UlpIWWc3VWVMdmVTSXRFMWtXYlVvcDVBZ2o0OHM2TlpqMC1KOUMteWw2bw?oc=5",
+   "source": "뉴스퀘스트",
+   "published": "2026-10-26T00:13:28+00:00",
+   "ticker": null
+  },
+  {
+   "title": "10년 간다는 반도체 슈퍼호황, 믿어도 될까?",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xb0Y1a1c4QXFVYzBNMk9uVDlZYnNqcFRqbl9LY2ZNa3pJWEVsdnRiMkxLbkR6OXBHb2pBSWNyaV9KNDdaQjVSSDJHVnVNUU5tS3lZQmd0TUlyamltZHJfZzZR?oc=5",
+   "source": "이코노미스트",
+   "published": "2026-10-25T23:00:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Selling $300,000 of GLD Bought Five Years Ago Means a $162,713 Gain Taxed as a Collectible, Not a Stock",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeWZydHdWdTExd1B6TUE5cWRvVHZycVJ2UFEwZ1dUVFpaTUNkM0lBRC1Sd2VTV190UjR4UHNMcmlZR0g5Qi1ldVl5R3VDU25IMWRzS2hFYnIzNWg4UDBDRmVaUlBMYnJ6UU9BSjZjclFQVm1HVHZuTGFMOXZ5d1E4U05IR3B0NmpYaEFuYVA1QS1FaFdTUDBFWnh4SU4?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-25T20:03:31+00:00",
    "ticker": "GLD"
   },
   {
-   "title": "Nasdaq Futures Rise After Chip Selloff While S&P 500, Dow Track Mixed Open: SLV, GLD, SOXL, BE In Focus",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZzNTSmQzRnVhOXlzUjhWTFhYR2xhMGxIVFg0ZmFZa1J1Zi1jNXRDcktqTy15SzNwb19aWldKbXE5VVlRSmRWMHlsQThCc2ZKMGpGdUFpS0owbjc5M2pjNXNRZVptX3cxSUNjUnViU0ZsdGVxNktOclp3dDJSVHRRNG9hMTVzUWVGelJFaUhTVnEzVWdXTnNSelVMRkhzVTFaU2lpQXp1UnhTVUQ5SEJpYllUN29xWWM1bUZRVGV0XzA0RmZfaXpjZ2NTMXRfS1R2ZlpieG9iQS1UYnI2UlVlQjZiT3I2cDdETTRvQkJDOTdUUDFiVkVLdG5n?oc=5",
-   "source": "Stocktwits",
-   "published": "2026-10-23T03:19:10+00:00",
-   "ticker": "SOXL"
-  },
-  {
-   "title": "[테마시황] 메타발 'AI 포비아' 확산… 23일 오전장 반도체·인프라株 '풍전등화'",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41bkswZThxRGNDY2Q1SEZjeUE3ZlktamNqMmxyODNPZnBxMDVFcG54VXRNNDRHcW5CeXhHSV9qdEJzUUxZdzg2a0pzRFh2VndKN2VVT0hRN0Y1aHJraGZIWWlsbi04SWdVclFObDVmbWpNOUxvOHc?oc=5",
-   "source": "인포스탁데일리",
-   "published": "2026-10-23T02:32:01+00:00",
-   "ticker": null
-  },
-  {
-   "title": "SOXL Plunges 20% as Options Volume Surges, With Negative Gamma Putting $80 Support in Focus | Options Income Daily",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQek4zOTZiakhhdEM5NHYwWmFJM2hjejdPdjI2Y1BSSHA5WWJrd1haV25iUF9xVFR4NkR6T1pLQ19lVkdaVEdGa285N01wR0ItSjRMeXBRZHQ4clI2bUs0aFhlb3RUN2E3MkM5V2JFbDRHc25Rc3hDaEh0NmYyMTZ0cGlxTWMyVlViR21wS1pnOS1ja1lPVXdPS19SMlBidEFtby1vRU5XQlRINmZBZFE2Wld6T2s?oc=5",
-   "source": "Moomoo",
-   "published": "2026-10-23T01:49:02+00:00",
-   "ticker": "SOXL"
-  },
-  {
-   "title": "SOXX, SOXL, SMH Plunge As Chip Stocks Sell Off Amid Supply Chain Concerns",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRFFjUmpOS1NXaUxvSWNucmp0QjZaclplQjJiYlJaNHI0NlVmd3VaUXVtMWdPeElPczFzN1Fna0dlME9nd2pGTEltUVJHSUFIaXJuUUIySEZadThJY2llLVVwSjY5NHc1Mm5iRktSRzN1d2JKdm9HcjVjZU9yZlJPbzcyS1ZRNUtXdnRybFVHY0sxTkVv?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-23T01:45:00+00:00",
-   "ticker": "SOXL"
-  },
-  {
-   "title": "솔리다임 상장 중단에도 얼어붙은 반도체 투심…‘21만전자·120만닉스’ 반납[이런국장 저런주식]",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pellfN2ZUVUN5VDk4emhyNHVGVmMyVUNaZ091RUY0UzJUWmVDRlZwVWlKUUQxdWlNbFlWTjNMbUROM0JQWGlUR3ROelpnYmY4eHfSAVNBVV95cUxOOU5NQWlTcFhoWHphU2FoX254aTdoY1g4UzNza0FMMHhhZmdCand3TGZmejU0YW42dWVnZXQtdmk4d292R1dDeDBBNFVoMGttcjNIYw?oc=5",
-   "source": "서울경제",
-   "published": "2026-10-23T00:29:31+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Super Micro Has Lost 60.86% Since It Was Tapped for the S&P 500. Index Funds Like VOO Had to Buy It Anyway",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdFhSS1Q1SkVxQnpYZjBLSVkzVnlLVWljQTlGSkgxaTdvdGlKMldOaGVhWnltU3dkbWFhTk5VOEI5U2RtSFZrZDNicERXbUFYVWpOMlZzVFdCLVdVNWU3NUhoaFhNN3Y4bDRFcUk5OHU3OVF2c3I4cHY5bEJyMkh2dkFLSnNxN080M3lsbnZPbmFJVWtrdnk2bUlVMkl0aG82MHdlMEY1TGtYbHJPRFlSbUlWNTRVcmN5ekxMSHZQQlExUkI1X3JUVWFzeUJndU8zNHRYaHVRcWNlV2N1a1FjN1pSdVAtQQ?oc=5",
-   "source": "24/7 Wall St.",
-   "published": "2026-10-23T00:03:00+00:00",
-   "ticker": "VOO"
-  },
-  {
-   "title": "Why Intel Stock Fell Today",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFeUlxMGtKTHdOcUNRN1VrcFlfUnJGNkhES2ZlaGxldGtibG1xeDBCRmxHd21NbUgtY1NVWDgtNlJ1TlVUbU4wTEI5QzZUTUVNRkk1MmhvN2czOVlGX1N2anM2QXEzVlQyYVUtN3lmQ1BzSV9uMzFPNA?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-22T23:36:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Palantir Technologies Inc. (PLTR) Declines More Than Market: Some Information for Investors",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeXBBcXJ1RjBfeldveWZnMFc5YWY5djBYMXNwV1NjVmZBaEtWekVFXzkxdlhDT3JWVHhlMm5IZnR1YzRVLS1XSHd0Z18xTjNILVVicGZsLTBsTGViRlZGdmxhWE9YbWFuaG03UGZ0aEtlOElRcm9tU3ZaLVhDYm9HSVp4UHhqRHBmbldnOVRBOFBwNC1MRy1fc0JfZGZrS2Zud2V4YlJnYw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T20:45:03+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "JEPQ Jan 2028 56.000 call (JEPQ280121C00056000) Stock Price, News, Quote & History",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JQ0E4cmw2cGVMNTZBYmlDTWtCeHV5Uy1MNnlhQlRrRzBCSTliTlptQWNaU3FyNk1ZZ1lqdXI3R0xrTDNlQjl4S2d3VEhTbTFJX1REbWw2UVB0anhJWld2WlQ2S3NYdw?oc=5",
+   "title": "Fermi Inc. (FRMI) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZYllGRWVtSFJQT1RRNm9XcHRyd2JfV2Q1UGJMdTYwa1dQZWp4MHFWR2tZMVNYeG42UXRUWS1MeTBZZy10WkRzUG1NNVFmNXNvanc?oc=5",
    "source": "Yahoo! Finance Canada",
-   "published": "2026-10-22T20:36:20+00:00",
-   "ticker": "JEPQ"
-  },
-  {
-   "title": "Alphabet (GOOGL) vs. MSFT and AMZN: Can AI Investments and Google Cloud Growth Unlock a 26% Upside?",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT0FrNG5mMVh6NDc3T1gzZlQ4SUtBcWFkNVFBYUd1ZmllY3RJZGxFaHdaNUZGbW5yc3lkcWZKSTFaeENaemxDSzFmMXBsRkZqeU9NbWZLZTZ5STFsbEtfamo5OUtzWHVycUtVMGZmZVBVWjBRLWxtclpsWHEzcVdXZUdjOU0wd3hoV1NiUzNwTUFYZzNRV2dZ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T20:26:24+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "SpaceX stock slides as tech trade tumbles",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaEhZTkppcGxpamZTaFI3TlVMQWlway1YOEJUdXY4blR6S084Mk1uWWJqcGtkZ0JpVFpQU1RPamI5VGQtT1JSNW5JOHJzeldnU2lxeTMxUkdzejNSQkU5VjZrOVBuWlIwY3ZFcE9sMDdJTzBQRlBONFA4MXNqMkQxREFJSWtNVFR3TXFPd1JfM19kWnhId3A4OGxIQnYwLVBQLTFNYVZBcUo?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T20:09:20+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNTFRUEdPVXNMUm5MbFhpU0ltTkZDam0wSXU0R292ZDBvVGhlT3hlOWxJbk1jZjBJeFhZUWNXbmgtemF0TTFrak1fRnNxOFlsaGJJa0xMWEUtZUZ3LTEtcHh6OXl4d1hPaVlPcjJlbDl1NlQwZC1CN2VIcmQyOVlQczVpdVotR2pjZGI5MWJyWk1pVFdjLURHS1ZmeFY0VGd6ajMtRGxWTkRkY2xUVS04cnRSZ1ltQl9UMnRCOWpBTGpIbVJBX0pnZ29jRlp3NUhXdmc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T20:06:26+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Taiwan Semiconductor and ASML Are Incredible, but 1 of These Monopoly Chip Stocks Is Far Safer.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMHlGRTJ0YnlWblZ6Nk1keHVUdG83aGlNRjc3a0t2YTROdTJjdnpGSjdHS3FsUHRteGk4TjQzSTRkNWxCU0N2WG5nLU9UTndaQXNWeFVnVktjVGpRc1FxcTZxSEEtWXVYazB0TGtKc09iZzEzY1pjckFXQ01jNVVkNjJKeXpSaWdyeTY5ZnF1SXRLX1pyd2V1bw?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-22T18:45:00+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "The Neocloud Bloodbath: NBIS, IREN, and CRWV Selloff Continues",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDRMbWF3LURac3dOTWs5c0drdldsNG9jME02NE5yR2N0aENZZHMzcUh4ZnI0YTZ3OGQyOFNyU0VHZV8yZk1xbzg0RXZKM2VoTWNpSzFTX0o2Uk1CZmpUdG4wWTBFWmFlUmp3UXE5eUhrSnZWTWFFU0lCcmZzaEI3ekkyS0w1RGNXNW1yM3VpbGpGTkw2NVM1R0t6MGJjN2M?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T17:06:31+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Prediction: One of the World’s Biggest Stocks Could Still Have Room to Run",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdDNHZE9BblNyTmdhX2F6bnlnYS15ajRrY2ZsVVJBMTFkZ0JpQUZGQWdMMmVMQjN3dThHcVJ3Y0xROGd5bEdTdUJMYmlHamxvLVFTTEV2U3E0YW1aSmZaTmgwZUpBY0toWWg1NThUalRBcXktR2k5OU1WeVFrd0JCeHY1WDZMNkY2ZUNnb29xX0RaQ3Z6aTNoV0ZzaEp5aW95MkE1eVZWbVQ3dlJDYlVwRUlfdksybjQ2V1E?oc=5",
-   "source": "24/7 Wall St.",
-   "published": "2026-10-22T16:30:00+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "INTC Stock Alert: What to Know as Intel Hits Construction Milestone at Ohio Fab",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUh0UkZVaHZ1UXY5M3lVOV84ZVdxQkxHSERIbzJma0NDVWpTV3BEZnZHZWFvYUNuWVExZ2FJWEVmRlZNTHJ3UHItZ043eXhnYVFxSWFEb2Z3OWloOWJQaUU2aXdXc0tINlp3QjZJcjczNWhyWFRZNlJuWDdIbXA0V0wtNXZNb0VmaEZBWXFHR3o1bXdGUmJGUFZuaWg1MzNrdTNXcjBDdHpSeklueC10ZFlRNEdtMkR0VnJxcDV1WQ?oc=5",
-   "source": "Barchart.com",
-   "published": "2026-10-22T14:48:12+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "IREN vs APLD: comparing two AI infrastructure stocks",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYl80Q3VmcVJlYUJxWUd2aVV6ZVh5SEMzOVFVZ01qWWdrdGdHZTk0cXE5RXpLeHF4OWNETFQ5Wld3cjg5X3QtWWtQS2RjWlZic29ZbjZkZWZtaWctYXBoajAtQ1lxUGt1Qk8wb3dRNWxTZHhpblhKTEFMT1FNOHJCOExBWHVwdUVkTjlmcXRwS1JiMUxkT2dJZUJCVUlQdTJSbElqeTdHOWZzTm9rVFRsMFBUZw?oc=5",
-   "source": "Investing.com",
-   "published": "2026-10-22T14:36:45+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Intel Stock Could Have a Turnaround Opportunity if These 3 Catalysts Deliver",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbkFzSzAyZzlUMTkzc1Rud2NEWDJNZG5xSkxtVW5ZTlBvRzFJVkhfYmcyQkhUR0w4NjJ1d2g5OTBGMzJRM3hQVVBzTWgxZVpRd3dUNWVKQzJJWWNiLW1ld3A0cnhPalkxLWktMG5KQzlrNnZmRjI1UWFfQWVhVG1aWEN5dTJOTTZfYjB1LXAwYXdBdVhwOG5seDVCdndaQnFJaHU1bVpqTEI0bVZsR1FUMmUwaTM5TTYybVZLaA?oc=5",
-   "source": "24/7 Wall St.",
-   "published": "2026-10-22T14:30:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Biggest stock movers Thursday: TSLA, BABA, TTMI, PG, and more",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQzlOMHV0RjV1S2loMWZFX3pTX0wxd3Z2MU5ldGNocjZIc1U0SURkNkpzalptQ25fVHpoUFhnRF9IS1htS1RsX0JEVm9rVkFwaVVuTUt5UWFvM2JZNDdzSXNPQ21lWjJsenZ4Z0lJTC1Ud2Z5elBEUUg0NjJJWnBCYzRCaXJ5V1Zka0hDcG0zSQ?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-22T14:05:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "IREN vs. TeraWulf: Which AI Infrastructure Stock Carries Less Risk Now?",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNi1fT1BqY296UC1pcENzcFZ4bjl1RU54VklMRF9weW9sOWEtWUFDSnIzUEg0NnVXbWVuTDdiVkZKU2tlTnh1YVVRaV9Md2J0ekR1NFQyR09xb3F4V3IzdlRnak5HVUlGX3NrRTIyUkpRRkprWTRNOHVFcFR3ZVFpNG42Z3dValJZU01FRmhlMmRNR01Ock9IOXBoVTRzUTJXQmdzSVpsai1PLXYxU2c?oc=5",
-   "source": "Zacks Investment Research",
-   "published": "2026-10-22T13:38:05+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Chip Stocks Tumble, Crushing Investor Hopes for a Long-Term Rebound",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkpXdTl6R3laLU1mRkxVeFdyTWFlVEV3TTBfbElRSHpibW1xQlp2N1NPNnNoUlNEazlaeE5jdjBOcW55bS1PWlhZbzVtVk1YWUdTbTN4WWVUY2o2UW15aVlTWmpZcUprTVBWSy16Z3NQdXBiUm9XeTFnUXVGc2h3ZUkxb3l0ZlFOT3diZkN6ZWxNNjE3N0pZTTV0YXdIZ3pJTzU4V3ljQ2pKTU9mUEJ0RThHOUpJdGxONm52NTExa0ZCNlFYaUZGbnJHWlREbVY1cEVXdzhWT2E?oc=5",
-   "source": "Investopedia",
-   "published": "2026-10-22T13:11:56+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Palantir Reports Nov. 2: Here’s What I’d Do If The Stock Drops (NASDAQ:PLTR)",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxlQndMZ21UYTVqMnEwamVXVVdFZHJxbVp0NHl4N1lTSUpvNkE2c0NuZWRZVkQtYzU5S1VLclRjZHNsQlZwNHZnc1J2Rmh3NFVCU20zb2p5YXNuOFJrTXlHdW0yUXJoNUpRZmU3MXZfUlpBRTRvWTdpeW5vYlp2eFJaZkJGZk81UjIwVzE2blB5cndVUjE1ZXgtWUVWMzVN?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-22T13:10:40+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "Banking giant cuts Google stock price target by 12%",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oMWh2OEhFNm5TbmhUNXFIbVd3bHdmSW50cnUzN0VRUHVOcTRFYTFkTHF3QXZ0Y2xKSjRzNWtyVGlNVlg1NEpqUklmRWMwR3N0QXJoN2Y4LTZDOXNXQ3RTRmtvN0MyVHZNNVFLZW0tMkNUWUluLUlxOHk2VQ?oc=5",
-   "source": "Finbold",
-   "published": "2026-10-22T12:04:30+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "Google Hits Major Quantum Breakthrough. This Could Be a Game-Changer for GOOGL Stock.",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc1RiSHJLQ3VMeXVXZnpxWktxY3cwbG1Bb1J5Zkp3VjB1dHJvNTVia2I3ZkpGWVpOcmpJMDF2M1RXSEY5YUdvem9ERTJOTWJPUjVPc3lOYWFEUkc3YkY2cFh3NDFRSnVxTVFCWTlJcjdKQkxhSl9yLU8wRFRSWEJtdktEYXU2V3dqZVBTU2NHQW83bzlZU2RLUlNLMy01M0poZEhGaHpRWXFkNFlHSTFPYjFHTlh0TVBxTHlOQm1HNDNCdGxaT1E?oc=5",
-   "source": "Barchart.com",
-   "published": "2026-10-22T11:38:35+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "What JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) Bought: SPCX Leads on Tuesday",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlB1YXhUaTBYQm5WSUhJZHFFa0JPVTNPc1A5NExyWUtlbFpMZTNnTjI4NU5PcUdyTnNhZTNoZlpmMko5MlBDSUx5MVhXTDc3bnFCV1Qwb1lPYUh6X2E0cFNPTTJCR2RNN200S1FEQ3VHbF9waW9oVFFPMXdjdUU4UU5YQkxqREk3NmpjUkxrSjBJRjRSN09maDhCeTk1Y0Z2V1VUQQ?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-22T11:04:40+00:00",
-   "ticker": "JEPQ"
-  },
-  {
-   "title": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-   "source": "WSJ",
-   "published": "2026-10-22T00:05:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "TSLA Stock Trades Flat After Hours Following Drop In Q3 Revenue, Earnings, And Heavy AI Spending",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMGZ1YzVKWUhpVVdzSklLVWw3cUNJRE1sbWdkV2k3OWpNeTMzbkF1TlBCa3htaHVmQjBWS1R1N2VnZUdiY21IQVFWdzBscjVBaWFNWDdsbWE4SmVwTHVmRXRsVU1uMGVibnNzeUxHVG01aEhaVEpWejB3U3ItaEFuZ2pYY2xvOHZUYmg4RDJNYTdJRER6YU12Xw?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T21:13:08+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "SpaceX (SPCX) Stock Surges After Q3 Earnings: Time to Buy?",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT0pJWXMtcHQ2OUpLalVTdVM3elk0OTU3blBQUGNiandlM2xEaTNlb1ZBcnM1dkl0UTlnZ0pNczlncUhGeUo4LWgyUFJ6Y2VJRm5fUjdyVUhYZVNlaXY0OFBqc3MtYjJMa1puY1NCSFZEY0p5Q0JWM1RGR0pBb014T2lVT0xRQkZyVk9ibnAwZl9WUjVfUmdVSmt4WQ?oc=5",
-   "source": "Zacks Investment Research",
-   "published": "2026-10-21T18:31:05+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "With Amazon Earnings On Tap, Here's How To Ride Out The Volatility",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeS1MSVRTMV9VMTJpZlk5T3lpVFhHQWV1UWE0MUU0RDVwUmlLM0h4QWFhM21KVmt6RVlpVjd2aWlnZnByZGFrb1pITm9wUGZJRU1ESl9ya2FhM2ktZHNzUUtHOUVhWHJCcUtvRks2X2lDbVAwelhaQ0hyQTR4NklaT1hzcm1FeUwyT3hOUEtfbDZLRGJDVi1XSTZoX1Ixdw?oc=5",
-   "source": "Investor's Business Daily",
-   "published": "2026-10-21T17:58:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Intel Stock Rises After Musk Signals Terafab Breakthrough",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PU1ExemV3azQ2ZFZjR1lOT21CcnM3cFlqOUI4SEkwZFBBVkdVelhBbDltV0ZhZjlsTlFYMGJVbUwxb05HR1Vna3VpMTFnWFpTdC1XZWtxaHJLT3RzY1hkUkNYcGdDaVZ2UWM1d05pMXZIcHlHSlE?oc=5",
-   "source": "Barron's",
-   "published": "2026-10-21T17:29:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Vanguard S&P 500 ETF (VOO) Stock Price | Quotes & News",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQNV9Md0M3N3pNcTh0OE5tV2JSZlpsMzlYUks1cFljRFpPQkRPUEdXcHdOZ2Z5ank5dGJ1MzFINXJCNmhHZ3Ztal83MmViOWJWOFFBa2d2dWJaNlVlR3NCQzNBVkdXOVN6U3ZvYXdwa3dvQklTUHQtMnVFR1hJMHdUQ1J1ZVkzSmZCQTBPMlExa1drSTFuYmlWNG9sTndPZHdHTi0zUWVKckdua2RnSW5sWk5QZ01WelpDYzlhNE1SUm53WlVXLVZYeGlvZGtaOEllVWdDeGNraEhXSkFLVnRKUjBKc3FhY3BsYXV2T3pFMUhfMjYteUNWYnpJbFZMalN4TFhZM3ZpMWhnSEE1b21ueXhxT0ZfMEJkY1lDSw?oc=5",
-   "source": "Moomoo",
-   "published": "2026-10-21T15:55:50+00:00",
-   "ticker": "VOO"
-  },
-  {
-   "title": "Semiconductor Stocks May Face An Explosive Move This Week (NASDAQ:SMH)",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa3lNWThUS2lQYVYzbjR0bElPZWZVWmhRajZ3QUN5NXdhVkhfd3JJM1NCMklORkk4anBjU2NrcVhpNHlXOU9UNklpbGozdXI1djk0Uy0yamxKMFhPRWNtMVBZanBBQjhhZHJfX2szVnZ3UlZYalItUzNWQkVNS19EcUFwMkJXQTJPSmluRDRZRlVBaFNKZEZYS3FEeFlqeTA?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-21T15:11:48+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Biggest stock movers Wednesday: NFLX, SPCX, ABT, and more",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNUVmdUdQU29kM25rcXRublQzcERuejNFNTVCUTNUb1EwcnVVaE9rMERMYW5pWjBmWV9UTEFJYVk2YWMwVGZIaF9RdENYZHRRZWZSSU1jcVFCVE1WdmJZOXoycnQxaDA5X2VFMXZYdjVUSHJyUHlUU3oxb252TlpaNHdRU24wSjN3cEpNckhGbDI?oc=5",
-   "source": "Seeking Alpha",
-   "published": "2026-10-21T14:32:00+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "반도체 주식은 언제 정점에 달하나? 애널리스트의 역사적 분석",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GbmY3NzhHeFBfdTh5eUZnUlU3cXhyTWNtMHVnUlB3QjVrVG5MNFlUNFBCWUFpM0J6eFR1c3pSUFRUXzJPeHY4dFFnSW5BZzB1akp6WXd2R1hjUTRaQW9UeTU4TjV5RGhmWkpaTGRHZW4?oc=5",
-   "source": "Investing.com 한국어",
-   "published": "2026-10-21T13:53:14+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Prediction: TSMC Stock Is Going to $1,200 by 2030",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUZiRWNFWVduRzU0cG40TGhZMXNCNEtBbi1UdlU3Ty1GWE5ENWl6WWdYSjVtMzRoekhmSGlLTVdNYWJQRTlONDVnZWg4RnF6X3FrOFhJVmNoZ1FhMVlTbWxqZmxWMlVXSm1VTFpnVVJvWmRrZ05rdExNeVVBNHpCWHVRcUpkUmF0VkxqTmNRQ3pkSmRycEhYeQ?oc=5",
-   "source": "The Motley Fool",
-   "published": "2026-10-21T13:48:00+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "One Semiconductor Stock That Could Surprise Investors in 2027",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWWV6ZWtLejlzTGtYSWgxd2o3RktfQ1llcWg4N1RZNTZycnM3SFdId2NBQ2hsbUxMaDJIeE12S1pySVhrdjJ4R185dTUtWHAzcEdYcXRhb2pxRXpyOXhvVXByR1FHN2VXd0NjN0xfV0RFUnZzTjVQSjJHUEJsenpERlhEUjFnWkwtdEF0bnZFeTQ4eWhoalc4UTZnXzc2ZE9SWTdQWno5ejI?oc=5",
-   "source": "24/7 Wall St.",
-   "published": "2026-10-21T12:45:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Fermi Provides Letter to Shareholders from CEO Lee McIntire on Financing Fermi's Next Chapter",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFJnTklRS0UyZENYeFlab05iUmNma093ME1waElZRTVzdGE3a0VJdnU0OTI3UVFsaS1Cb3pnbGo1TURsVEs0TExueDJwUm9FYmF1RVlrNTg1RFMxZ09BZWZpOXJDN2g0eDREc3RwNWl6REJYd2dUXy15a09FR2hGWUdYbERqTDE0R3kzMGhvVUNDSk44MXo0VFpQV1BpelVHRnc?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-10-21T12:30:00+00:00",
+   "published": "2026-10-25T18:38:21+00:00",
    "ticker": "FRMI"
   },
   {
-   "title": "What Could Surprise Palantir Stock Investors On The Upside?",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTZqMUk4NVBrNmVDRVdYN0hEYVNOQzFLQ3F1a3BPSEw4bXV3cjlVQ1ZjbjNHSnlCdnNPN2R0WE5ONlFfWDE2NWZTckxIWGZXVkRKdzJLY1RFSVV5ZWVOY2l4bGtjNnhqeEcwUm1YejlQYmxrTlg5dHJIUVc5SE1lRGZuUWJ3Z0l2eGk1MU5sQ1RhR3NYdi02THpWN2RQeHZDQjRlSjA4cDQ4S2dGYV9hNERiWEtfUzEyQzBF?oc=5",
-   "source": "Trefis",
-   "published": "2026-10-21T12:25:39+00:00",
-   "ticker": "PLTR"
+   "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) stock price, news, quote and history",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xVnNPOEEzeWFSc0dJZWpWcnAxWU1lbWZJYmYyY3RPN2RWU1ROcFNhWWJxd3Nrc2h1NTczc0RYSTkwS3hCMXJZZnF5RlMzaFdF?oc=5",
+   "source": "Yahoo Finance Australia",
+   "published": "2026-10-25T14:59:15+00:00",
+   "ticker": "TSM"
   },
   {
-   "title": "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeFlMOFY1SGZCOGprMnZTZjBDYVZNemRFTGoxY0U2d2JIWmoxX2pva21rZTJTakpUcTlicnlMZ19kVl9IY3pHRkNybG84czhITmNwQ2R5R3RMXzN5MWdsNGs2RmtIemFFY2tuSUJXeGtaakF3VlJaRXJVZjRRaTZCTlhPUC1lX2x1bDAycXVKYU1IQ19JV2Rscg?oc=5",
+   "title": "Is Intel Stock a Buy Right Now?",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE80MXNhLXJjZnB5ODhXZU1fNHhDd0trRWoxTWVOYU9iVFpFdkU0ZXpCZ00wdXlrcV9MNkZ0THhib1Y2TU9UZ0h3ejJRemllWjZYRlVvczJRNVFNLU5CTU5SWDFpNEtRVWxmM01fOGJjVmtDNWl0b0tNMkRfV2cydw?oc=5",
    "source": "The Motley Fool",
-   "published": "2026-10-21T11:53:00+00:00",
-   "ticker": "GOOG"
+   "published": "2026-10-25T14:45:00+00:00",
+   "ticker": "INTC"
   },
   {
-   "title": "What JPMorgan Nasdaq Equity Premium Income (JEPQ) Bought: Space Exploration Leads on Oct. 19",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNkhjSFFHWVM0a0gzc3dURnlEYUVOZUFvNS1RS2VXb2FrS21LdXlEalkzSmE1N09pM1g1Z19FcWxVS0swUXJpbGVmNlJ3dEd3dlBqRXFKT3lINTlucjFzeWVyU0haYUhUQ2FRWTZIOVVmT0NEWjhiblJvVzRBN2RmcTl5N1pFa3RmZ2NTNUtCelRISVJhM1VmcS1XYnpJUmhwenhycQ?oc=5",
+   "title": "Taiwan Semiconductor Is Set to Cash in on AI. Here's What a $5,000 Investment Could Be Worth by 2030.",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM19uMDhwWHhPdVVRWEVIaGwxUUZYWldnaFVHdDlkMXF4LVBoM0F2YXQzYmptRFRHQlNvejdhNEhsUXdOQkl5RjJMeDN0VlRMSmJzdW1YeWN0UlJKb3pEeVl2SFFFb3BYeVB5TXJfVVEzZmQzcFFUbHBXeXlBb0thUjdpNFl0Sjk1S0ctTW93NXpkWURSa3M4ZDFJdEMyQQ?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-21T11:05:10+00:00",
-   "ticker": "JEPQ"
+   "published": "2026-10-25T14:15:00+00:00",
+   "ticker": null
   },
   {
-   "title": "FRMI 261023 6.00C (FRMI261023C6000) Stock Options Chain | Quotes & News",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sMnVEZzJzeS13cld5c1FaQ2w1OF95aEJZcWJVNjNBOWR6MVNscTJYc0NESWM3eXVTc2JPQnh6d0NHc1BBOXZwUGdsM19VTllmUXhENm8zZi12R052U3c?oc=5",
-   "source": "Moomoo",
-   "published": "2026-10-21T10:11:14+00:00",
+   "title": "SOXL Nov 2026 55.000 put (SOXL261106P00055000) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBweW1IS3Y4bWtyVndWZUJjVld4S0I2QTdkUlM2dkpMenZkSmx0VEY4UjgxdGJnNUxMenIwQmlpYll0Ni11Nzl3UlZhVjlJRTFVZExPSkJ0MlR0M1h1R0lVcWJfSmJtQQ?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-10-25T13:01:50+00:00",
+   "ticker": "SOXL"
+  },
+  {
+   "title": "SOXL Nov 2026 55.000 put (SOXL261113P00055000) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VYkdJSlk2SF9SS3c1c3BKcmxVSVFpM3ZVNm8tc1IxaE01eUl2dEtaQzYxY3lmUUExT2dQNDZyaGdvWW1VWUdMMTA4QzctT0ZKN0pnMURLMXI3dzZXbUVkZjlIT2dQUQ?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-10-25T12:47:45+00:00",
+   "ticker": "SOXL"
+  },
+  {
+   "title": "“안 되겠다, 美 반도체에 크게 건다”…서학개미가 4조7000억 쏟아부은 ‘이 ETF’",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qVWI5NGNxMlAtUHdXMlhsRDd4dzlpdnRGR01zZ1pzVUU3djd0NmRjYTJmYlR3Y1ZwblBfczRmNmE3QkJROVZRT3pFU2FKYUlkaEHSAVNBVV95cUxNNThqUnpqZ0djRWpxVkVyQXYzZ0Rjd2tqMTh0ZDRDSC1EbzJQcEhIZDdOWTVSejgyeXI2Q0FDRlZxU0hiUGRIbWdVeTNIUGdrcGs2bw?oc=5",
+   "source": "서울경제",
+   "published": "2026-10-25T12:22:49+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Elon Musk Wants to Give Every American Child a Share of SpaceX. Here's What It Would Cost -- and What It Means for Everyone Else Holding the Stock",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR09XVEthRmxCTzlNQWh1OFNfMjZLMFdydG5fVnRSSnFtYl9XQlF5Qm1RN3ptZ1BJN2k5aGt6V2JVUGxabmxVREZlUU10dzZtbjd5STZXZVBGbVd2TV9yZm1oMURwTFRSbFlaUkVrcmVrdlFQa0JZTGpfeXE1VmY3VEoyeDJrbGdCcXozSGhFYlRSaDBsdEtZbQ?oc=5",
+   "source": "The Motley Fool",
+   "published": "2026-10-25T09:47:00+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "반도체 주식 물렸다면 이번주는 이것만 보세요",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTlaZWlQYlBDbHJPQjVCZnljd0FrNk9pMkRTT1lCTzB3a3QyWV9NMGhvNm5MbXBELTVpVHFIZGRKZF82eHlNNzBxSkVDWnhyNHpqbWNhbTY5dUs0a0szdW41b09wQ09CdjFaNXF1V1RaNm9xWHVGSnJaOEVXc3BrU09Uc1Z5NExUd3pv?oc=5",
+   "source": "네이버 프리미엄콘텐츠",
+   "published": "2026-10-25T09:30:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "Prediction: Amazon Stock Will Skyrocket After Oct. 29 Thanks to AWS Growth",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTZQdDVuZkMxTjNXQmNaM3FwSXNqbTZlYWZzbFozbnJ5dS14eUtwUWZQVkhXelJXUThjMElTTXdESjN0TFJrTTVNRVdfWFdzVmRISFJ2ZGJqTmNzMHZFTlpENlVxQTM2X2J1S3BPcmdPZTBhQUdCdk9rUi1rUG1qbVFwWXRwc3dHWjlMODU2NS1BTFJQZVJJMDU4X0EtdWtLUDNpYQ?oc=5",
+   "source": "Yahoo Finance",
+   "published": "2026-10-25T08:33:00+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Fermi Inc. (FRMI) stock price, news, quote and history",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yLU9LeXdROXk4elB1NVNZaWNjVWVSejNycm9pWmFyV1FyRGtLN3lJNnQzRkpTT1hlMUpnY1ZKY25wSE5FcGFBWjdmQ2dzV3lEekE?oc=5",
+   "source": "Yahoo Finance Singapore",
+   "published": "2026-10-25T00:46:44+00:00",
    "ticker": "FRMI"
   },
   {
-   "title": "국내 증시 저평가 이유는…“반도체 쏠림·고금리가 직접적 원인”",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaZnBYTVMtd3FQSl9sQnpNVHFJQjlGbnJNdlNVMWZwbGVYRlZJZ0ZNZmRlWGY5MTRfSnFFN1YtWHNIeWM0TncwenIxQUVQaFJKXzRRUjZDdjRRWWRLMHBTazR5QWNfQTQ?oc=5",
-   "source": "한겨레",
-   "published": "2026-10-21T10:10:00+00:00",
+   "title": "Intel (INTC) Is About to Report Q3 Earnings — Here’s What to Expect",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ec2F2U3psejFCRkV0X1hNUExWaWVLdGNoRjI2S2hrQzV3QUdzZ21SdGhfcDZMamxCU1JjX19wc1lZSTJkVlRKaElWeTItWVpINU55WlZ1WFdwTzRDandKRzFtNkVIQVNVVlg5ZzFQNjB0eUZzaFJaYzRWSQ?oc=5",
+   "source": "TipRanks",
+   "published": "2026-10-24T23:13:58+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "\"최근 주식 산 사람 대부분 물렸다\"…이정윤 세무사 \"반도체 소부장 주목\"",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40YWpITE1NVmtwVDI5NGZSNTB6YnNVZHl3MUtVM0pKNjdfY18xZEt6YV9YVThxcGZGLUhla2d0ZTVEQWhRemdyU3hCTElPbWlfeDlGMUp5MkxTdw?oc=5",
+   "source": "파이낸셜뉴스",
+   "published": "2026-10-24T20:00:30+00:00",
    "ticker": null
   },
   {
-   "title": "If I Could Only Buy 1 Artificial Intelligence (AI) Semiconductor Stock to Buy Before 2027, It Would Be This One",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjhLVl9NZHY4UV9vRHRmQ1VDekJHVWtKNzdKYWJ1Qm40d0t2d05kUWJTSVo0WnFFRmcxNDBfeG5ScmdaOUp2Nms0UTV4NlJFSE5ibEZhbzluT1E4c1luaWZma1BzYXlsaEJpckdvM2NyMmVONU9sNmpmR2hka2JXSFdpdXc1Z1VLTG91bG1GYnNnNmtZVXc?oc=5",
+   "title": "IREN Limited (IREN) Stock Price, News, Quote & History",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50WnJ3ZExTUGdRUTFaYXFGcjdxNldRQlJuSkJMbFZZb0ctYTh2SEdVRm0xRjNNRGhGRFBHenFxUXJIWnJuRFhDaTUzX1djVGw2bGc?oc=5",
+   "source": "Yahoo! Finance Canada",
+   "published": "2026-10-24T18:32:55+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Alphabet Inc. (GOOG) stock price, news, quote and history",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PUzJ5R255SXl0eGItczNvcUU2czJ6SEhiWnlxQWhSb3dtS2ZDNGhnV0dHZmpseUpDbzRoTktHUGxQWE9MSHVpa1NQZTVwNS1CaGc?oc=5",
+   "source": "Yahoo Finance Singapore",
+   "published": "2026-10-24T17:59:58+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "The Great Semiconductor Pullback Looks Like A Generational Buying Opportunity (SOXX)",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMUJtVkJ0dW1nNnlmUzI0elJRTkVEeTV1REhNcWoxS09MRFVRLTNrQjc5UjV6bi1VMTU5amNUeFJDZF94V0t1YUd4dEw5RGV3TUxlSllUdEp5SHVCb2RwZlhiQW9mSUJaT1RIWlpIeEg4SEFEb0s2NlZoVmg2UXdNV0IzZjBUMk8zdlduRWVsUWN4WlRVU1dlZVRseVk2b0cyYXFsMVctYjFyQk5tX055RmZR?oc=5",
+   "source": "Seeking Alpha",
+   "published": "2026-10-24T12:30:00+00:00",
+   "ticker": null
+  },
+  {
+   "title": "SpaceX Shares Surge as Elon Musk Makes Huge Revenue Prediction. Is the Stock Still a Buy?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPakJHOFkwc01FdVNIOUJ6c3JlcHdsZ0JPR2s4akhPUTRlQV9obkJveTVGRkJqbkVRLVk4bVpqZXNjcWRxbkpfalRfdGdpZVJQR0U1RUN2QlJGaXdaVDhmMlg5NUU0SktPMU9IeEZBdVBCMThvX1JZei1rLTdaMHVUaHRZSzFNNW1KYXBIVTNzbWxlVlJaa21TUzF3?oc=5",
    "source": "Yahoo Finance",
-   "published": "2026-10-21T07:34:00+00:00",
-   "ticker": null
+   "published": "2026-10-24T10:45:00+00:00",
+   "ticker": "SPCX"
   },
   {
-   "title": "Cathie Wood Sells $5.4 Million Worth of Palantir Stock as Ark Continues to Dump PLTR, Analyst Warns Valua",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1RJQ1RZR2tuVXE3XzUzdFRhdlBLMVVTNU9TUEF6dnowUGphS2RzRlU2R3N3YWZqMHhwcGdSdW12bWhYY04tbUpSTUc5dDlzb25Dby05LVE5V1VLZjdkVGNlTE41LU9EQTdMQUY0bWZueFltWERjX0t4UFpWaDdvaWlURUxYTmI2LVBVdTUwRU1sS3E4UjBNcllGY2hNUkxYclBzUlhUY0syMWhyZnE5Tm0tZkhRSTAzQUdyRWxrVktIYjd2eXQwMnpIYW01ZDhKNEpBMw?oc=5",
-   "source": "Benzinga",
-   "published": "2026-10-21T02:11:35+00:00",
-   "ticker": "PLTR"
+   "title": "FIIs Raise Holding by 15% in This Semiconductor Penny Stock: What's Behind the Move?",
+   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQUDNldEN4WXh0RmJJRmFBQXZzVk9WR2JGT0pyMG55RDg0VHFnN0I1ZVIyUmR2U0NxbzFxZmFtNXNkOHZYNkJrS3FtRTRicVJuMHZiQnFLOGw2WHVWczVFMDFlOEZJUk8xSlZRX3FZWDVjU1dZTC1sc3R4cmZNT2pHSDByNFdDZjZubm9hUWFSVzRfT2ZKQll1QllNTkc0Y0I0U0g3OUktb1ZiR3JVeFg1bWFlRXNMZ1ZKS0xNaUE3RFpXWTh1UEpwbXdXMkRFV1NJTklvOVVuRjFtMVB5SGNObHY5NTg5SWJBUVMzY3FGNzZXOVJNZ2Q1a3dEdnlvVF9ObzZZejF6eUxlMUY3UXJJZFJJOWtpSm9TOG1CdGk2NHlDRHNqaFhqQTdBR2hlWFozMmdteVJhOU1nLXFEa3hXSVM0MGpPcTJxX05MVDQtclhlQQ?oc=5",
+   "source": "Equitymaster",
+   "published": "2026-10-24T09:08:47+00:00",
+   "ticker": null
   }
  ]
 }
