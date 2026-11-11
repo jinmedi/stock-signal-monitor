@@ -1,260 +1,884 @@
 {
- "fetched_at": "2026-11-10T03:58:56+00:00",
+ "fetched_at": "2026-11-11T01:44:28+00:00",
  "model": "claude-opus-5-5",
  "error": null,
  "sector": {
-  "score": 1,
+  "score": -1,
   "summary": [
-   "美 반도체주 급등, 코스피 4%대 반등",
-   "엔비디아 CEO 스캔들로 NVDA는 급락"
+   "엔비디아 급락에 칩주 시총 5조달러 증발 근접",
+   "TSMC 10월 매출 60% 급증, 골드만 과매도 평가"
   ]
  },
  "tickers": {
   "AAPL": {
-   "score": 0,
+   "score": -1,
    "summary": [
-    "AI 가격 정책 등 개별 영향 제한",
-    "직접적 주가 재료 부족"
+    "iPhone 보안 결함 긴급 경고",
+    "iOS 익스플로잇으로 암호키 탈취 우려"
    ]
   },
   "AMZN": {
-   "score": 1,
+   "score": 0,
    "summary": [
-    "아마존 랠리, 다우 급등 견인",
-    "AI 매도세 과도하다는 WSJ 평가"
+    "AWS 성장 부각, 매수 포인트 접근",
+    "AI 투자 회수 우려 공존"
    ]
   },
   "BMNR": {
-   "score": 0,
+   "score": -1,
    "summary": [
-    "ETH 추가 매입, 5% 목표 근접",
-    "이더리움 하락에 주가 4% 하락"
+    "이더리움 하락에 BitMine 4% 하락",
+    "ETH 매수 지속, 5% 목표에 근접"
    ]
   },
   "FRMI": {
    "score": 0,
    "summary": [
-    "데이터센터 전력 수요 일반 기사",
-    "직접적 재료 없음"
+    "주가 93% 하락 후 저평가 논의",
+    "중고 터빈 확보로 전력 확보 진전"
    ]
   },
   "GLD": {
    "score": 0,
    "summary": [
-    "관련 뉴스 없음"
+    "금 ETF 자금 유출 언급",
+    "직접적 가격 뉴스 부족"
    ]
   },
   "GOOG": {
-   "score": 0,
+   "score": 1,
    "summary": [
-    "장기 매수 추천 기사 다수",
-    "특별한 단기 재료 부재"
+    "앤트로픽 100억달러 지분 확대",
+    "헬스케어용 Gemini 출시"
    ]
   },
   "INTC": {
-   "score": 1,
+   "score": -1,
    "summary": [
-    "인텔 등 반도체주 급등",
-    "6개월 57% 하락 부담은 여전"
+    "칩 랠리 둔화·PC 부진에 1.8% 하락",
+    "CEO 자사주 매입, RBC 2027 성장 전망"
    ]
   },
   "IREN": {
    "score": -1,
    "summary": [
-    "캔터, 목표가 99→47달러 하향",
-    "MS 배치 지연, 매출 목표 연기"
+    "MS 지연으로 목표가 하향 잇따라 10% 급락",
+    "JPM 강세 의견, CRWV 호실적은 지지"
    ]
   },
   "JEPQ": {
    "score": 0,
    "summary": [
-    "배당 관련 일반 기사뿐",
-    "관련 뉴스 영향 제한적"
+    "관련 뉴스 없음",
+    "인컴 투자 일반 기사뿐"
    ]
   },
   "NVDA": {
    "score": -2,
    "summary": [
-    "FBI, 황 CEO 중국 스캔들 수사",
-    "CEO 조사로 주가 급락·시총 손실"
+    "젠슨 황 스캔들로 지배구조 리스크 부각",
+    "2019년 이후 가장 극단적 매도세"
    ]
   },
   "PLTR": {
-   "score": 1,
+   "score": -1,
    "summary": [
-    "전 상원의원 테스터 고문 합류",
-    "AI주 반등에 약 6% 상승"
+    "중간선거 후 20% 이상 하락",
+    "민주당 의회 장악에 정책 리스크 거론"
    ]
   },
   "SOXL": {
-   "score": 1,
+   "score": -1,
    "summary": [
-    "반도체 업종 전반 급등세",
-    "AMD·인텔·브로드컴 등 강세"
+    "반도체주 급락, 엔비디아 2019년 이후 최대 매도",
+    "3배 레버리지로 하락 확대, 과매도 반등 여지"
    ]
   },
   "SPCX": {
    "score": 1,
    "summary": [
-    "NASA 100억 달러 달기지 계약 수주",
-    "텍사스 데이터센터 계획에 상승"
+    "도이체방크 2028 전망 상향",
+    "Singulus 계약, 스타십 15차 비행 일정"
    ]
   },
   "TSLA": {
    "score": 0,
    "summary": [
-    "테슬라 랠리로 다우 상승 견인",
-    "사이버트럭 예약금 환불 부담"
+    "사이버트럭 단종, 판매 목표 크게 미달",
+    "샌안토니오 로보택시 출시 후 주가 소폭 하락"
    ]
   },
   "TSM": {
-   "score": 1,
+   "score": 2,
    "summary": [
-    "대만 공매도 제한·안정기금 투입",
-    "TSMC 주가 4.68% 상승"
+    "10월 매출 59.7% 급증, 사상 최대",
+    "웨드부시 강세 전망 강화, 주가 1.6% 상승"
    ]
   },
   "VOO": {
-   "score": 1,
+   "score": -1,
    "summary": [
-    "다우 1,132포인트 급등 반등",
-    "AI 매도세 과도 평가 나와"
+    "CPI 상회·국채금리 급등에 증시 하락",
+    "직접적 악재는 없음"
    ]
   }
  },
  "headlines": [
   {
-   "title": "Trump says FBI investigating Nvidia CEO Huang over Chinese scandal",
-   "url": "https://finance.yahoo.com/technology/ai/articles/trump-says-fbi-investigating-nvidia-035047356.html",
-   "source": "Investing.com",
-   "published": "2026-11-10T03:50:47+00:00",
-   "ticker": "NVDA"
+   "title": "SPY Is Still a Unit Investment Trust. Here’s Why That Quirk Matters (and When It Doesn’t)",
+   "url": "https://247wallst.com/investing/etf/2026/11/10/spy-is-still-a-unit-investment-trust-heres-why-that-quirk-matters-and-when-it-doesnt/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-11T01:33:07+00:00",
+   "ticker": "VOO"
   },
   {
-   "title": "Warby Parker’s (WRBY) Prospects Are Looking Brighter — Here’s Why",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/warby-parker-wrby-prospects-looking-033428066.html",
-   "source": "Insider Monkey",
-   "published": "2026-11-10T03:34:28+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "Elon Musk sends strong signal to Tesla stock investors",
-   "url": "https://www.thestreet.com/investing/stocks/elon-musk-strong-signal-tesla-stock-investors-cybertruck-cybercab",
-   "source": "TheStreet",
-   "published": "2026-11-10T03:33:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "'Objectively Hilarious': Anthony Pompliano Sees Jensen Huang Affair Potentially Marking the Bottom for AI Stocks — What Do Crypto Bettors Think?",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63077754/jensen-huang-nvidia-anthony-pompliano-ai-sell-off-bottom?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-   "source": "Benzinga Prediction Markets",
-   "published": "2026-11-10T03:32:54+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Anthropic's S-1 Says It Will Expand Its Data Center Footprint. Here's Who Could Pour the Concrete, Wire the Power, and Cool the Chips.",
-   "url": "https://www.fool.com/investing/2026/11/09/anthropics-s-1-says-it-will-expand-its-data-center/",
-   "source": "Motley Fool",
-   "published": "2026-11-10T03:14:00+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "\"주식시장, 내년 하반기부터 반등…반도체사이클·외국인 수요 등 관건\"",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DeTd5bmV5VWRsblg4ekt4Rks3ekxBU05aQzlIRzVwbjhHR2JEZHVQOW9CTFNNZGZVS3NXSWVmRmhtX180RU9VUUZJTUpodkhyWXRydVFBWmcxYW1zVXZSMQ?oc=5",
-   "source": "아시아경제",
-   "published": "2026-11-10T03:10:58+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Allegro MicroSystems, IPG Photonics, Lattice Semiconductor, Entegris, and Broadcom shares skyrocket, what you need to know",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLWZ1WTdkSV92X3VKYXhYcVVfV3JiT2ZHOFFNUDhoa296bWJzcGRlcmxUOHNXdUhRTHFxYmpKSkRLTjVPQlFzX096WTY1VS04YzhsZUpIQXhvRTU0bURCWFN2NlhxbmF4cnFqaWhnVmtndWFlRDBrS0thd0RtbXdqLXdZUFNLMkdyMXhhSHY2cmpvSzJvNDd4YUZSQUlEazhsRmF0b2Q3REtNWVk?oc=5",
-   "source": "Yahoo Finance",
-   "published": "2026-11-10T03:01:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "If I Could Buy Just 1 Stock in November and Hold for 5 Years, It Would Be Alphabet",
-   "url": "https://www.fool.com/investing/2026/11/09/if-i-could-buy-just-1-stock-in-november-and-hold-f/",
-   "source": "Motley Fool",
-   "published": "2026-11-10T02:50:00+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "Post-Midterms AI Selloff on Data-Center Buildout Concerns Appears Overdone",
-   "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1?siteid=yhoof2&yptr=yahoo",
-   "source": "The Wall Street Journal",
-   "published": "2026-11-10T02:48:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Tech leads Asian stock rally as traders track Wall St rebound",
-   "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html",
-   "source": "AFP",
-   "published": "2026-11-10T02:39:30+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/amtech-intel-applied-materials-amd-023736161.html",
-   "source": "StockStory",
-   "published": "2026-11-10T02:37:36+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
-   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amazon-tesla-nvidia-cpi-inflation-report/?src=A00220&yptr=yahoo",
+   "title": "Dow Jones Futures Rise, CoreWave Jumps After Stocks Fall On Nvidia, Surging Treasury Yields",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-nvidia-coreweave/?src=A00220&yptr=yahoo",
    "source": "Investor's Business Daily",
-   "published": "2026-11-10T02:31:48+00:00",
+   "published": "2026-11-11T01:25:50+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Meet the 1 Stock I'd Buy With $500, Even If the Market Fell 5% Tomorrow",
+   "url": "https://www.fool.com/investing/2026/11/10/meet-the-1-stock-id-buy-with-500-even-if-the-marke/",
+   "source": "Motley Fool",
+   "published": "2026-11-11T01:25:00+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "What Are Rivian Stock Bulls Not Worried About?",
+   "url": "https://www.trefis.com/stock/rivn/articles/623951/what-are-rivian-stock-bulls-not-worried-about/2026-11-10",
+   "source": "Trefis",
+   "published": "2026-11-11T01:16:12+00:00",
    "ticker": "TSLA"
   },
   {
-   "title": "Nvidia CEO admits affair as company launches probe into spy claims",
-   "url": "https://www.cnn.com/2026/11/09/business/video/ac360-nvidia-ceo-admits-affair-as-company-launches-probe-into-spy-claims?cid=external-feeds_iluminar_yahoo",
-   "source": "CNN Business",
-   "published": "2026-11-10T02:22:27+00:00",
-   "ticker": "INTC"
+   "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-tick-higher-011241932.html",
+   "source": "Investing.com",
+   "published": "2026-11-11T01:12:41+00:00",
+   "ticker": "NVDA"
   },
   {
-   "title": "[테마시황] 반도체·항공·DC 테마 동반 급등… \"과도한 우려 씻고 밸류에이션 매력 부각\"",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LX1lTNEVsekRSU3hQVDF1eVJiTmxVLWJ3bXBvQmFTRVZoOFVZM1dicm1IeXR4c2RkY3h0WTY2VE9KSHY1LS1MOUt6cUVnY0tHS0pmM3k0R1VUdkxmTEpCUzBvakIzYWw3bHM5a0k0OHJxSEhtX1E?oc=5",
-   "source": "인포스탁데일리",
-   "published": "2026-11-10T02:21:11+00:00",
-   "ticker": null
+   "title": "Anthropic Is Reserving Up to 20% of Its IPO for Retail Investors, Far Above the Typical 5% to 10%",
+   "url": "https://www.fool.com/investing/2026/11/10/anthropic-is-reserving-up-to-20-of-its-ipo-for-retail-investors-far-above-the-typical-5-to-10/",
+   "source": "Motley Fool",
+   "published": "2026-11-11T01:11:02+00:00",
+   "ticker": "NVDA"
   },
   {
-   "title": "Democrats Are Wasting No Time Investigating Corporate America’s Biggest Names",
-   "url": "https://www.wsj.com/business/democrats-are-wasting-no-time-investigating-corporate-americas-biggest-names-a582799e?siteid=yhoof2&yptr=yahoo",
-   "source": "The Wall Street Journal",
-   "published": "2026-11-10T02:00:00+00:00",
+   "title": "Analysts Split on How to Trade Nvidia After Jensen Huang Spy Scandal",
+   "url": "https://beincrypto.com/how-to-trade-nvidia-spy-scandal/",
+   "source": "BeInCrypto",
+   "published": "2026-11-11T01:10:52+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "What Would It Take For AMD Stock To Move Higher?",
+   "url": "https://www.trefis.com/stock/amd/articles/623964/what-would-it-take-for-amd-stock-to-move-higher/2026-11-10",
+   "source": "Trefis",
+   "published": "2026-11-11T01:09:44+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
+   "url": "https://www.cbsnews.com/news/jensen-huang-affair-nvidia-ceo-dilemma/",
+   "source": "CBS News",
+   "published": "2026-11-11T01:02:52+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Amazon’s Cloud Computing Business Already Brings in More Revenue Than 476 Companies in the S&P 500. Here’s What It Would Take to Reach $1 Trillion.",
+   "url": "https://www.fool.com/investing/2026/11/10/amazon-cloud-computing-brings-in-more-revenue-than-476-companies-in-the-sp-500/",
+   "source": "Motley Fool",
+   "published": "2026-11-11T00:51:02+00:00",
    "ticker": "AMZN"
   },
   {
-   "title": "Is Wall Street Turning on AI?",
-   "url": "https://www.fool.com/investing/2026/11/09/is-wall-street-turning-on-ai/",
+   "title": "What Should Snap Stock Holders Take From Its Third-Quarter Report?",
+   "url": "https://www.trefis.com/stock/snap/articles/623978/what-should-snap-stock-holders-take-from-its-third-quarter-report/2026-11-10",
+   "source": "Trefis",
+   "published": "2026-11-11T00:44:18+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "AST SpaceMobile Has Fallen for 3 Straight Weeks and Sits More Than 75% Below Its High. Here's What $5,000 Invested Today Will Be Worth If It Gets Back There.",
+   "url": "https://www.fool.com/investing/2026/11/10/ast-spacemobile-has-fallen-for-3-straight-weeks-an/",
    "source": "Motley Fool",
-   "published": "2026-11-10T01:53:01+00:00",
-   "ticker": "GOOG"
+   "published": "2026-11-11T00:25:00+00:00",
+   "ticker": "SPCX"
   },
   {
-   "title": "ASTS Stock Retreats On Q3 Sales Miss – But AST SpaceMobile’s $1B Revenue Opportunity, AI Partnerships Keep Growth In Focus",
-   "url": "https://stocktwits.com/news-articles/markets/equity/asts-q3-sales-miss-1b-revenue-opportunity-ai-partnerships-growth-focus/cNGuGazR97f",
-   "source": "Stocktwits",
-   "published": "2026-11-10T01:30:23+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "What Does Nvidia (NVDA) Need To Prove As AI Rivalry And CEO Scrutiny Build?",
-   "url": "https://finance.yahoo.com/technology/ai/articles/does-nvidia-nvda-prove-ai-011637196.html",
+   "title": "Marvell Technology And 2 Other Growth Stocks To Watch",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-2-other-growth-001813988.html",
    "source": "Simply Wall St.",
-   "published": "2026-11-10T01:16:37+00:00",
+   "published": "2026-11-11T00:18:13+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "What Could Lift Netflix Stock From Here?",
+   "url": "https://www.trefis.com/stock/nflx/articles/623989/what-could-lift-netflix-stock-from-here/2026-11-10",
+   "source": "Trefis",
+   "published": "2026-11-10T23:34:29+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Bullish’s New President Backs Issuer-First Model for Tokenized Stocks",
+   "url": "https://www.cryptoprowl.com/releases/bullishs-new-president-backs-issuer-first-model-for-tokenized-stocks-7830",
+   "source": "CryptoProwl",
+   "published": "2026-11-10T23:33:00+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "IREN Stock Falls Even as JPMorgan Goes Bullish",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iren-stock-falls-even-jpmorgan-224457686.html",
+   "source": "TipRanks",
+   "published": "2026-11-10T22:44:57+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Here's How Much a $5,000 Investment in SpaceX Stock Could Be Worth by November 2027",
+   "url": "https://www.fool.com/investing/2026/11/10/heres-how-much-a-5000-investment-in-spacex-stock-c/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T22:42:00+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Ethereum ended CoreWeave's mining days. Earnings test its AI bet",
+   "url": "https://www.thestreet.com/crypto/markets/coreweave-stock-could-swing-15-on-q3-earnings-options-imply",
+   "source": "TheStreet",
+   "published": "2026-11-10T22:25:25+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "OpenAI's Q3 results and Nvidia's scandal impact on the AI ecosystem",
+   "url": "https://finance.yahoo.com/video/openais-q3-results-and-nvidias-scandal-impact-on-the-ai-ecosystem-222332740.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T22:23:32+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Fermi (FRMI) Stock Could Be Undervalued As Shares Fell 93%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fermi-frmi-stock-could-undervalued-221721210.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T22:17:21+00:00",
+   "ticker": "FRMI"
+  },
+  {
+   "title": "CRWV Stock Climbs 8% After-Hours As $132B Revenue Backlog Reinforces AI Compute Demand: NBIS, IREN Tick Higher",
+   "url": "https://stocktwits.com/news-articles/markets/equity/crwv-stock-climbs-6-after-hours-as-132-b-revenue-backlog-reinforces-ai-compute-demand-nbis-iren-tick-higher/cNGuwW0R9JL",
+   "source": "Stocktwits",
+   "published": "2026-11-10T22:09:40+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Tech, Media & Telecom Roundup: Market Talk",
+   "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-491215dc?siteid=yhoof2&yptr=yahoo",
+   "source": "The Wall Street Journal",
+   "published": "2026-11-10T21:56:00+00:00",
    "ticker": "GOOG"
   },
   {
-   "title": "A New Generation of Traders Is Trapped in Asia’s Market Meltdown",
-   "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?siteid=yhoof2&yptr=yahoo",
+   "title": "Meta's Ember is a bet on cheaper models with competitors",
+   "url": "https://finance.yahoo.com/video/metas-ember-is-a-bet-on-cheaper-models-with-competitors-215556435.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T21:55:28+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Stock Market Today: Dow Dips As Yields Soar; Nvidia Dives; Anthropic Seeks This IPO Price",
+   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-anthropic-ipo/?src=A00220&yptr=yahoo",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-10T21:49:05+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "California Privacy Agency Fines FedEx Nearly $3M",
+   "url": "https://www.mediapost.com/publications/article/419354/california-privacy-agency-fines-fedex-nearly-3m.html",
+   "source": "MediaPost",
+   "published": "2026-11-10T21:39:23+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "Why the Data Center Backlash Could Fall Flat: Increased Costs “a Trade That These Hyperscalers Are Still Going to Want to Make”",
+   "url": "https://www.tikr.com/blog/why-the-data-center-backlash-could-fall-flat-increased-costs-a-trade-that-these-hyperscalers-are-still-going-to-want-to-make?ref=yahoofinance&tlnk=yf-261110-h47c46w6",
+   "source": "TIKR",
+   "published": "2026-11-10T21:38:17+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Want Extra Cash for the Holidays? 12 Companies Hiring Seasonal Workers",
+   "url": "https://finance.yahoo.com/small-business/articles/looking-seasonal-hiring-holidays-2026-133127137.html",
+   "source": "The Penny Hoarder",
+   "published": "2026-11-10T21:30:57+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "SpaceX Sets Date For Critical Starship Flight 15, Plans Tower Catches",
+   "url": "https://www.investors.com/news/spacex-starship-flight-15-date-tower-catch-super-heavy-elon-musk-spcx-stock/?src=A00220&yptr=yahoo",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-10T21:30:22+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Microsoft Stock Falls On Anthropic Challenge To Office Software",
+   "url": "https://www.investors.com/news/technology/microsoft-stock-anthropic-challenge-office-software/?src=A00220&yptr=yahoo",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-10T21:27:43+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "Alphabet Inc. (GOOGL) Is Part of a Massive AI Spending Race: Can the Investment Deliver Enough Returns?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-googl-part-massive-212653544.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T21:26:53+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "Amazon.com, Inc. (AMZN) Faces a $1.2 Trillion AI Spending Question: Will the Investment Pay Off?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-faces-212200780.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T21:22:00+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Google Agrees to Privacy in Spirit Airlines Data Sale",
+   "url": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4?siteid=yhoof2&yptr=yahoo",
    "source": "The Wall Street Journal",
-   "published": "2026-11-10T01:00:00+00:00",
+   "published": "2026-11-10T21:22:00+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "“Five-Nines”: Larry Page Reportedly Sees 99.999% of Compute in Orbit, and Musk Agrees",
+   "url": "https://www.tikr.com/blog/five-nines-larry-page-reportedly-sees-99-999-of-compute-in-orbit-and-musk-agrees?ref=yahoofinance&tlnk=yf-261110-j2478jgg",
+   "source": "TIKR",
+   "published": "2026-11-10T21:18:42+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Taiwan Semiconductor Sales Jump 60% In October As AI Boom Continues",
+   "url": "https://www.investors.com/news/technology/tsm-stock-taiwan-semiconductor-october-2026-sales/?src=A00220&yptr=yahoo",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-10T21:18:35+00:00",
    "ticker": "TSM"
+  },
+  {
+   "title": "Fermi (FRMI) Secures Refurbished Turbines On A Narrative That Sees Shares As A Bargain",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fermi-frmi-secures-refurbished-turbines-211102368.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T21:11:02+00:00",
+   "ticker": "FRMI"
+  },
+  {
+   "title": "SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63121272/spacex-data-center-crackdown?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+   "source": "Benzinga Prediction Markets",
+   "published": "2026-11-10T21:00:07+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "SPCX Secures Singulus Deal To Scale Starmind Space Data Center Satellites",
+   "url": "https://stocktwits.com/news-articles/markets/equity/spcx-secures-singulus-deal-to-scale-starmind-space-data-center-satellites/cNGuM0hR9Jh",
+   "source": "Stocktwits",
+   "published": "2026-11-10T20:58:09+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Alphabet Is Set to Become an Even Bigger Anthropic Shareholder After the IPO",
+   "url": "https://www.fool.com/investing/2026/11/10/alphabet-is-set-to-become-an-even-bigger-anthropic/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T20:57:00+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "3 Vanguard ETFs to Buy and Hold Forever",
+   "url": "https://www.fool.com/investing/2026/11/10/3-vanguard-etfs-to-buy-and-hold-forever/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T20:47:02+00:00",
+   "ticker": "VOO"
+  },
+  {
+   "title": "Apple users get urgent security warning over iPhone flaw",
+   "url": "https://www.thestreet.com/crypto/technology/apple-users-get-urgent-security-warning-over-iphone-flaw",
+   "source": "TheStreet",
+   "published": "2026-11-10T20:31:51+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "TSMC record sales strengthen Wedbush’s bullish outlook",
+   "url": "https://www.proactiveinvestors.com/companies/news/1101547/tsmc-record-sales-strengthen-wedbush-s-bullish-outlook-1101547.html",
+   "source": "Proactive",
+   "published": "2026-11-10T20:15:00+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Supporting Your CFO in the AI Era, 6th Palm Beach CorpGov Forum",
+   "url": "https://finance.yahoo.com/technology/ai/articles/supporting-cfo-ai-era-6th-201430862.html",
+   "source": "CorpGov.com",
+   "published": "2026-11-10T20:14:30+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Google's SpaceX investment takes an unexpected turn",
+   "url": "https://www.thestreet.com/investing/stocks/googles-spacex-investment-is-taking-an-unexpected-turn",
+   "source": "TheStreet",
+   "published": "2026-11-10T20:13:00+00:00",
+   "ticker": "SPCX"
+  },
+  {
+   "title": "Alphabet (GOOGL) Launches Gemini For Healthcare",
+   "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-launches-gemini-healthcare-201113086.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T20:11:13+00:00",
+   "ticker": "GOOG"
+  },
+  {
+   "title": "Top 3 Founder Run Stocks With Earnings Growth Over 15%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-founder-run-stocks-200943803.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T20:09:43+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Apple (AAPL) Faces A 38% Premium Following Fresh Debt Issuance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-38-premium-200756047.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T20:07:56+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Anthropic’s IPO Price Isn’t So Outlandish. Here’s the Case for the Stock.",
+   "url": "https://www.barrons.com/articles/anthropic-ipo-ant-stock-price-fa215f5a?siteid=yhoof2&yptr=yahoo",
+   "source": "Barrons.com",
+   "published": "2026-11-10T20:02:00+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "TSMC Is at the Center of an AI Boom That Flipped 25 Years of U.S. Trade. Is the Stock a Buy?",
+   "url": "https://www.fool.com/investing/2026/11/10/tsmc-is-at-the-center-of-an-ai-boom-that-flipped-25-years-of-u-s-trade-is-the-stock-a-buy/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T19:53:12+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Nvidia CEO Huang Gets More Bad News. Cathie Wood Keeps the Faith.",
+   "url": "https://www.barrons.com/articles/nvidia-stock-price-huang-cathie-wood-ef9d5868?siteid=yhoof2&yptr=yahoo",
+   "source": "Barrons.com",
+   "published": "2026-11-10T19:47:00+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Intel Stocks Fall 1.82% as Chip Rally Fades and PC Slump Clouds Q4",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-fall-1-82-193409911.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T19:34:09+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Anthropic's Blockbuster IPO Filing Contains a Surprising Nod to Washington",
+   "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-blockbuster-ipo-filing-contains-193149088.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T19:31:49+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "Elon Musk Says Tesla's Cybertruck Backlog Is Too Big To Clear Before Production Ends — Orders Extra Shift",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-teslas-cybertruck-193006712.html",
+   "source": "Benzinga",
+   "published": "2026-11-10T19:30:06+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Apple’s Dividend Is Tiny, but its Business Advantage is Massive",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/apple-dividend-tiny-business-advantage-192939467.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T19:29:39+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Buy the Dip: 5 Stocks Insiders Are Loading Up On After the Recent Market Sell-Off",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-5-stocks-insiders-191927761.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T19:19:27+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019",
+   "url": "https://finance.yahoo.com/markets/article/chip-stocks-slide-nears-5-trillion-as-nvidia-hits-most-extreme-selling-level-since-2019-191532559.html",
+   "source": "Yahoo Finance",
+   "published": "2026-11-10T19:15:32+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Rackspace Technology Q3 Earnings Call Highlights",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-rackspace-technology-q3-earnings-call-highlights-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+   "source": "MarketBeat",
+   "published": "2026-11-10T19:15:04+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "3 AI Stocks With Revenue Growth Over 41%",
+   "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-stocks-revenue-growth-191330590.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T19:13:30+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Can Amazon.com (AMZN) Be A Bargain After Its Maritime Satellite Reseller Deal?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-bargain-maritime-191151615.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T19:11:51+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "IREN Stocks Fall 3.41% as Rating Cut Follows Slip in $4 Billion ARR Target",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iren-stocks-fall-3-41-191112639.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T19:11:12+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Dow Leader Amazon Approaches Latest Buy Point As Ferrari Races Higher On Formula 1 Strength",
+   "url": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-amazon-stock-amzn-ferrari-formula-1/?src=A00220&yptr=yahoo",
+   "source": "Investor's Business Daily",
+   "published": "2026-11-10T19:10:36+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "New iOS exploit could let apps steal crypto keys",
+   "url": "https://finance.yahoo.com/video/ios-exploit-could-let-apps-190000953.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T19:00:00+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Alphabet makes $10 billion bet on Anthropic's massive IPO",
+   "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-makes-10-billion-bet-185448045.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T18:54:48+00:00",
+   "ticker": "AMZN"
+  },
+  {
+   "title": "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade",
+   "url": "https://www.barrons.com/articles/amd-stock-coherent-ai-selloff-e457aa02?siteid=yhoof2&yptr=yahoo",
+   "source": "Barrons.com",
+   "published": "2026-11-10T18:49:00+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
+   "url": "https://finance.yahoo.com/video/nvidia-in-the-hot-seat-anthropic-to-test-the-ipo-market-hotter-than-expected-us-inflation-184626512.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T18:46:26+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "5 AI Stock Picks and Performance of Billionaire Stanley Druckenmiller",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/5-ai-stock-picks-performance-183306016.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T18:33:06+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "This Software Stock Bull Signal Has Never Been Wrong",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/software-stock-bull-signal-never-183039157.html",
+   "source": "Schaeffer's Investment Research",
+   "published": "2026-11-10T18:30:39+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Midterm Meltdowns: 3 Top Tech Stocks Down Big Since the Election Results",
+   "url": "https://www.fool.com/investing/2026/11/10/midterm-meltdowns-3-top-tech-stocks-down-big-since-the-election-results/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T18:22:01+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Alleged plot to spy on Jensen Huang: Why it's bullish for AI.",
+   "url": "https://finance.yahoo.com/video/alleged-plot-to-spy-on-jensen-huang-why-its-bullish-for-ai-182150462.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T18:21:50+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Google, Nvidia and Microsoft “Literally Feeding Themselves Money” with $26 Billion Anthropic IPO Buy",
+   "url": "https://www.tikr.com/blog/google-nvidia-and-microsoft-literally-feeding-themselves-money-with-26-billion-anthropic-ipo-buy?ref=yahoofinance&tlnk=yf-261110-4fh7rrpp",
+   "source": "TIKR",
+   "published": "2026-11-10T18:21:34+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Anthropic IPO Could Value Claude Maker at $1.4 Trillion",
+   "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-could-value-claude-182049858.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T18:20:49+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Top strategist: Nvidia CEO Jensen Huang's affair highlights key risk for tech companies",
+   "url": "https://finance.yahoo.com/technology/article/top-strategist-nvidia-ceo-jensen-huangs-affair-highlights-key-risk-for-tech-companies-184212599.html",
+   "source": "Yahoo Finance",
+   "published": "2026-11-10T18:17:05+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "What Does Taiwan Semiconductor Manufacturing (TSM) AI Revenue Surge Mean For Investors?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-taiwan-semiconductor-manufacturing-tsm-181308572.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T18:13:08+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "NVIDIA Governance Woes: 3 Areas to Buy From Amid AI Market Slump",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-governance-woes-3-areas-180700457.html",
+   "source": "Zacks",
+   "published": "2026-11-10T18:07:00+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Alphabet Stocks Rise 0.34% as Google Lines Up $10 Billion Anthropic Stake Purchase",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-0-34-180311251.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T18:03:11+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "IREN Sinks 10% as Analyst Target Cuts Pile Up After Microsoft Delay; Cipher Digital Falls 6%, TeraWulf Slides 2%",
+   "url": "https://247wallst.com/investing/2026/11/10/iren-sinks-10-as-analyst-target-cuts-pile-up-after-microsoft-delay-cipher-digital-falls-6-terawulf-slides-2/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-10T18:02:24+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "TSMC Stocks Rise 1.64% After October Sales Jump 59.7% to a Record",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-rise-1-64-175644054.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T17:56:44+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Tesla Stocks Move Lower a Day After San Antonio Robotaxi Launch",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-move-lower-day-174917522.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T17:49:17+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Jim Cramer questions his famous Nvidia investing rule",
+   "url": "https://www.thestreet.com/investing/stocks/cramer-nvidia-investing-strategy-huang-scandal",
+   "source": "TheStreet",
+   "published": "2026-11-10T17:46:32+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "Broadcom Stocks Rise 2.69% as It Joins $26 Billion Anthropic Placement",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-rise-2-69-173950413.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T17:39:50+00:00",
+   "ticker": "TSM"
+  },
+  {
+   "title": "Intel Sees 2027 Growth as Data-Center Strength Offsets PC Weakness, RBC Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-sees-2027-growth-data-171829093.html",
+   "source": "MT Newswires",
+   "published": "2026-11-10T17:18:29+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "These AI Growth Stocks Stand Out In November 2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ai-growth-stocks-stand-november-171550246.html",
+   "source": "Simply Wall St.",
+   "published": "2026-11-10T17:15:50+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Tesla Bull Predicts Democrats Will “Block Autonomy,” a Bigger Risk Than Data Centers",
+   "url": "https://www.tikr.com/blog/tesla-bull-predicts-democrats-will-block-autonomy-a-bigger-risk-than-data-centers?ref=yahoofinance&tlnk=yf-261110-qjgp8mrq",
+   "source": "TIKR",
+   "published": "2026-11-10T17:06:25+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "AMD Is Up 142% This Year After Another Beat. How Much Higher Can It Go?",
+   "url": "https://247wallst.com/investing/2026/11/10/amd-is-up-142-this-year-after-another-beat-how-much-higher-can-it-go/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-10T17:03:46+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Lucid Jumps 8% on $1.75 Billion Liquidity Boost Despite Q3 Miss; Rivian Dips, Tesla Little Changed",
+   "url": "https://247wallst.com/investing/2026/11/10/lucid-jumps-8-on-1-75-billion-liquidity-boost-despite-q3-miss-rivian-dips-tesla-little-changed/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-10T16:55:51+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to buy.",
+   "url": "https://finance.yahoo.com/markets/article/goldman-sachs-calls-chip-stocks-oversold-here-are-the-names-it-says-to-buy-165654250.html",
+   "source": "Yahoo Finance",
+   "published": "2026-11-10T16:53:14+00:00",
+   "ticker": "NVDA"
+  },
+  {
+   "title": "Intel Is Still Up 61% in 2026 After Its October Crash: “A Broken Company,” or a Buy?",
+   "url": "https://www.tikr.com/blog/intel-is-still-up-61-in-2026-after-its-october-crash-a-broken-company-or-a-buy?ref=yahoofinance&tlnk=yf-261110-h9jr56rw",
+   "source": "TIKR",
+   "published": "2026-11-10T16:44:20+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "JPMorgan Cut Its IREN Target to $55. It Still Sees 148% Upside",
+   "url": "https://www.tikr.com/blog/jpmorgan-cut-its-iren-target-to-55-it-still-sees-148-upside?ref=yahoofinance&tlnk=yf-261110-7vwcm6xp",
+   "source": "TIKR",
+   "published": "2026-11-10T16:37:12+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "How California’s Billionaires Tax Failed in More Ways Than One",
+   "url": "https://www.barrons.com/articles/billionaire-tax-california-proposal-f125b061?siteid=yhoof2&yptr=yahoo",
+   "source": "Barrons.com",
+   "published": "2026-11-10T16:30:00+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Microsoft Dumps Oracle. Good News: Those Old Chips Renew at a “20% Premium”",
+   "url": "https://www.tikr.com/blog/microsoft-dumps-oracle-good-news-those-old-chips-renew-at-a-20-premium?ref=yahoofinance&tlnk=yf-261110-hp4jrccf",
+   "source": "TIKR",
+   "published": "2026-11-10T16:20:41+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Intel Corporation (INTC) Is Showing Signs of a Turnaround: Could the Agentic AI Era Change Its Future?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corporation-intc-showing-signs-161845690.html",
+   "source": "Insider Monkey",
+   "published": "2026-11-10T16:18:45+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "‘Our Best Product Ever’: Elon Musk Bet Big on the Cybertruck — Now He’s Winding It Down After Sales Fell to 20,237 Against a 250,000-a-Year Goal",
+   "url": "https://www.barchart.com/story/news/8761188/our-best-product-ever-elon-musk-bet-big-on-the-cybertruck-now-hes-winding-it-down-after-sales-fell-to-20-237-against-a-250-000-a-year-goal",
+   "source": "Barchart",
+   "published": "2026-11-10T16:15:21+00:00",
+   "ticker": "TSLA"
+  },
+  {
+   "title": "Intel’s Harsh Base Case for the Remainder of 2026",
+   "url": "https://247wallst.com/investing/2026/11/10/intels-harsh-base-case-for-the-remainder-of-2026/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-10T15:45:03+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Goldman cuts IREN price target to $30 from $50 despite EBITDA beat. Here&#8217;s why",
+   "url": "https://blockspace.media/insight/goldman-cuts-iren-price-target/",
+   "source": "Blockspace",
+   "published": "2026-11-10T15:37:25+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "BC-Most Active Stocks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153019126.html",
+   "source": "Associated Press",
+   "published": "2026-11-10T15:30:19+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "No chair and 30-year tenures: Will Nvidia's board go soft on Jensen?",
+   "url": "https://finance.yahoo.com/video/no-chair-and-30-year-tenures-will-nvidias-board-go-soft-on-jensen-150036535.html",
+   "source": "Yahoo Finance Video",
+   "published": "2026-11-10T15:00:36+00:00",
+   "ticker": "AAPL"
+  },
+  {
+   "title": "CEO Lip-Bu Tan’s 150,000-Share Purchase Wasn’t Enough to Stop the Slide in Intel Stock",
+   "url": "https://www.barchart.com/story/news/8759523/ceo-lip-bu-tans-150-000-share-purchase-wasnt-enough-to-stop-the-slide-in-intel-stock",
+   "source": "Barchart",
+   "published": "2026-11-10T15:00:03+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Nvidia is the Only Chip Stock in the Red",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-only-chip-stock-red-141821143.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T14:18:21+00:00",
+   "ticker": "INTC"
+  },
+  {
+   "title": "Forget the ETF Outflows: Gold Miners Offer 3X Leverage As Cash Flow Surges",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/forget-etf-outflows-gold-miners-133032447.html",
+   "source": "Benzinga",
+   "published": "2026-11-10T13:30:32+00:00",
+   "ticker": "GLD"
+  },
+  {
+   "title": "What Is Driving Palantir Stock?",
+   "url": "https://www.trefis.com/stock/pltr/articles/624108/what-is-driving-palantir-stock/2026-11-10",
+   "source": "Trefis",
+   "published": "2026-11-10T13:11:27+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Palantir vs. AMD: Both Stocks Have Pulled Back More Than 20%, But 1 Is a Better Value Buy Here",
+   "url": "https://www.barchart.com/story/news/8754243/palantir-vs-amd-both-stocks-have-pulled-back-more-than-20-but-1-is-a-better-value-buy-here",
+   "source": "Barchart",
+   "published": "2026-11-10T12:30:03+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "BigBear.ai Expands Gross Margin by 878 Bps: What Drives the Gains?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/bigbear-ai-expands-gross-margin-122000431.html",
+   "source": "Zacks",
+   "published": "2026-11-10T12:20:00+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "Despite CoreWeave Plummeting 55% Over 6 Months This Wall Street Team Maintains That a 400% Return Will Materialize",
+   "url": "https://247wallst.com/investing/2026/11/10/despite-coreweave-plummeting-55-over-6-months-this-wall-street-team-maintains-that-a-400-return-will-materialize/",
+   "source": "24/7 Wall St.",
+   "published": "2026-11-10T12:15:06+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "ETFs Are Buying Palantir (PLTR) on Nov. 6",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-palantir-pltr-nov-110146299.html",
+   "source": "GuruFocus.com",
+   "published": "2026-11-10T11:01:46+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "As Democrats Take Over Congress, Is Palantir Stock at Risk?",
+   "url": "https://www.fool.com/investing/2026/11/10/as-democrats-take-over-congress-is-palantir-stock-at-risk/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T09:42:02+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "CoreWeave Has a Sentiment Problem Even Strong Earnings Can't Fix",
+   "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-sentiment-problem-even-strong-092225958.html",
+   "source": "Bloomberg",
+   "published": "2026-11-10T09:22:25+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "What Zeta Global (ZETA) Said on Its Q3 Earnings Call",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-zeta-global-zeta-said-on-its-q3-earnings-call-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
+   "source": "MarketBeat",
+   "published": "2026-11-10T06:12:46+00:00",
+   "ticker": "PLTR"
+  },
+  {
+   "title": "CRWV Rallies Ahead Of Quarterly Report: Wells Fargo Calls CoreWeave ‘Highest Quality’ Firm Among Neocloud Peers, Sees Upside",
+   "url": "https://stocktwits.com/news-articles/markets/equity/crwv-rallies-ahead-of-quarterly-report-wells-fargo-calls-core-weave-highest-quality-firm-among-neocloud-peers-sees-upside/cNGu4iQR97k",
+   "source": "Stocktwits",
+   "published": "2026-11-10T05:58:27+00:00",
+   "ticker": "IREN"
+  },
+  {
+   "title": "Warren Buffett's Instructions for His Wife's Inheritance Are 90% Stocks and 10% Bonds. Here's How That Mix Has Done Since 2000.",
+   "url": "https://www.fool.com/investing/2026/11/10/warren-buffett-s-instructions-for-his-wife-s-inheritance-are-90-stocks-and-10-bonds-here-s-how-that-mix-has-done-since-2000/",
+   "source": "Motley Fool",
+   "published": "2026-11-10T05:31:02+00:00",
+   "ticker": "VOO"
   },
   {
    "title": "Forget Palantir? This IPO Candidate May Be the New \"Autonomy Giant\" in Defense.",
@@ -264,417 +888,11 @@
    "ticker": "PLTR"
   },
   {
-   "title": "Elon Musk Just Gave the Top End of His SpaceX Revenue Forecast About a 2% Chance. His Best Guess Sits at the Bottom End.",
-   "url": "https://www.fool.com/investing/2026/11/09/elon-musk-just-gave-the-top-end-of-his-spacex-revenue-forecast-about-a-2-chance-his-best-guess-sits-at-the-bottom-end/",
-   "source": "Motley Fool",
-   "published": "2026-11-10T00:43:02+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Alphabet Almost Sets a Record No One Wants",
-   "url": "https://www.fool.com/investing/2026/11/09/alphabet-almost-sets-a-record-no-one-wants/",
-   "source": "Motley Fool",
-   "published": "2026-11-10T00:43:02+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "[개장] 美 반도체 급등에 코스피 4%대 반등",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VdVVPRUpCSktaMW5OTi1WQjExMEdkR3AtU25OdWQ2STMwRVhSZ2pjWl9Tc2ZnQUY4VkdQSk41eGszZTRnbzQ4eDFrbzQ1TGlpdmFZY09IUURXaVlBbDRfS3lHXzQxRTlRUmlfNW4tUWzSAXRBVV95cUxQU3ZURnh5dDNodVo0bmkxU2I2WjNNMm9ndEpTZnpYMnA2SW1lbEpFSnRhOXhSdVBUUmNONVE2MnZRcmZBVUZYbk42cUl5TVZFN3g4N1l4NUFqbjNmWDBkdm14Zm9tV0Q1empoS1F6aTF6RVZoXw?oc=5",
-   "source": "IT조선",
-   "published": "2026-11-10T00:40:59+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Elon Musk’s SpaceX Needs at Least €200 Billion to Challenge US Telecom Giants, Says Deutsche Telekom CEO Tim Höttges: ‘Welcome to the Party’",
-   "url": "https://finance.yahoo.com/technology/articles/elon-musk-spacex-needs-least-003005808.html",
-   "source": "Benzinga",
-   "published": "2026-11-10T00:30:05+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "반도체 주식 급등",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oNWVsMFU2emtsNnJhSkUyNzIweXVQMWVBaER2eEZCNDhrOE5YeVI3czBYcHFuWjd1R1MxOEUzMVNnTEY3Z0xzZXRWMkFxRnV3aHN3cjhEcEU0X3k3NDBuOWE2dVJpSUNkaFl0by1USlMzanpQUDl6dtIBeEFVX3lxTE5oNWVsMFU2emtsNnJhSkUyNzIweXVQMWVBaER2eEZCNDhrOE5YeVI3czBYcHFuWjd1R1MxOEUzMVNnTEY3Z0xzZXRWMkFxRnV3aHN3cjhEcEU0X3k3NDBuOWE2dVJpSUNkaFl0by1USlMzanpQUDl6dg?oc=5",
-   "source": "뉴시스",
-   "published": "2026-11-10T00:18:51+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Rocket Lab (RKLB) Wins NASA Spot In $10 Billion Lunar Delivery Contracts",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-wins-nasa-001548248.html",
-   "source": "Simply Wall St.",
-   "published": "2026-11-10T00:15:48+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Nvidia Plummets on CEO Probe, Market Cap Loss Near Five Hyundai's",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV1dlREpVdDZyWHNGcDVQcHdXQ2xhZzBXNEVVU2UtVm0wNUMxVTVtNGNZdzVEQ3NKUklxZGl0b3JPcEp2MjgtTDdLZlItRGtQbEpaRE5oV2Y4MkhUS3lydFhtVFlaeGNhbjdsaWZzMGVoUHdMLVJPa0Z2VWhiR1hLU0VGdmJhdExLWFFITHpn?oc=5",
-   "source": "조선일보",
-   "published": "2026-11-10T00:06:25+00:00",
-   "ticker": null
-  },
-  {
-   "title": "How much of Elon Musk’s wealth is in Tesla & SpaceX stock?",
-   "url": "https://www.thestreet.com/personalities/how-much-of-elon-musks-wealth-is-in-tesla-and-spacex-stock",
-   "source": "TheStreet",
-   "published": "2026-11-10T00:05:37+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Trump says FBI probing Nvidia CEO Huang as China controversy deepens",
-   "url": "https://finance.yahoo.com/news/south-korea-says-nvidia-issues-022650481.html",
-   "source": "Reuters",
-   "published": "2026-11-09T23:50:19+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Securitize to Acquire River One, Expanding Into $6 Trillion Asset-Backed Finance Market",
-   "url": "https://www.cryptoprowl.com/releases/securitize-to-acquire-river-one-expanding-into-6-trillion-asset-backed-finance-market-7783",
-   "source": "CryptoProwl",
-   "published": "2026-11-09T23:31:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Elon Musk says Tesla must refund Cybertruck deposits to ‘a lot of people’; he touted 250K reservations back in 2019",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-tesla-must-231500059.html",
-   "source": "Moneywise",
-   "published": "2026-11-09T23:15:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Sunrise Completes US$5 Million Investment in Agni Semiconductor",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPODR2cFVmVGhCVk1EVk9BVEJEcGZFc3B2dWhxZUpkQ2JGSGQwR0pld0xMdmlRalh2dk5IUXRJN3BlTE5weTlLNTJOR0hGcmVlbHhzLWNOSVdiLWZfQVg2UzZOMzlFaDVlOEp5Q3FnMVgxU2xselRkWGRYS0JTbkZDSG1sMGxBSlZObjJHcjdoUmVYQUltUTlDdkpGd2FZU2NLdFRPUzN5ZmhKNG0yZFVJdURZd2Q?oc=5",
-   "source": "TipRanks",
-   "published": "2026-11-09T23:12:48+00:00",
-   "ticker": null
-  },
-  {
-   "title": "‘Big Short’ Investor Steve Eisman Says OpenAI’s Collapse Could Trigger an Immediate Recession",
-   "url": "https://247wallst.com/investing/2026/11/09/big-short-investor-steve-eisman-says-openais-collapse-could-trigger-an-immediate-recession/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T23:07:14+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Fervo Energy Co (FRVO) (Q3 2026) Earnings Call Highlights: First Geoblock Online, Google PPA ...",
-   "url": "https://finance.yahoo.com/energy/articles/fervo-energy-co-frvo-q3-230444854.html",
-   "source": "GuruFocus.com",
-   "published": "2026-11-09T23:04:44+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "Nvidia is about 6% of the S&P 500. If Jensen Huang is ousted, there’s no clear successor — could chaos hit portfolios?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-6-p-500-jensen-230000817.html",
-   "source": "Moneywise",
-   "published": "2026-11-09T23:00:00+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "Stock Market Today, Nov. 9: AMD Jumps on Oppenheimer Upgrade and Google Cloud Chip Selection",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-amd-jumps-on-oppenheimer-upgrade-and-google-cloud-chip-selection/",
-   "source": "Motley Fool",
-   "published": "2026-11-09T22:30:02+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "AST SpaceMobile Sales Were Weak. That Doesn’t Matter.",
-   "url": "https://www.barrons.com/articles/ast-spacemobile-stock-earnings-space-stocks-8580e807?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T22:25:00+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Stock Market Today, Nov. 9: Markets Rally as Semiconductor Gains Lift Nasdaq",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-markets-rally-as-semiconductor-gains-lift-nasdaq/",
-   "source": "Motley Fool",
-   "published": "2026-11-09T22:23:39+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Nvidia scandal could help China long-term, and risks in the AI trade",
-   "url": "https://finance.yahoo.com/video/nvidia-scandal-could-help-china-long-term-and-risks-in-the-ai-trade-221407013.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T22:14:07+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "AI infrastructure spending is still accelerating—but can it last?",
-   "url": "https://finance.yahoo.com/video/ai-infrastructure-spending-is-still-acceleratingbut-can-it-last-221359947.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T22:13:59+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Why the Jensen Huang scandal is a 'net loss for China'",
-   "url": "https://finance.yahoo.com/video/why-the-jensen-huang-scandal-is-a-net-loss-for-china-221329322.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T22:13:29+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "반도체는 급등하고 로켓랩은 실적 발표 후 하락한 이유",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSThjRGRmRHRUeVgxZzRoQ1c5QXpQTGpfQnh5eWljdGItYUROeGtzMTJ0dlhiSUNyYzBCeEN2ejFVMHVYdko4SVkzXzFyV3FTeEhTaGZWSVkxbnlidlpORmJ4OVRSQXFvMDdZTVJib1ZwOWNZWnNzSlY5SFYzUWJfYm9lcWNRRWRWaTVR?oc=5",
-   "source": "네이버 프리미엄콘텐츠",
-   "published": "2026-11-09T22:09:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Advanced Micro Devices (AMD) Lands EPYC Role In New AI Security System",
-   "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-lands-220845589.html",
-   "source": "Simply Wall St.",
-   "published": "2026-11-09T22:08:45+00:00",
-   "ticker": "GOOG"
-  },
-  {
-   "title": "Nvidia CEO Huang's scandal is the flip side of centralized leadership: Sierra co-founder Clay Bavor",
-   "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huangs-scandal-is-the-flip-side-of-centralized-leadership-sierra-co-founder-clay-bavor-220838172.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T22:08:38+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Trade Desk’s Earnings Beat Defies Analysts’ ‘Lost Year’ Projections",
-   "url": "https://www.barrons.com/articles/trade-desk-earnings-stock-price-7ac7ae25?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T22:06:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Auto & Transport Roundup: Market Talk",
-   "url": "https://www.wsj.com/articles/auto-transport-roundup-market-talk-fb4ec7e6?siteid=yhoof2&yptr=yahoo",
-   "source": "The Wall Street Journal",
-   "published": "2026-11-09T22:03:00+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Jeff Bezos says your family is 'not going to need' 2 paychecks thanks to AI",
-   "url": "https://www.thestreet.com/technology/jeff-bezos-predictions-ai-impact-on-jobs",
-   "source": "TheStreet",
-   "published": "2026-11-09T22:03:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "Nvidia's Jensen Huang scandal raises questions for AI leaders",
-   "url": "https://finance.yahoo.com/video/nvidias-jensen-huang-scandal-raises-questions-for-ai-leaders-215445805.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T21:54:45+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "X-Energy Can Construct Its First Nuclear Reactors, U.S. Says",
-   "url": "https://www.barrons.com/articles/x-energy-stock-nuclear-28dee48d?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T21:47:00+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "SPCX Stock Rises As SpaceX Advances $24B Texas Data Center And Gas Plant Plans",
-   "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rises-as-space-x-advances-24-b-texas-data-center-and-gas-plant-plans/cNGrFNUR97B",
-   "source": "Stocktwits",
-   "published": "2026-11-09T21:46:47+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Rocket Lab Backlog Went to the Moon. The Stock Is Down Anyway.",
-   "url": "https://www.barrons.com/articles/rocket-lab-earnings-stock-price-7ce28517?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T21:32:00+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Jensen Huang's stance against cutting China off from US chips holds a lot less weight",
-   "url": "https://finance.yahoo.com/video/jensen-huangs-stance-against-cutting-china-off-from-us-chips-holds-a-lot-less-weight-213031755.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T21:30:31+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "ON Semiconductor Corp. stock outperforms competitors on strong trading day",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMGJVRU1pY25iSGNnQ3g3TDdSUS1FanIxenFiSHJISGdaYTdNMFFaNjJhYVdCZVdSX29rMElqY2E0X2tNcWo2SnZQMGVYcGM2MFp5Vy1CMHZzQXhmXzJmRkZ3MURiR1QyaE8tcVUyaHFjT2wydTVsMHNZX01WS2Rkd2ZIRUlDc1kwZEp6clVidnRkYmExMjlwVTlHSVlpbnRUS3RFMUdzOWNtWU9Lb09OVHBTamlWZkFTYURiNlpQRmxiOWItLTdZSDlnekZVZw?oc=5",
-   "source": "MarketWatch",
-   "published": "2026-11-09T21:30:00+00:00",
-   "ticker": null
-  },
-  {
-   "title": "SpaceX, Blue Origin Winners As NASA Awards $10 Bil In Moon Base Contracts",
-   "url": "https://www.investors.com/news/spacex-blue-origin-nasa-moon-base-contracts-firefly-voyager-lockheed-billion-space-stocks/?src=A00220&yptr=yahoo",
-   "source": "Investor's Business Daily",
-   "published": "2026-11-09T21:27:11+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "SpaceX Wants to Rule Wireless. Buying a Phone Carrier Is the Fastest Shortcut.",
-   "url": "https://www.barrons.com/articles/spacex-could-buy-att-verizon-t-mobile-wireless-1eab6b21?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T21:13:00+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Could IREN Actually Climb 117%? Or Is Cantor Fitzgerald Totally Wrong?",
-   "url": "https://www.tikr.com/blog/could-iren-actually-climb-117-or-is-cantor-fitzgerald-totally-wrong?ref=yahoofinance&tlnk=yf-261109-4cgmr9mq",
-   "source": "TIKR",
-   "published": "2026-11-09T21:06:08+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Nvidia CEO Jensen Huang's affair with a reported Chinese spy damages this key investing factor",
-   "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-jensen-huangs-affair-with-a-reported-chinese-spy-damages-this-key-investing-factor-201922852.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T20:19:22+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "What Is Jensen Huang Worth to Nvidia?",
-   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/what-is-jensen-huang-worth-to-nvidia--YGCrTWzuAVlhM3fatlXn?siteid=yhoof2&yptr=yahoo",
-   "source": "The Wall Street Journal",
-   "published": "2026-11-09T20:15:21+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "반도체 나는데 주식은 폭락…가계로 닿지 않는 온기",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByS2NDcFRHZkdiVEsxZXlDYzlucXZsQjM0RTkxUExwNmF1SG9LRVRwNncwc0lkZG04YnpMT2U5NWI5TU5FSXNrVnhycEJUb3dIY1ZvVWdhSXdEYmtFSFFtNFh4NXFzbnBjeVM3dnNSeHFtVXc?oc=5",
-   "source": "마켓인",
-   "published": "2026-11-09T20:00:05+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Elon Musk's Cybertruck pivot highlights the founder-CEO advantage",
-   "url": "https://finance.yahoo.com/video/elon-musks-cybertruck-pivot-highlights-the-founder-ceo-advantage-194117350.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T19:41:17+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Micron Soars 5% as TSMC Sticks to the “Global Logic IC” Industry, Not Memory",
-   "url": "https://www.tikr.com/blog/micron-soars-5-as-tsmc-sticks-to-the-global-logic-ic-industry-not-memory?ref=yahoofinance&tlnk=yf-261109-346xjcj3",
-   "source": "TIKR",
-   "published": "2026-11-09T19:35:54+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "A closer look at a firm tied to Nvidia’s chip scandal: Megaspeed",
-   "url": "https://finance.yahoo.com/video/a-closer-look-at-a-firm-tied-to-nvidias-chip-scandal-megaspeed-192158390.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T19:21:58+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Why Jensen Huang wants to keep China on Nvidia chips",
-   "url": "https://finance.yahoo.com/video/why-jensen-huang-wants-to-keep-china-on-nvidia-chips-190019440.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T19:00:19+00:00",
-   "ticker": "NVDA"
-  },
-  {
-   "title": "Apple Makes Major AI Pricing Move as New Revenue Opportunity Emerges",
-   "url": "https://finance.yahoo.com/technology/ai/articles/apple-makes-major-ai-pricing-185711619.html",
-   "source": "GuruFocus.com",
-   "published": "2026-11-09T18:57:11+00:00",
-   "ticker": "AAPL"
-  },
-  {
    "title": "How Much Does a 66-Year-Old Need Invested to Collect $9,100 a Month Without Selling a Single Share?",
    "url": "https://247wallst.com/personal-finance/2026/11/09/how-much-does-a-66-year-old-need-invested-to-collect-9100-a-month-without-selling-a-single-share/",
    "source": "24/7 Wall St.",
    "published": "2026-11-09T18:51:03+00:00",
    "ticker": "JEPQ"
-  },
-  {
-   "title": "TSMC Stocks Rise 4.68% as Taiwan Curbs Short Selling, Deploys Stabilization Fund",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-rise-4-68-185010441.html",
-   "source": "GuruFocus.com",
-   "published": "2026-11-09T18:50:10+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Nvidia $5T CEO scandal, AI legislation headaches, and Tesla returns deposits for Cybertrucks",
-   "url": "https://finance.yahoo.com/video/nvidia-5t-ceo-scandal-ai-legislation-headaches-and-tesla-returns-deposits-for-cybertrucks-184342686.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T18:43:42+00:00",
-   "ticker": "TSLA"
-  },
-  {
-   "title": "Palantir Stocks Rise 5.96% as Former Senator Jon Tester Joins as Adviser",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-rise-5-96-183823596.html",
-   "source": "GuruFocus.com",
-   "published": "2026-11-09T18:38:23+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "Palantir Rises 5%, Snowflake Up 6% as AI Stocks Rebound After Market Was “Freaking Out”",
-   "url": "https://www.tikr.com/blog/palantir-rises-5-snowflake-up-6-as-ai-stocks-rebound-after-market-was-freaking-out?ref=yahoofinance&tlnk=yf-261109-h4v79xjq",
-   "source": "TIKR",
-   "published": "2026-11-09T18:29:50+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "CoreWeave Rises 5%, Nebius Up 7% as AI Stocks Rebound Ahead of Earnings: “Levered Trades to AI”",
-   "url": "https://www.tikr.com/blog/coreweave-rises-5-nebius-up-7-as-ai-stocks-rebound-ahead-of-earnings-levered-trades-to-ai?ref=yahoofinance&tlnk=yf-261109-899fm45r",
-   "source": "TIKR",
-   "published": "2026-11-09T18:28:25+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Nvidia has a 'deep bench' if Jensen Huang steps aside, tech investor says",
-   "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-has-a-deep-bench-if-jensen-huang-steps-aside-tech-investor-says-181907948.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T18:19:07+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "Micron Stock Gets Some Relief as This Big Threat Got Kicked Into the Long Grass",
-   "url": "https://www.barrons.com/articles/micron-stock-price-threat-memory-e04a2bf1?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T18:10:00+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Why Is IREN (IREN) Exiting Bitcoin Mining To Focus On AI Infrastructure?",
-   "url": "https://finance.yahoo.com/technology/ai/articles/why-iren-iren-exiting-bitcoin-180842605.html",
-   "source": "Simply Wall St.",
-   "published": "2026-11-09T18:08:42+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Nvidia's Huang scandal rattles AI industry built around him",
-   "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-huang-scandal-rattles-ai-180531112.html",
-   "source": "AFP",
-   "published": "2026-11-09T18:05:31+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "Did Jensen Huang know? Nvidia's CEO and an alleged spy",
-   "url": "https://finance.yahoo.com/video/did-jensen-huang-know-nvidias-ceo-and-an-alleged-spy-180451767.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T18:04:51+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA’s Slide; CoreWeave Rallies 6% on Wayve Deal",
-   "url": "https://247wallst.com/investing/2026/11/09/cloudflare-jumps-11-nebius-surges-9-as-ai-cloud-stocks-defy-nvidias-slide-coreweave-rallies-6-on-wayve-deal/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T17:55:11+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Defense Realignment: Lockheed Martin vs. Palantir",
-   "url": "https://247wallst.com/investing/2026/11/09/defense-realignment-lockheed-martin-vs-palantir/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T17:45:51+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "Singapore Saved Apple $2.7 Billion in Taxes",
-   "url": "https://app.moby.co/home/news/news-apple-is-using-singapore-to-save-on-taxes?utm_source=yahoo_finance&utm_medium=rss",
-   "source": "Moby",
-   "published": "2026-11-09T17:39:20+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "IREN (IREN) Could Be 70% Undervalued On Strong Q1 AI Cloud Revenue",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-could-70-undervalued-172050899.html",
-   "source": "Simply Wall St.",
-   "published": "2026-11-09T17:20:50+00:00",
-   "ticker": "IREN"
   },
   {
    "title": "Tom Lee’s Bitmine Adds $20M in Ethereum, Seizing on Vitalik’s 'ETH Is Money' Declaration",
@@ -684,109 +902,11 @@
    "ticker": "BMNR"
   },
   {
-   "title": "Prediction: Synopsys Could Be a Bigger AI Winner Than Investors Expect",
-   "url": "https://247wallst.com/investing/2026/11/09/prediction-synopsys-could-be-a-bigger-ai-winner-than-investors-expect/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T17:03:22+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "SpaceX, Rocket Lab blast higher as NASA hands out $10 billion in moon base awards",
-   "url": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T16:43:20+00:00",
-   "ticker": "SPCX"
-  },
-  {
-   "title": "Taiwan Semiconductor Wants to Enter Into Advanced Memory Production",
-   "url": "https://247wallst.com/investing/2026/11/09/taiwan-semiconductor-wants-to-enter-into-advanced-memory-production/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T16:35:06+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Musk says Tesla on the hook for Cybertruck deposits after cancellation",
-   "url": "https://finance.yahoo.com/markets/stocks/article/musk-says-tesla-on-the-hook-for-cybertruck-deposits-after-cancellation-162604829.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T16:26:04+00:00",
-   "ticker": "TSLA"
-  },
-  {
    "title": "Strategy Makes Biggest Bitcoin Purchase Since September, While Bitmine, Strive Slow Down",
    "url": "https://stocktwits.com/news-articles/markets/equity/strategy-makes-biggest-bitcoin-purchase-since-september-bitmine-strive-slow-down/cNGrL6UR972",
    "source": "Stocktwits",
    "published": "2026-11-09T16:23:19+00:00",
    "ticker": "BMNR"
-  },
-  {
-   "title": "Why Palantir Stock Popped Today",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-stock-popped-today-161553360.html",
-   "source": "GuruFocus.com",
-   "published": "2026-11-09T16:15:53+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "AI stocks have 2 major headwinds driving recent volatility",
-   "url": "https://finance.yahoo.com/markets/article/ai-stocks-have-2-major-headwinds-driving-recent-volatility-160346646.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T16:03:46+00:00",
-   "ticker": "AAPL"
-  },
-  {
-   "title": "AMD Just Eased Wall Street’s AI Spending Scare. Here’s What It Means for the Stock",
-   "url": "https://247wallst.com/investing/2026/11/09/amd-just-eased-wall-streets-ai-spending-scare-heres-what-it-means-for-the-stock/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T16:03:39+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "PLTR support and resistance levels to watch",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/pltr-support-resistance-levels-watch-155718582.html",
-   "source": "Investing.com",
-   "published": "2026-11-09T15:57:18+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "BC-Most Active Stocks",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021871.html",
-   "source": "Associated Press",
-   "published": "2026-11-09T15:30:21+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "IREN's $4B Revenue Goal Delayed: Is the Stock Losing Its Appeal?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/irens-4b-revenue-goal-delayed-152100248.html",
-   "source": "Zacks",
-   "published": "2026-11-09T15:21:00+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "One nugget overlooked during the AI sell-off: token costs",
-   "url": "https://finance.yahoo.com/video/one-nugget-overlooked-during-the-ai-sell-off-token-costs-151611529.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T15:16:11+00:00",
-   "ticker": "AMZN"
-  },
-  {
-   "title": "What Is Going on With Taiwan Semiconductor Stock on Monday?",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdlVNUlBPLXliejk5cW53UXNqT0FxZTBBUnQ1ZlhjS2dldDZGSjl2QUsyT3BGY2Q3OGRkUWw3VmV1TFgxVU05eGdJRXZRckQ0ZXU0di1nMGdoYzhJX3YzWGxVcGIxbm9FR0Z2bEpQenM4bkhsNkcydFVCLUtOeHVMd1htQ0ZuV185SVV4bTgzM2l5YjlONURuc0FyWHN2NFpyS2hSdDJyMm8yRE5TWGVZcg?oc=5",
-   "source": "Benzinga",
-   "published": "2026-11-09T15:14:15+00:00",
-   "ticker": null
-  },
-  {
-   "title": "Cantor cuts IREN price target to $47 from $99 as Microsoft deployment slips",
-   "url": "https://blockspace.media/insight/cantor-cuts-iren-price-target/",
-   "source": "Blockspace",
-   "published": "2026-11-09T15:01:36+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Tesla planning to return deposits for many Cybertruck buyers",
-   "url": "https://finance.yahoo.com/video/tesla-planning-to-return-deposits-for-many-cybertruck-buyers-145806961.html",
-   "source": "Yahoo Finance Video",
-   "published": "2026-11-09T14:58:06+00:00",
-   "ticker": "TSLA"
   },
   {
    "title": "Bitmine Gets Within About 40,000 ETH of Tom Lee’s 5% Target After Another Week of Buying",
@@ -796,74 +916,11 @@
    "ticker": "BMNR"
   },
   {
-   "title": "IREN Falls 5% After Friday’s 20% Surge as AI Lending Worries Mount; TeraWulf and Applied Digital Rise 2%",
-   "url": "https://247wallst.com/investing/2026/11/09/iren-falls-5-after-fridays-20-surge-as-ai-lending-worries-mount-terawulf-and-applied-digital-rise-2/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T14:53:04+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Kalshi's $300 Million Stock-Perps Debut Was Led by SpaceX, But a Cboe-Citadel Securities Lawsuit Could Rewrite the Rules",
-   "url": "https://www.barchart.com/story/news/8736167/kalshi-s-300-million-stock-perps-debut-was-led-by-spacex-but-a-cboe-citadel-lawsuit-could-rewrite-the-rules",
-   "source": "Barchart",
-   "published": "2026-11-09T14:49:44+00:00",
-   "ticker": "PLTR"
-  },
-  {
    "title": "Data Center Developers Are Dusting off Decades-old Power Engines",
    "url": "https://app.moby.co/home/news/news-data-center-developers-are-dusting-off-decades-old-power-engines?utm_source=yahoo_finance&utm_medium=rss",
    "source": "Moby",
    "published": "2026-11-09T14:49:38+00:00",
    "ticker": "FRMI"
-  },
-  {
-   "title": "Intel took 25 years to get back to its dot-com peak — and lost it in 6 months: Chart of the Day",
-   "url": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T14:47:15+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "ASML Raises 2026 Guidance as AI Demand Accelerates Capacity Expansion",
-   "url": "https://finance.yahoo.com/technology/articles/asml-raises-2026-guidance-ai-144400818.html",
-   "source": "Zacks",
-   "published": "2026-11-09T14:44:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "ASML Falls 20% in the Past Month as AI Growth Meets Execution Risk",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/asml-falls-20-past-month-143300792.html",
-   "source": "Zacks",
-   "published": "2026-11-09T14:33:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Nvidia Stock Could Shed Up to $225 Billion Over Jensen Huang Probe, But Rival AMD's Rally Shows It's Not an AI Demand Problem",
-   "url": "https://www.barchart.com/story/news/8735874/nvidia-stock-could-shed-up-to-225-billion-over-jensen-huang-probe-but-rival-amd-s-rally-shows-it-s-not-an-ai-demand-problem",
-   "source": "Barchart",
-   "published": "2026-11-09T14:27:59+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "These 3 Stocks Just Fell After Strong Earnings. Here’s the One I’d Buy Right Now",
-   "url": "https://www.fool.com/investing/2026/11/09/these-3-stocks-fell-after-strong-earnings-here-s-the-one-i-d-buy-right-now/",
-   "source": "Motley Fool",
-   "published": "2026-11-09T14:11:02+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "INTC Stock Down 57% in the Past 6 Months: Should You Exercise Caution?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/intc-stock-down-57-past-141100035.html",
-   "source": "Zacks",
-   "published": "2026-11-09T14:11:00+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Why Is Intel (INTC) Pushing Deeper Into Industrial AI With New Edge Tools?",
-   "url": "https://finance.yahoo.com/technology/ai/articles/why-intel-intc-pushing-deeper-140923172.html",
-   "source": "Simply Wall St.",
-   "published": "2026-11-09T14:09:23+00:00",
-   "ticker": "INTC"
   },
   {
    "title": "Beyond the Election: 4 ETFs I'm Continuing to Buy No Matter What the Market Does in 2027",
@@ -873,60 +930,11 @@
    "ticker": "VOO"
   },
   {
-   "title": "Palantir’s Commercial AI Business Just Changed the Story, But It’s Stock Could Be Too Expensive",
-   "url": "https://www.barchart.com/story/news/8735033/palantirs-commercial-ai-business-just-changed-the-story-but-its-stock-could-be-too-expensive",
-   "source": "Barchart",
-   "published": "2026-11-09T14:00:05+00:00",
-   "ticker": "PLTR"
-  },
-  {
    "title": "Cipher Digital and BitMine Fall 4% as Ethereum Slides in Crypto Sell-Off; Strategy Drops 3%",
    "url": "https://247wallst.com/investing/2026/11/09/cipher-digital-and-bitmine-fall-4-as-ethereum-slides-in-crypto-sell-off-strategy-drops-3/",
    "source": "24/7 Wall St.",
    "published": "2026-11-09T13:52:28+00:00",
    "ticker": "BMNR"
-  },
-  {
-   "title": "Micron Has Lost Over 40% Since June. Where Does Its Price Target Stand Now?",
-   "url": "https://247wallst.com/investing/2026/11/09/micron-has-lost-over-40-since-june-where-does-its-price-target-stand-now/",
-   "source": "24/7 Wall St.",
-   "published": "2026-11-09T13:47:17+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "Nvidia stock sinks 4% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-as-chipmaker-investigates-ceo-jensen-huangs-relationship-with-alleged-chinese-spy-130346548.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T13:03:46+00:00",
-   "ticker": "TSM"
-  },
-  {
-   "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-palantir-technologies-130003425.html",
-   "source": "Zacks",
-   "published": "2026-11-09T13:00:03+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "The Stock Market Doesn’t Understand the Nvidia Spy Scandal",
-   "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-81b70351?siteid=yhoof2&yptr=yahoo",
-   "source": "Barrons.com",
-   "published": "2026-11-09T12:39:00+00:00",
-   "ticker": "IREN"
-  },
-  {
-   "title": "Nvidia, Palantir, and Tesla Are Sending Shockwaves Through Wall Street With This $53 Billion Warning",
-   "url": "https://www.fool.com/investing/2026/11/09/nvidia-palantir-tesla-sending-shockwaves-through-wall-street-with-53-billion-warning/",
-   "source": "Motley Fool",
-   "published": "2026-11-09T12:26:02+00:00",
-   "ticker": "PLTR"
-  },
-  {
-   "title": "CoreWeave Borrowed at 9% Earlier This Year. Its Debt Now Yields 15% Going Into Tuesday’s Report",
-   "url": "https://www.tikr.com/blog/coreweave-borrowed-at-9-earlier-this-year-its-debt-now-yields-15-going-into-tuesdays-report?ref=yahoofinancedividend&tlnk=yf-261109-463m6r78",
-   "source": "TIKR",
-   "published": "2026-11-09T12:08:40+00:00",
-   "ticker": "IREN"
   },
   {
    "title": "Digital Asset Treasury Firms Continue to Buy Bitcoin and Ethereum. That's Why I'm Bullish on These Two Cryptocurrencies.",
@@ -936,20 +944,6 @@
    "ticker": "BMNR"
   },
   {
-   "title": "Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal",
-   "url": "https://finance.yahoo.com/markets/article/jensen-huang-just-handed-wall-street-its-first-45-trillion-ceo-scandal-094803359.html",
-   "source": "Yahoo Finance",
-   "published": "2026-11-09T09:48:03+00:00",
-   "ticker": "INTC"
-  },
-  {
-   "title": "\"달라진 반도체 사이클 … 쉽게 무너지지 않을 것\"",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tMzNCdkxvUkVnVnJkQ2lWYTljTF96SjVkSlF2Mk9qQVAwZmY1Z29KS2NJTzFzbkVDR3ZzVTROUjRwZWlOZi1uNEZob1k2d2g0a2c?oc=5",
-   "source": "매일경제",
-   "published": "2026-11-09T09:00:00+00:00",
-   "ticker": null
-  },
-  {
    "title": "Zacks Market Edge Highlights: SOXX, BWET and CNEQ",
    "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-market-edge-highlights-soxx-082300140.html",
    "source": "Zacks",
@@ -957,11 +951,18 @@
    "ticker": "SOXL"
   },
   {
-   "title": "\"삼전닉스 팔고 한국 떠납니다\"…'대탈출' 외인, 발길 돌리려면",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOWQ5c08tQXVrSm5kTURTT2ZvNU1OSks1S2hNU3lUd0Vjdm9ZVUhNb3hiNnJ6MnR6X1JXN0hIZU96bUR1bmVEX0Q0N3lOTnd0OFlZb1QyTVg4MExaZkhJV3pPa1Mza3RlbzNBVWhCNnRjekFNY0pYekYwQnB5dmQ3Nw?oc=5",
-   "source": "이데일리",
-   "published": "2026-11-09T07:11:07+00:00",
-   "ticker": null
+   "title": "Defiance Goes Mad ‘Maxx’ on Single-Stock ETFs",
+   "url": "https://www.thedailyupside.com/etf/industry-news-etf/defiance-goes-mad-maxx-on-single-stock-etfs/",
+   "source": "The Daily Upside",
+   "published": "2026-11-09T05:01:00+00:00",
+   "ticker": "GLD"
+  },
+  {
+   "title": "Should You Buy VOO Before the Market Rebounds?",
+   "url": "https://www.fool.com/investing/2026/11/08/should-you-buy-voo-before-market-rebounds/",
+   "source": "Motley Fool",
+   "published": "2026-11-08T12:50:00+00:00",
+   "ticker": "VOO"
   }
  ]
 }
