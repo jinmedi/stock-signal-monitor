@@ -93,3 +93,4 @@ date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
 2026-11-17,NVDA,dead,HOLD,2,,155.4600,,
 2026-11-18,AMZN,golden,BUY,3,,267.7400,,
 2026-11-18,SPCX,golden,BUY,3,,143.5000,,
+2026-11-19,INTC,golden,BUY,4,,55.7200,,
