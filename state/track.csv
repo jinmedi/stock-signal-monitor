@@ -76,8 +76,8 @@ date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
 2026-11-10,VOO,golden,BUY,1,-1,689.5000,-2.37,-4.18
 2026-11-11,AAPL,golden,BUY,2,0,355.6300,-0.89,-0.01
 2026-11-11,BMNR,golden,BUY,3,-1,19.2400,-19.59,-30.15
-2026-11-12,IREN,dead,SELL,1,-1,19.4800,-26.03,
-2026-11-12,SPCX,dead,SELL,2,-1,139.9400,-1.08,
+2026-11-12,IREN,dead,SELL,1,-1,19.4800,-26.03,-30.13
+2026-11-12,SPCX,dead,SELL,2,-1,139.9400,-1.08,-4.54
 2026-11-13,INTC,dead,SELL,1,-1,59.6600,-14.05,
 2026-11-13,TSM,dead,SELL,2,-1,398.7300,-20.07,
 2026-11-16,AAPL,dead,SELL,3,,352.7800,-1.05,
@@ -93,7 +93,7 @@ date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
 2026-11-17,NVDA,dead,HOLD,2,,155.4600,-0.05,
 2026-11-18,AMZN,golden,BUY,3,,267.7400,-8.71,
 2026-11-18,SPCX,golden,BUY,3,,143.5000,-11.19,
-2026-11-19,INTC,golden,BUY,4,,55.7200,,
+2026-11-19,INTC,golden,BUY,4,,55.7200,3.02,
 2026-11-20,AMZN,dead,SELL,2,,246.8200,,
 2026-11-20,GLD,golden,BUY,2,,322.8700,,
 2026-11-20,INTC,dead,SELL,2,,51.2800,,
@@ -113,3 +113,4 @@ date,ticker,cross,action,score,sentiment,close,ret_5d,ret_10d
 2026-11-25,AMZN,golden,BUY,1,,244.4300,,
 2026-11-25,FRMI,golden,BUY,2,,1.9950,,
 2026-11-25,SPCX,golden,BUY,3,,127.4400,,
+2026-11-27,NVDA,dead,SELL,1,,150.4900,,
